@@ -523,7 +523,11 @@ window.createXHSSocial = env => {
     "social-manage-note": b => manageNote(b.dataset.id),
     "social-find": () => go("kindred"),
     "social-manage": () => go(`profile/${actor()}/liked/notes`),
-    "social-filter": b => go(`profile/${actor()}/liked/notes/${b.dataset.value}`, true, { preserveScroll: true, animate: false }),
+    "social-filter": b => {
+      go(`profile/${actor()}/liked/notes/${b.dataset.value}`, true, { animate: false });
+      const scroller = document.querySelector("#app .page-scroll");
+      if (scroller) scroller.scrollTop = 0;
+    },
     "following-list": () => go("following"),
     "social-together": b => go(`together/${b.dataset.id}`),
     "social-insights-toggle": b => {
