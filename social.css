@@ -37,10 +37,8 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .social-sheet-actions{display:flex;gap:12px;margin-top:24px}
 .social-sheet-actions>button{flex:1;min-height:44px;border-radius:24px;font-size:15px}
 .social-sheet-actions>button:first-child{background:#f4f4f4}
-.public-like-benefits{display:grid;gap:16px;margin:22px 0}
-.public-like-benefits h3{font-size:15px;font-weight:500;line-height:22px;margin:0 0 5px}
-.public-like-benefits p{font-size:14px;line-height:22px;color:#777;margin:0}
-.public-like-guide>.public-like-privacy{border-top:.5px solid #eee;padding-top:16px;margin:0;line-height:21px}
+.public-like-guide>.public-like-benefits{margin:20px 0 8px;line-height:22px}
+.public-like-guide>.public-like-privacy{margin:0;line-height:21px}
 .public-like-guide>.social-sheet-actions{margin-top:20px}
 .social-option{display:flex;width:100%;align-items:center;justify-content:space-between;flex-wrap:wrap;min-height:54px;border-top:.5px solid #eee;text-align:left;font-size:15px;gap:4px}
 .social-option>span{font-size:12px;color:#888}
@@ -54,13 +52,10 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .like-popover small{display:block;font-size:11px;line-height:18px;color:#999;margin-top:2px}
 .like-popover>button:active{background:#f5f5f5}
 @media(hover:hover) and (pointer:fine){.like-popover>button:hover{background:#f8f8f8}}
-.share-public-like{display:flex;align-items:center;gap:12px;width:calc(100% - 32px);margin:0 16px 10px;padding:11px 14px;background:#fff;border-radius:12px;text-align:left}
-.share-public-like>.icon{width:24px;height:24px}
-.share-public-like>span{flex:1;font-size:14px;line-height:21px}
-.share-public-like small{display:block;font-size:12px;color:#999}
-.share-public-like>.icon:last-child{width:14px;height:14px}
-.recorded-share-sheet:has(.share-public-like){height:auto;min-height:0;padding-bottom:20px}
 .public-likes-tools{display:flex;align-items:center;justify-content:space-between;gap:8px;height:35px;padding:0 20px;background:var(--paper,#fff);border-bottom:.5px solid #f3f1f3}
+.profile-tab-header:has(>.public-likes-tools){background:var(--line,#f6f2f6)}
+.profile-tab-header:has(>.public-likes-tools)>.profile-subtabs{background:var(--paper,#fff)}
+.profile-tab-header>.public-likes-tools{margin-top:4px}
 .public-like-filters{display:flex;align-items:center;gap:24px}
 .public-like-filters>button{height:35px;padding:0;font-size:12px;font-weight:400;color:#969296;position:relative}
 .public-like-filters>button.selected{color:#363236;font-weight:400}
@@ -221,10 +216,6 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .peer-lock{height:13px;width:13px;object-fit:contain;opacity:.65}
 .peer-native-content .masonry{padding:5px;gap:5px}
 .peer-native-content .feed-column{width:calc(50% - 2.5px)}
-.peer-native-content .profile-common-link{font-size:12px;min-height:40px;padding:0 16px;border-bottom:.5px solid #f1f1f1}
-.peer-native-content .profile-common-link>span{font-size:12px;color:#777}
-.profile-common-links{display:flex;flex-direction:column}
-.profile-common-links>.profile-common-link{min-width:0}
 #device.peer-profile-device{background-color:#252525;background-image:linear-gradient(180deg,#0005,#252525 330px),var(--community-profile-image);background-size:402px 480px;background-position:center var(--peer-background-y,0px);background-repeat:no-repeat}
 .peer-profile-device .status-bar{background:transparent}
 .peer-profile-device .status-bar::before{content:"";position:absolute;inset:0;background:#252525;opacity:var(--peer-header-opacity,0);pointer-events:none}
@@ -250,15 +241,11 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .public-likes-grid .feed-meta,.peer-native-content .feed-meta{gap:5px}
 .public-likes-grid .feed-author,.peer-native-content .feed-author{min-width:0}
 .public-likes-grid .feed-author>span,.peer-native-content .feed-author>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.profile-common-link{display:flex;align-items:center;gap:4px;width:100%;padding:14px 20px;font-size:12px;color:#999;text-align:left}
-.profile-common-link>span{flex:1;color:#444;font-size:13px}
-.profile-common-link .icon{width:12px;height:12px}
-.social-compose-sheet form>label{display:block;font-size:13px;color:#888;line-height:20px;margin:20px 0 8px}
-.social-compose-sheet textarea{display:block;width:100%;resize:none;background:#f6f6f6;border-radius:10px;line-height:24px;padding:12px;font-size:16px;min-height:98px}
-.social-prompt-options{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.social-prompt-options>button{font-size:12px;line-height:19px;min-height:34px;padding:6px 10px;border:.5px solid #e8e8e8;border-radius:18px;text-align:left}
-.social-send{display:block;width:100%;margin-top:20px}
-.social-sheet>.social-compose-origin{font-size:12px;line-height:20px;color:#888;margin:12px 0 0}
+.profile-common-links{display:flex;align-items:center;gap:8px;padding:0 16px;min-height:44px;border-bottom:.5px solid #f1f1f1}
+.profile-common-link{display:flex;align-items:center;gap:3px;min-width:0;min-height:44px;padding:0;font-size:12px;color:#999;text-align:left;white-space:nowrap}
+.profile-common-link>span{color:#777;font-size:12px;line-height:20px}
+.profile-common-link .icon{width:11px;height:11px;flex:none}
+.profile-common-divider{color:#ccc;font-size:12px;flex:none}
 .chat-note-origin{padding:10px 12px;border-bottom:.5px solid #f1f1f1}
 .chat-note-origin>b{display:block;font-size:12px;font-weight:500;line-height:19px;color:#666}
 .chat-note-origin>small{display:block;font-size:11px;line-height:18px;color:#999}
@@ -272,8 +259,6 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .chat-common-context{display:flex;align-items:center;justify-content:space-between;flex:none;gap:10px;min-height:38px;padding:8px 16px;background:#fff;color:#777;font-size:12px;border-bottom:.5px solid #f1f1f1}
 .chat-common-context>span{display:flex;align-items:center;gap:4px;font-size:11px;color:#999}
 .chat-common-context .icon{width:11px;height:11px}
-.demo-reply-control{display:flex;align-items:center;justify-content:center;gap:10px;min-height:34px;flex:none;font-size:11px;color:#999;background:#f8f8f8}
-.demo-reply-control>button{color:#666;min-height:34px;font-size:12px}
 .simulated-message-label{display:block;color:#7c9097;font-size:10px;line-height:17px;margin:0 0 3px}
 .following-person{display:flex;align-items:center;gap:12px;padding:16px 20px}
 .following-person>button:first-child{flex:1;min-width:0;display:flex;align-items:center;gap:12px;text-align:left}
@@ -294,7 +279,6 @@ html[data-initial-surface="own"] #device{background-image:linear-gradient(180deg
 .save-album-picker{max-height:420px;overflow-y:auto}
 .route-snapshot{position:absolute!important;inset:0;width:100%;height:100%;pointer-events:none!important}
 .modal-backdrop [role="dialog"]{animation:none}
-.social-compose-sheet{padding-bottom:28px}
 @media(max-width:520px){
   .preview-stage{padding:0;align-items:flex-start}
   .social-sheet{bottom:var(--keyboard-offset,0px);padding-bottom:calc(28px + env(safe-area-inset-bottom,0px));max-height:calc(100% - var(--keyboard-offset,0px) - 70px)}

@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="share.css">
   <link rel="stylesheet" href="search.css">
   <link rel="stylesheet" href="social.css">
+  <link rel="stylesheet" href="walkthrough.css">
   <script src="data.js" defer></script>
   <script src="ios-data.js" defer></script>
   <script src="community-data.js" defer></script>
@@ -40,6 +41,8 @@
   <script src="community-ui.js" defer></script>
   <script src="supplement-ui.js" defer></script>
   <script src="social-ui.js" defer></script>
+  <script src="assets/downloads/manifest.js" defer></script>
+  <script src="walkthrough.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -54,6 +57,10 @@
         <div id="toast" role="status" aria-live="polite"></div>
       </section>
     </div>
+    <aside id="walkthrough" class="walkthrough" aria-label="原型操作引导" data-expanded="false">
+      <button class="walkthrough-toggle" type="button" aria-expanded="false" aria-controls="walkthrough-body">体验引导</button>
+      <div id="walkthrough-body" class="walkthrough-body"></div>
+    </aside>
   </main>
 </body>
 </html>

@@ -110,7 +110,7 @@
 .outgoing .text-bubble::before{background:#64a5fa}
 .chat-note-card{width:210px;border-radius:12px;background:#f8f4f8}
 .chat-note-image{width:210px;height:210px}
-.chat-note-copy h2{font-size:16px;line-height:21px;font-weight:400;margin-bottom:10px}
+.chat-note-copy h2{font-size:14px;line-height:20px;font-weight:400;margin-bottom:10px}
 .chat-note-copy>div{gap:7px}
 .chat-note-copy span{font-size:11px}
 .chat-note-copy b{display:none}

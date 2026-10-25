@@ -79,7 +79,7 @@
   const saveCount = n => n.saves + (isSaved(n.id) ? 1 : 0) - (actor === "lin" && window.XHS_DATA.myProfile.savedIds.includes(n.id) ? 1 : 0);
   function likeButton(id, className = "", outline = "like", countTag = "span") {
     const liked = isLiked(id), pub = Boolean(social?.isPublic(id)), n = note(id);
-    const label = liked ? pub ? "取消点赞；当前赞过已公开，长按管理" : "取消点赞；当前赞过仅自己可见，长按公开" : "点赞；长按选择点赞方式";
+    const label = liked ? pub ? "取消点赞；当前已晒赞，长按管理" : "取消点赞；当前未晒赞，长按晒赞" : "点赞；长按选择点赞方式";
     return `<button type="button" class="${className} ${liked ? "liked" : ""} ${pub ? "is-public-like" : ""}" data-action="like" data-id="${id}" aria-label="${esc(`${label}：${n.title}`)}" aria-pressed="${liked}" aria-haspopup="dialog">${icon(liked ? pub ? "liked-public" : "liked" : outline)}${countTag ? `<${countTag}>${number(likeCount(n))}</${countTag}>` : ""}</button>`;
   }
   function followButton(id, className = "", video = false) {
@@ -116,6 +116,7 @@
     if (next === route) return;
     const previous = route;
     if (options.preserveScroll) positions.set(`${actor}:${next}`, positions.get(`${actor}:${route}`) || 0);
+    else positions.set(`${actor}:${next}`, 0);
     if (!replace) stack.push(route);
     route = next;
     setHash(replace);
@@ -176,15 +177,24 @@
         ${likeButton(n.id, "feed-like", "like-small")}
       </div></article>`;
   }
+  function recommendedNotes() {
+    const pool = iosFeed.map(note).filter(n => n.authorId !== actor && !isLiked(n.id) &&
+      !isSaved(n.id) && !db.viewed[markKey(n.id)]);
+    // Start with a fresh image note that also supports the community demo.
+    // The guide reads this exact order instead of searching farther down.
+    const first = pool.find(n => !n.video && !n.noGallery &&
+      ["reader-yu", "reader-xia", "reader-zhi", "reader-bai"].some(peer => social?.publicNotes(peer).some(liked => liked.id === n.id)));
+    return first ? [first, ...pool.filter(n => n !== first)] : pool;
+  }
   function feed() {
-    let pool = category === "推荐" ? iosFeed.map(note) : [];
+    let pool = category === "推荐" ? recommendedNotes() : [];
     if (channel === "关注") pool = notes.filter(n => social?.isFollowing(n.authorId));
     if (channel === "杭州") pool = window.XHS_DATA.localFeed.map(note);
     const left = pool.filter((_, i) => i % 2 === 0), right = pool.filter((_, i) => i % 2);
     return `<div class="page feed-page">
       <header class="feed-header">${iconButton("friends", "people", "查找好友")}<div class="main-tabs" role="tablist" aria-label="首页内容">${["关注", "发现", "杭州"].map(t => `<button role="tab" aria-selected="${channel === t}" class="${channel === t ? "selected" : ""}" data-action="channel" data-value="${t}">${t}</button>`).join("")}</div>${iconButton("search", "search", "搜索笔记")}</header>
       <div class="category-tabs" role="tablist" aria-label="笔记分类">${(channel === "杭州" ? ["全城", "推荐", "活动", "美食", "新热打卡", "周末出行"] : ["推荐", "RED", "直播", "热点", "短剧", "足球"]).map(t => `<button role="tab" aria-selected="${category === t}" class="${category === t ? "selected" : ""}" data-action="category" data-value="${t}">${t}</button>`).join("")}<span class="category-fade">⌄</span></div>
-      <div class="page-scroll feed-scroll">${pool.length ? `<div class="masonry"><div class="feed-column">${left.map((n, i) => card(n, i < 2)).join("")}</div><div class="feed-column">${right.map((n, i) => card(n, i < 2)).join("")}</div></div><p class="feed-end">- 到底了 -</p>` : '<div class="empty-state">暂时没有更多笔记<button data-action="channel" data-value="发现">返回发现</button></div>'}</div>
+      <div class="page-scroll feed-scroll">${pool.length ? `<div class="masonry"><div class="feed-column">${left.map((n, i) => card(n, i < 2)).join("")}</div><div class="feed-column">${right.map((n, i) => card(n, i < 2)).join("")}</div></div><p class="feed-end">- 到底了 -</p>` : channel === "发现" && category === "推荐" ? `<div class="empty-state">暂时没有新的推荐<button data-action="profile" data-id="${actor}">去主页看看赞过</button></div>` : '<div class="empty-state">暂时没有更多笔记<button data-action="channel" data-value="发现">返回发现</button></div>'}</div>
       ${bottomNav("feed")}</div>`;
   }
   function detail(id) {
@@ -530,7 +540,6 @@
       <header class="recorded-share-header"><h2 id="share-heading">分享至</h2><button data-action="close-modal" aria-label="关闭分享面板">${control("close")}</button></header>
       <div class="share-friends share-rail" tabindex="0" aria-label="选择分享好友">${friends.map(a => `<button data-action="share-friend" data-id="${a.id}" aria-label="分享给${esc(a.name)}">${avatar(a.avatar)}<span>${esc(a.name)}</span></button>`).join("")}</div>
       <div class="share-channels">${[["private", "私信好友", "share-more"], ["wechat", "微信好友", "external-share"], ["moments", "朋友圈", "external-share"]].map(([im, label, action]) => `<button data-action="${action}" data-label="${label}">${control(im)}<small>${label}</small></button>`).join("")}</div>
-      ${social.shareControl(id)}
       <div class="share-tools share-rail" tabindex="0" aria-label="更多分享操作">${tools.map(([im, label, action]) => `<button data-action="${action}" data-id="${id}" data-label="${label}">${control(im)}<small>${label}</small></button>`).join("")}</div>
     </section>`);
     overlay.querySelectorAll(".share-rail").forEach(shareRail);
@@ -616,16 +625,53 @@
       closeModal(); toast("分享图已生成");
     } catch (_) { toast("图片暂未加载完成，请重试"); }
   }
-  function shareConfirm(peerIds, id) {
+  function shareConfirm(peerIds, id, options = {}) {
     const n = note(id), people = peerIds.map(account);
-    showModal("confirm", id, `<section class="send-dialog" role="dialog" aria-modal="true" aria-labelledby="send-heading" tabindex="-1" data-recipients="${peerIds.join(",")}"><h2 id="send-heading">发送给</h2><div class="send-recipients">${people.map(a => `<span>${avatar(a.avatar)}<b>${esc(a.name)}</b></span>`).join("")}</div><div class="send-note">${n.images[0] ? photo(n.images[0]) : icon("pencil")}<span>${esc(n.title)}</span></div><form id="share-form"><label class="sr-only" for="share-message">给好友留言</label><input id="share-message" name="message" placeholder="说点什么吧..." autocomplete="off" spellcheck="false" maxlength="500"><div class="send-actions"><button type="button" data-action="confirm-cancel">取消</button><button type="submit" class="send-primary">发送</button></div></form></section>`);
+    showModal("confirm", id, `<section class="send-dialog" role="dialog" aria-modal="true" aria-labelledby="send-heading" tabindex="-1" data-recipients="${peerIds.join(",")}" data-share-context="${options.context === "common" ? "common" : "share"}" data-open-chat="${options.openChat === true}"><h2 id="send-heading">发送给</h2><div class="send-recipients">${people.map(a => `<span>${avatar(a.avatar)}<b>${esc(a.name)}</b></span>`).join("")}</div><div class="send-note">${n.images[0] ? photo(n.images[0]) : icon("pencil")}<span>${esc(n.title)}</span></div><form id="share-form"><label class="sr-only" for="share-message">留言，可不填</label><input id="share-message" name="message" placeholder="说点什么吧..." autocomplete="off" spellcheck="false" maxlength="500"><div class="send-actions"><button type="button" data-action="confirm-cancel">取消</button><button type="submit" class="send-primary">发送</button></div></form></section>`);
   }
   function moreFriends(id) {
     shareSelection = new Set();
     showModal("friends", id, `<section class="friends-sheet" role="dialog" aria-modal="true" aria-labelledby="friends-heading" tabindex="-1"><header>${iconButton("back", "share-back", "返回分享面板")}<h2 id="friends-heading">选择好友</h2><span></span></header><div class="friend-search">${icon("search")}<label class="sr-only" for="friend-query">搜索好友</label><input id="friend-query" type="search" placeholder="搜索好友" autocomplete="off" spellcheck="false"></div><p class="friend-section-title">最近聊天</p><div class="friend-picker-list">${accounts.filter(a => a.id !== actor && (!a.authorPeer || a.socialPeer) && knownPeer(a)).map(a => `<label class="friend-picker-row" data-name="${esc(a.name)}"><input type="checkbox" value="${a.id}"><span class="picker-check"></span>${avatar(a.avatar)}<b>${esc(a.name)}</b></label>`).join("")}<p class="friend-no-results" hidden>没有找到该好友</p></div><footer><span id="friend-selection">选择要分享的好友</span><button id="friend-next" data-action="friend-next" disabled>发送</button></footer></section>`);
   }
   function sendMessage(to, type, payload) {
-    db.messages.push({ id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, from: actor, to, type, ...payload, at: Date.now() });
+    const message = { id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, from: actor, to, type, ...payload, at: Date.now() };
+    db.messages.push(message);
+    social?.scheduleReply(message);
+  }
+  const imageDownloads = new Map();
+  async function downloadImage(button) {
+    if (!modal || button.disabled) return;
+    const instance = modal, n = note(modal.id), gallery = $(".gallery-track", app);
+    const index = Math.round((gallery?.scrollLeft || 0) / (gallery?.clientWidth || 1));
+    const images = n.detailImages || n.images, source = images[index] || images[0];
+    if (!source) { toast("这篇笔记没有可保存的图片"); return; }
+    button.disabled = true;
+    try {
+      const relative = photoURL(source);
+      let href = relative;
+      if (location.protocol === "file:" && !relative.startsWith("data:image/")) {
+        if (!window.XHS_IMAGE_DOWNLOADS?.[relative]) {
+          const payload = window.XHS_IMAGE_DOWNLOAD_FILES?.[relative];
+          if (!payload) throw new Error("Missing original image download");
+          if (!imageDownloads.has(relative)) imageDownloads.set(relative, new Promise((resolve, reject) => {
+            const script = document.createElement("script");
+            script.src = payload;
+            script.onload = () => { script.remove(); resolve(); };
+            script.onerror = () => { script.remove(); imageDownloads.delete(relative); reject(new Error("Image download failed")); };
+            document.head.appendChild(script);
+          }));
+          await imageDownloads.get(relative);
+        }
+        href = window.XHS_IMAGE_DOWNLOADS[relative];
+        if (!href) throw new Error("Missing image bytes");
+      }
+      // Cancel a delayed save if the user has left or dismissed this share sheet.
+      if (modal !== instance) return;
+      const a = document.createElement("a");
+      a.href = href; a.download = `${n.id}-${index + 1}${relative.endsWith(".png") || href.startsWith("data:image/png") ? ".png" : ".jpg"}`;
+      a.click(); closeModal(); toast("图片已保存");
+    } catch (_) { toast("图片下载失败，请重试"); }
+    finally { if (button.isConnected) button.disabled = false; }
   }
   function switchActor(id, nextRoute = "messages") {
     if (!accounts.some(a => a.id === id)) return;
@@ -667,7 +713,10 @@
     "share-more": () => moreFriends(modal.id),
     "share-back": () => shareSheet(modal.id),
     "close-modal": closeModal,
-    "confirm-cancel": () => shareSheet(modal.id),
+    "confirm-cancel": () => {
+      if ($(".send-dialog")?.dataset.openChat === "true") closeModal();
+      else shareSheet(modal.id);
+    },
     "friend-next": () => { if (shareSelection.size) shareConfirm([...shareSelection], modal.id); },
     "copy-link": async () => {
       const url = new URL(location.href); url.hash = `/note/${modal.id}`;
@@ -685,12 +734,7 @@
     "share-image": b => shareImage(b.dataset.id),
     dislike: () => { closeModal(); toast("将减少此类内容"); },
     report: () => { closeModal(); toast("举报入口不在本次图文分享体验范围"); },
-    "download-image": () => {
-      const n = note(modal.id), index = Math.round(($(".gallery-track", app)?.scrollLeft || 0) / ($(".gallery-track", app)?.clientWidth || 1));
-      const images = n.detailImages || n.images;
-      if (!images.length) { toast("这篇笔记没有可保存的图片"); return; }
-      const a = document.createElement("a"); a.href = photoURL(images[index] || images[0]); a.download = `${n.id}-${index + 1}${a.href.endsWith(".png") ? ".png" : ".jpg"}`; a.click(); closeModal(); toast("图片已保存");
-    },
+    "download-image": downloadImage,
     "gallery-next": () => $(".gallery-track", app)?.scrollBy({ left: $(".gallery-track", app).clientWidth, behavior: motionBehavior() }),
     "gallery-prev": () => $(".gallery-track", app)?.scrollBy({ left: -$(".gallery-track", app).clientWidth, behavior: motionBehavior() }),
     "gallery-index": b => { const g = $(".gallery-track", app); g?.scrollTo({ left: g.clientWidth * Number(b.dataset.index), behavior: motionBehavior() }); },
@@ -720,35 +764,65 @@
   supplement = window.createXHSSupplement({ esc, photo, avatar, icon, iconButton, note, notes, accounts, account, number, bottomNav, go, showModal, closeModal, save, toast, scrollRemember, render, conversation, unread, readChat, timeLabel, noteMessage, sendMessage, db: () => db, actor: () => actor, route: () => route, glyph: community.glyph, social: () => social });
   Object.assign(actions, supplement.actions);
   const otherAttachments = actions["chat-attachments"];
-  social = window.createXHSSocial({ esc, photo, photoURL, avatar, icon, iconButton, likeButton, note, notes, account, number, go, render, save, toast, showModal, closeModal, scrollRemember, sendMessage, conversation, card, isLiked, likeNote: id => actions.like({ dataset: { id } }), likedNotes: () => community.list("likes"), db: () => db, actor: () => actor, route: () => route, otherAttachments });
+  social = window.createXHSSocial({ esc, photo, photoURL, avatar, icon, iconButton, likeButton, note, notes, account, number, go, render, save, toast, showModal, closeModal, scrollRemember, shareConfirm, conversation, card, isLiked, likeNote: id => actions.like({ dataset: { id } }), likedNotes: () => community.list("likes"), db: () => db, actor: () => actor, route: () => route, otherAttachments });
   Object.assign(actions, social.actions);
   actions["chat-attachments"] = () => {
     const peer = route.split("/")[1];
     if (social.hasPeer(peer)) social.attachments(peer); else otherAttachments();
   };
+  window.createXHSWalkthrough({
+    esc, notes, account, isLiked, recommendedNotes, isPublic: social.isPublic,
+    publicNotes: social.publicNotes, common: social.common, isFollowing: social.isFollowing,
+    state: () => ({ route, actor, modal, messages: db.messages, toast: $("#toast").textContent }),
+    navigate: next => {
+      if (next === "search") { actions.search(); return; }
+      if (next === "feed") {
+        channel = "发现"; category = "推荐";
+        positions.set(`${actor}:feed`, 0);
+        if (route === next) render();
+        else go(next);
+        return;
+      }
+      go(next);
+    },
+    checkpoint: () => ({ route, scroll: $(".page-scroll", app)?.scrollTop || 0 }),
+    restore: point => {
+      positions.set(`${actor}:${point.route}`, point.scroll);
+      go(point.route);
+      const scroller = $(".page-scroll", app);
+      if (scroller) scroller.scrollTop = point.scroll;
+    }
+  });
   document.addEventListener("click", event => {
     const b = event.target.closest("[data-action]");
     if (b?.closest(".route-snapshot") || b?.closest('#overlay-root[data-closing="true"]')) return;
     if (b && !b.disabled) actions[b.dataset.action]?.(b);
   });
   document.addEventListener("submit", event => {
-    if (!["share-form", "chat-form", "comment-form", "search-form", "album-form", "bio-form", "ai-form", "message-search-form", "social-message-form"].includes(event.target.id)) return;
+    if (!["share-form", "chat-form", "comment-form", "search-form", "album-form", "bio-form", "ai-form", "message-search-form"].includes(event.target.id)) return;
     event.preventDefault();
     const form = event.target, values = new FormData(form);
-    if (social.submit(form, values)) return;
     if (supplement.submit(form, values)) return;
     if (community.submit(form, values)) return;
     if (form.id === "share-form") {
       if (form.dataset.sent) return;
+      const dialog = form.closest(".send-dialog");
+      const recipients = dialog.dataset.recipients.split(","), id = modal.id, text = values.get("message").trim();
+      const fromCommon = dialog.dataset.shareContext === "common", openChat = dialog.dataset.openChat === "true";
+      if (fromCommon && recipients.some(peer => !social.common(peer).some(n => n.id === id))) {
+        closeModal(); toast("这篇已不在你们共同晒赞的笔记中"); return;
+      }
       form.dataset.sent = "true"; $("button[type=submit]", form).disabled = true;
-      const recipients = $(".send-dialog").dataset.recipients.split(","), id = modal.id, text = values.get("message").trim();
       for (const peer of recipients) {
-        sendMessage(peer, "note", { noteId: id });
+        sendMessage(peer, "note", { noteId: id, ...(fromCommon ? {
+          socialContext: "common", socialOrigin: { source: "kindred", commonNoteId: id }
+        } : {}) });
         if (text) sendMessage(peer, "text", { text });
+        if (openChat) db.socialThreads[markKey(peer)] ||= { noteId: id };
       }
       lastRecipient = recipients[0]; save(); closeModal();
-      toast("发送成功");
-      if (route.startsWith("chat/")) render();
+      if (openChat) go(`chat/${lastRecipient}`);
+      else { toast("发送成功"); if (route.startsWith("chat/")) render(); }
     } else if (form.id === "chat-form") {
       const text = values.get("text").trim();
       if (!text) return;
@@ -814,13 +888,14 @@
   function fit() {
     const viewportWidth = document.documentElement.clientWidth;
     const mobile = viewportWidth <= 520;
-    const availableScale = Math.max(.35, Math.min(1, (innerHeight - 48) / DEVICE_HEIGHT, (viewportWidth - 60) / DEVICE_WIDTH));
+    const previewWidth = viewportWidth >= 880 ? viewportWidth - 320 - 40 - 64 : viewportWidth - 48;
+    const availableScale = Math.max(.35, Math.min(1, (innerHeight - 48) / DEVICE_HEIGHT, previewWidth / DEVICE_WIDTH));
     // Chromium rounds native scroll offsets to CSS pixels. An integral displayed
     // width keeps adjacent full-width photos aligned at every preview scale.
     const scale = mobile ? viewportWidth / DEVICE_WIDTH : Math.floor(availableScale * DEVICE_WIDTH) / DEVICE_WIDTH;
     document.documentElement.style.setProperty("--device-scale", String(scale));
     $("#device-holder").style.width = `${DEVICE_WIDTH * scale}px`;
-    $("#device-holder").style.height = `${DEVICE_HEIGHT * scale}px`;
+    $("#device-holder").style.height = `${mobile ? innerHeight : DEVICE_HEIGHT * scale}px`;
     if (mobile) document.documentElement.style.setProperty("--mobile-device-height", `${innerHeight / scale}px`);
     const keyboardInset = mobile && window.visualViewport ? Math.max(0, innerHeight - window.visualViewport.height - window.visualViewport.offsetTop) / scale : 0;
     document.documentElement.style.setProperty("--search-keyboard-inset", `${keyboardInset}px`);
