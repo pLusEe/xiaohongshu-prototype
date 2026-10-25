@@ -107,17 +107,17 @@ window.createXHSSocial = env => {
       const tone = i ? "interest-green" : "interest-blue";
       const subtopic = countTopics(pool).find(t => ![topic, "听歌日常"].includes(t));
       const keywords = [topic, ...(subtopic ? [subtopic] : [])].map(t => tag(t, tone, "social-topic", peer, `data-value="${esc(t)}" aria-pressed="${selected === t}"`)).join(" ");
-      return `<p>你们都赞过 ${keywords} 相关的笔记，比如 ${title(pool[0], tone)}。</p>`;
+      return `<p>你们都晒赞过 ${keywords} 相关的笔记，比如 ${title(pool[0], tone)}。</p>`;
     });
     const creators = commonCreators(peer), withPosts = creators.filter(a => shared.some(n => n.authorId === a.id));
     const creatorEvidence = withPosts.slice(0, 2).map(a => {
       const pool = shared.filter(n => n.authorId === a.id);
-      return `<p>你们都关注了 ${tag(a.name, "interest-orange", "profile", a.id)}，还共同赞过 TA 的 ${title(pool[0], "interest-orange")}。</p>`;
+      return `<p>你们都关注了 ${tag(a.name, "interest-orange", "profile", a.id)}，还共同晒赞过 TA 的 ${title(pool[0], "interest-orange")}。</p>`;
     });
     const remaining = creators.filter(a => !withPosts.slice(0, 2).some(c => c.id === a.id));
     const moreCreators = remaining.length ? `<p>也都关注了 ${remaining.slice(0, 2).map(a => tag(a.name, "interest-orange", "profile", a.id)).join("、")}${remaining.length > 2 ? ` 等 ${remaining.length} 位博主` : ""}。</p>` : "";
     const evidence = [interests[0], creatorEvidence[0] || moreCreators, ...interests.slice(1), ...creatorEvidence.slice(1), ...(creatorEvidence.length ? [moreCreators] : [])].filter(Boolean);
-    if (!evidence.length) return '<p class="common-interest-empty">还没有共同晒赞的笔记，之后有了共同记录再来看看。</p>';
+    if (!evidence.length) return '<p class="common-interest-empty">还没有共同晒赞过的笔记，之后有了共同记录再来看看。</p>';
     const full = expanded.has(`${actor()}:${peer}:insights`), extraId = `common-insights-${peer}`;
     return `<div class="common-insights"><h2>你们的共同兴趣</h2>${evidence.slice(0, 2).join("")}${evidence.length > 2 ? `<div id="${extraId}" class="common-insights-more" ${full ? "" : "hidden"}>${evidence.slice(2).join("")}</div><button class="common-insights-toggle" data-action="social-insights-toggle" data-id="${peer}" aria-expanded="${full}" aria-controls="${extraId}">${full ? "收起" : "更多共同兴趣"} ${icon("next")}</button>` : ""}</div>`;
   }
@@ -223,7 +223,7 @@ window.createXHSSocial = env => {
     const liked = env.isLiked(id), pub = isPublic(id);
     anchor ||= document.querySelector(`#app [data-action="like"][data-id="${id}"]`);
     const items = pub
-      ? [["social-withdraw", "撤回晒赞", "保留点赞，不再用于发现同好"], ["social-find", "看看同好", "发现共同赞过的人"]]
+      ? [["social-withdraw", "撤回晒赞", "保留点赞，不再用于发现同好"], ["social-find", "看看同好", "发现共同晒赞过的人"]]
       : liked
         ? [["social-publish", "晒赞", "让大家看见这份喜欢，发现同好"], ["social-unlike", "取消点赞", "从你的赞过中移除"]]
         : [["social-like-private", "点赞", "普通点赞，不加入晒赞"], ["social-like-and-publish", "点赞并晒赞", "让大家看见这份喜欢，发现同好"]];
@@ -297,20 +297,20 @@ window.createXHSSocial = env => {
     const visible = noMatches ? candidates : matches;
     return `<div class="page social-page">${heading("找同好")}<div class="page-scroll social-scroll">
       ${!pool.length ? `<div class="kindred-intro"><button data-action="social-manage">晒出一篇喜欢，发现共同兴趣 <span>去选择 ${icon("next")}</span></button><p>也可以先看看大家晒赞的笔记</p></div>` : ""}
-      ${noMatches ? `${empty("暂时还没找到同好", "还没有人与你共同赞过或关注。可以再晒赞几篇，也可以先看看大家的笔记。", "选择更多赞过")}<h2 class="kindred-browse-heading">先看看大家赞过</h2>` : ""}
+      ${noMatches ? `${empty("暂时还没找到同好", "还没有与你共同晒赞过笔记或关注同一博主的人。可以再晒赞几篇，也可以先看看大家的笔记。", "选择更多笔记晒赞")}<h2 class="kindred-browse-heading">先看看大家晒赞的笔记</h2>` : ""}
       <div class="kindred-list">${visible.map(({ id, shared }) => {
         const a = account(id), topics = countTopics(shared);
         const previews = shared.length ? shared : publicNotes(id);
         const creators = commonCreators(id);
-        return `<article class="kindred-person"><button class="kindred-person-heading" data-action="profile" data-id="${id}">${avatar(a.avatar)}<span><b>${esc(a.name)}</b><small>${esc(a.bio)}</small></span></button><button class="common-evidence" data-action="${shared.length ? "social-together" : "social-peer-likes"}" data-id="${id}"><strong>${shared.length ? `共同赞过 ${shared.length} 篇` : "TA 最近晒赞"}</strong><span class="common-topics">${topics.map(esc).join(" · ")}</span>${icon("next")}</button><div class="common-thumbnails" data-peer="${id}" role="region" aria-label="${esc(a.name)}的${shared.length ? "共同赞过" : "晒赞"}，可左右滑动">${previews.map(n => `<button data-action="social-open-note" data-id="${n.id}" data-peer="${id}"><span class="common-cover">${photo(n.cover || n.images[0], "", n.title)}</span><small>${esc(n.title || "生活片刻")}</small></button>`).join("")}</div>${creators.length ? `<button class="common-creators-preview" data-action="social-common-following" data-id="${id}"><span>${creators.slice(0,3).map(a=>avatar(a.avatar)).join("")}</span>共同关注 ${creators.length} 位博主 ${icon("next")}</button>` : ""}</article>`;
+        return `<article class="kindred-person"><button class="kindred-person-heading" data-action="profile" data-id="${id}">${avatar(a.avatar)}<span><b>${esc(a.name)}</b><small>${esc(a.bio)}</small></span></button><button class="common-evidence" data-action="${shared.length ? "social-together" : "social-peer-likes"}" data-id="${id}"><strong>${shared.length ? `共同晒赞过 ${shared.length} 篇` : "TA 最近晒赞"}</strong><span class="common-topics">${topics.map(esc).join(" · ")}</span>${icon("next")}</button><div class="common-thumbnails" data-peer="${id}" role="region" aria-label="${esc(a.name)}的${shared.length ? "共同晒赞过的笔记" : "晒赞"}，可左右滑动">${previews.map(n => `<button data-action="social-open-note" data-id="${n.id}" data-peer="${id}"><span class="common-cover">${photo(n.cover || n.images[0], "", n.title)}</span><small>${esc(n.title || "生活片刻")}</small></button>`).join("")}</div>${creators.length ? `<button class="common-creators-preview" data-action="social-common-following" data-id="${id}"><span>${creators.slice(0,3).map(a=>avatar(a.avatar)).join("")}</span>共同关注 ${creators.length} 位博主 ${icon("next")}</button>` : ""}</article>`;
       }).join("")}</div>
     </div></div>`;
   }
   function row(n, peer, shared = false) {
-    return `<article class="social-note-row" data-social-note="${n.id}"><button class="social-note-open" data-action="social-open-note" data-id="${n.id}" data-peer="${peer}">${photo(n.cover || n.images[0], "", n.title)}<span><b>${esc(n.title || "生活片刻")}</b><small>${avatar(n.avatar)}${esc(n.author)}</small>${!shared && env.isLiked(n.id) && !isPublic(n.id) ? '<small>你也赞过 · 未晒赞</small>' : ""}</span></button>${shared ? `<button class="talk-note" data-action="social-talk" data-id="${n.id}" data-peer="${peer}">聊一聊</button>` : env.likeButton(n.id, "icon-button", "like", "")}</article>`;
+    return `<article class="social-note-row" data-social-note="${n.id}"><button class="social-note-open" data-action="social-open-note" data-id="${n.id}" data-peer="${peer}">${photo(n.cover || n.images[0], "", n.title)}<span><b>${esc(n.title || "生活片刻")}</b><small>${avatar(n.avatar)}${esc(n.author)}</small>${!shared && env.isLiked(n.id) && !isPublic(n.id) ? '<small>你已点赞 · 未晒赞</small>' : ""}</span></button>${shared ? `<button class="talk-note" data-action="social-talk" data-id="${n.id}" data-peer="${peer}">聊一聊</button>` : env.likeButton(n.id, "icon-button", "like", "")}</article>`;
   }
   function together(peer) {
-    if (!peerLikes[peer]) return `<div class="page social-page">${heading("共同赞过")}${empty("暂无共同赞过", "对方还没有晒赞。")}</div>`;
+    if (!peerLikes[peer]) return `<div class="page social-page">${heading("共同晒赞过")}${empty("暂无共同晒赞过的笔记", "对方还没有晒赞。")}</div>`;
     const a = account(peer), shared = common(peer), topicKey = `${actor()}:${peer}`;
     let selected = selectedTopics.get(topicKey);
     if (selected && !topicNotes(shared, selected).length) { selectedTopics.delete(topicKey); selected = null; }
@@ -319,14 +319,14 @@ window.createXHSSocial = env => {
     const pairedName = nameParts ? `${esc(nameParts[1])}<wbr><span class="paired-name-aside">${esc(nameParts[2])}</span>` : esc(a.name);
     const full = expanded.has(`${peer}:shared`), otherPool = others(peer);
     return `<div class="page social-page">${heading(`你和${a.name}`)}<div class="page-scroll social-scroll">
-      <div class="together-hero"><div class="paired-people"><span>${avatar(account(actor()).avatar)}<small>你</small></span><div class="paired-connection"><span class="paired-caption">${shared.length ? `共同赞过 ${shared.length} 篇` : "还没有共同赞过"}</span><button class="social-follow ${isFollowing(peer) ? "following" : ""}" data-action="social-follow" data-id="${peer}">${isFollowing(peer) ? "已关注" : "关注 TA"}</button></div><div class="paired-peer"><button class="paired-profile" data-action="profile" data-id="${peer}" aria-label="查看${esc(a.name)}的主页">${avatar(a.avatar)}<small><span>${pairedName}</span></small></button></div></div>${commonInsights(peer, shared)}</div>
-      <section class="together-section" id="shared-notes"><div class="shared-notes-heading"><h2>${selected ? `${esc(selected)} · 共同赞过` : "共同赞过"} <span>${pool.length} 篇</span></h2>${selected ? `<button data-action="social-topic" data-id="${peer}" data-value="">全部 ${shared.length} 篇</button>` : ""}</div>${pool.length ? pool.slice(0, full || selected ? pool.length : 3).map(n => row(n, peer, true)).join("") : '<p class="social-section-empty">还没有共同晒赞的笔记</p>'}${!selected && pool.length > 3 ? `<button class="social-expand" data-action="social-expand" data-id="${peer}:shared" aria-expanded="${full}">${full ? "收起" : `查看全部 ${pool.length} 篇`} ${full ? "⌃" : "⌄"}</button>` : ""}</section>
-      ${otherPool.length ? `<section class="together-section peer-discovery"><h2>TA 还赞过 <span>${otherPool.length} 篇</span></h2>${discoveryFeed(otherPool, peer)}</section>` : ""}
+      <div class="together-hero"><div class="paired-people"><span>${avatar(account(actor()).avatar)}<small>你</small></span><div class="paired-connection"><span class="paired-caption">${shared.length ? `共同晒赞过 ${shared.length} 篇` : "还没有共同晒赞过"}</span><button class="social-follow ${isFollowing(peer) ? "following" : ""}" data-action="social-follow" data-id="${peer}">${isFollowing(peer) ? "已关注" : "关注 TA"}</button></div><div class="paired-peer"><button class="paired-profile" data-action="profile" data-id="${peer}" aria-label="查看${esc(a.name)}的主页">${avatar(a.avatar)}<small><span>${pairedName}</span></small></button></div></div>${commonInsights(peer, shared)}</div>
+      <section class="together-section" id="shared-notes"><div class="shared-notes-heading"><h2>${selected ? `${esc(selected)} · 共同晒赞过` : "共同晒赞过"} <span>${pool.length} 篇</span></h2>${selected ? `<button data-action="social-topic" data-id="${peer}" data-value="">全部 ${shared.length} 篇</button>` : ""}</div>${pool.length ? pool.slice(0, full || selected ? pool.length : 3).map(n => row(n, peer, true)).join("") : '<p class="social-section-empty">还没有共同晒赞过的笔记</p>'}${!selected && pool.length > 3 ? `<button class="social-expand" data-action="social-expand" data-id="${peer}:shared" aria-expanded="${full}">${full ? "收起" : `查看全部 ${pool.length} 篇`} ${full ? "⌃" : "⌄"}</button>` : ""}</section>
+      ${otherPool.length ? `<section class="together-section peer-discovery"><h2>TA 还晒赞过 <span>${otherPool.length} 篇</span></h2>${discoveryFeed(otherPool, peer)}</section>` : ""}
     </div></div>`;
   }
   function otherLikes(peer) {
     const pool = others(peer), a = account(peer);
-    return `<div class="page social-page">${heading("TA 另外赞过")}<div class="page-scroll social-scroll"><div class="social-list-context">${avatar(a.avatar)}<span>${esc(a.name)}晒赞的其他 ${pool.length} 篇</span></div><section class="together-section peer-discovery">${pool.length ? discoveryFeed(pool, peer) : '<p class="social-section-empty">TA 的晒赞，你也都晒赞过</p>'}</section></div></div>`;
+    return `<div class="page social-page">${heading("TA 还晒赞过")}<div class="page-scroll social-scroll"><div class="social-list-context">${avatar(a.avatar)}<span>${esc(a.name)}晒赞的其他 ${pool.length} 篇</span></div><section class="together-section peer-discovery">${pool.length ? discoveryFeed(pool, peer) : '<p class="social-section-empty">TA 的晒赞，你也都晒赞过</p>'}</section></div></div>`;
   }
   const expandedProfileSuggestions = new Set();
   function peerProfile(peer, tab = "notes") {
@@ -355,20 +355,20 @@ window.createXHSSocial = env => {
           ${familiarFollowers.length ? `<button class="peer-familiar-followers" data-action="profile" data-id="${familiarFollowers[0].id}">${avatar(familiarFollowers[0].avatar)}<span>${esc(familiarFollowers[0].name)}${familiarFollowers.length > 1 ? `等${familiarFollowers.length}人` : ""} 关注了TA</span>${icon("next")}</button>` : ""}
           ${suggestionsOpen ? `<section class="peer-profile-suggestions" id="peer-profile-suggestions" aria-label="推荐用户"><h2>你可能感兴趣</h2>${suggestions.length ? suggestions.map(person => `<div class="peer-profile-suggestion"><button data-action="profile" data-id="${person.id}">${avatar(person.avatar)}<span>${esc(person.name)}</span></button><button data-action="social-follow" data-id="${person.id}">关注</button></div>`).join("") : '<p>暂时没有更多推荐用户</p>'}</section>` : ""}
         </div>
-        <div class="peer-native-content"><div class="peer-profile-tabs" role="tablist" aria-label="他人主页">${[["notes", "笔记"], ["saved", "收藏"], ["liked", "赞过"]].map(([id, label]) => `<button role="tab" aria-selected="${tab === id}" class="${tab === id ? "selected" : ""}" data-action="social-peer-tab" data-id="${peer}" data-value="${id}">${id === "saved" ? '<img src="assets/ios/glyph-lock.png" class="peer-lock" alt="私密">' : ""}${label}</button>`).join("")}</div>
-        ${peerLikes[peer] && (shared.length || creators.length) ? `<div class="profile-common-links">${shared.length ? `<button class="profile-common-link" data-action="social-together" data-id="${peer}"><span>共同赞过 ${shared.length} 篇</span>${icon("next")}</button>` : ""}${shared.length && creators.length ? '<span class="profile-common-divider" aria-hidden="true">·</span>' : ""}${creators.length ? `<button class="profile-common-link" data-action="social-common-following" data-id="${peer}"><span>共同关注 ${creators.length} 位博主</span>${icon("next")}</button>` : ""}</div>` : ""}
+        <div class="peer-native-content"><div class="peer-profile-tabs" role="tablist" aria-label="他人主页">${[["notes", "笔记"], ["saved", "收藏"], ["liked", "晒赞"]].map(([id, label]) => `<button role="tab" aria-selected="${tab === id}" class="${tab === id ? "selected" : ""}" data-action="social-peer-tab" data-id="${peer}" data-value="${id}">${id === "saved" ? '<img src="assets/ios/glyph-lock.png" class="peer-lock" alt="私密">' : ""}${label}</button>`).join("")}</div>
+        ${peerLikes[peer] && (shared.length || creators.length) ? `<div class="profile-common-links">${shared.length ? `<button class="profile-common-link" data-action="social-together" data-id="${peer}"><span>共同晒赞过 ${shared.length} 篇</span>${icon("next")}</button>` : ""}${shared.length && creators.length ? '<span class="profile-common-divider" aria-hidden="true">·</span>' : ""}${creators.length ? `<button class="profile-common-link" data-action="social-common-following" data-id="${peer}"><span>共同关注 ${creators.length} 位博主</span>${icon("next")}</button>` : ""}</div>` : ""}
         ${grid}</div>
       </div>
     </div>`;
   }
   function compose(peer, id, context = "common") {
     if (!peerLikes[peer] || !validIds.has(id)) return;
-    if (context === "common" && !common(peer).some(n => n.id === id)) { toast("这篇已不在你们共同晒赞的笔记中"); return; }
+    if (context === "common" && !common(peer).some(n => n.id === id)) { toast("这篇已不在你们共同晒赞过的笔记中"); return; }
     env.shareConfirm([peer], id, { context, openChat: true });
   }
   function attachments(peer) {
     const pool = publicNotes(actor());
-    showModal("social-attachments", peer, `<section class="social-sheet social-attachment-sheet" role="dialog" aria-modal="true" aria-label="分享赞过的笔记" tabindex="-1"><header><h2>分享赞过的笔记</h2><button data-action="close-modal" aria-label="关闭">×</button></header><p class="social-muted">从你的晒赞里选一篇</p><div class="social-attachment-list">${pool.map(n => `<button data-action="social-share-another" data-peer="${peer}" data-id="${n.id}">${compactNote(n)}</button>`).join("") || '<p class="social-section-empty">还没有晒赞</p>'}</div><button class="social-option" data-action="social-other-attachments">从其他笔记中选择 ${icon("next")}</button></section>`);
+    showModal("social-attachments", peer, `<section class="social-sheet social-attachment-sheet" role="dialog" aria-modal="true" aria-label="分享晒赞的笔记" tabindex="-1"><header><h2>分享晒赞的笔记</h2><button data-action="close-modal" aria-label="关闭">×</button></header><p class="social-muted">从你的晒赞里选一篇</p><div class="social-attachment-list">${pool.map(n => `<button data-action="social-share-another" data-peer="${peer}" data-id="${n.id}">${compactNote(n)}</button>`).join("") || '<p class="social-section-empty">还没有晒赞</p>'}</div><button class="social-option" data-action="social-other-attachments">从其他笔记中选择 ${icon("next")}</button></section>`);
   }
   const replyTimers = new Map();
   function scheduleReply(message) {
@@ -411,7 +411,7 @@ window.createXHSSocial = env => {
     }
     if (!db().socialThreads[key(peer)]) return "";
     const shared = common(peer);
-    return `<button class="chat-common-context" data-action="social-together" data-id="${peer}">${shared.length ? "从共同赞过聊起" : "从晒赞里认识"}<span>${shared.length ? `共同赞过 ${shared.length} 篇` : "查看晒赞"} ${icon("next")}</span></button>`;
+    return `<button class="chat-common-context" data-action="social-together" data-id="${peer}">${shared.length ? "从共同晒赞过的笔记聊起" : "从晒赞里认识"}<span>${shared.length ? `共同晒赞过 ${shared.length} 篇` : "查看晒赞"} ${icon("next")}</span></button>`;
   }
   function afterRender(page, id, fresh) {
     document.querySelectorAll("#app .common-thumbnails").forEach(rail => {
@@ -490,7 +490,7 @@ window.createXHSSocial = env => {
       const parts = env.route().split("/");
       if (parts[2] === "from" && peerLikes[parts[3]]) {
         const a = account(parts[3]);
-        document.querySelector(".note-copy")?.insertAdjacentHTML("afterbegin", `<button class="social-note-source" data-action="social-together" data-id="${a.id}">从${esc(a.name)}赞过中发现 ${icon("next")}</button>`);
+        document.querySelector(".note-copy")?.insertAdjacentHTML("afterbegin", `<button class="social-note-source" data-action="social-together" data-id="${a.id}">从${esc(a.name)}的晒赞中发现 ${icon("next")}</button>`);
       }
     }
   }

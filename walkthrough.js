@@ -12,8 +12,8 @@ window.createXHSWalkthrough = env => {
     ["feed-hold", "首页长按晒赞", ["长按卡片爱心", "选择并完成晒赞"]],
     ["detail-hold", "详情长按晒赞", ["长按底部爱心", "选择并完成晒赞"]],
     ["privacy", "赞过页管理", ["打开全部赞过", "长按加入晒赞", "撤回晒赞，保留点赞"]],
-    ["interests", "共同兴趣", ["点兴趣词筛选", "展开更多兴趣", "打开 TA 还赞过的笔记"]],
-    ["profile", "主页共同关系", ["从主页查看共同赞过", "从主页查看共同关注"]]
+    ["interests", "共同兴趣", ["点兴趣词筛选", "展开更多兴趣", "打开 TA 还晒赞过的笔记"]],
+    ["profile", "主页共同关系", ["从主页查看共同晒赞过", "从主页查看共同关注"]]
   ];
   const complete = new Set(), skipped = new Set();
   const checks = new Map(extras.map(([id]) => [id, new Set()]));
@@ -87,7 +87,7 @@ window.createXHSWalkthrough = env => {
     };
     if (s.modal.kind === "confirm") return {
       title: "发送笔记", copy: "点「发送」，留言可不填。",
-      target: "#share-form [type=submit]", hint: pick('.send-dialog[data-share-context="common"]') ? "对方会看到「来自找同好」和共同赞过的笔记；发送前仍可取消。" : "留言可不填；发送前仍可取消。"
+      target: "#share-form [type=submit]", hint: pick('.send-dialog[data-share-context="common"]') ? "对方会看到「来自找同好」和共同晒赞过的笔记；发送前仍可取消。" : "留言可不填；发送前仍可取消。"
     };
     return { title: "先完成当前操作", copy: "可以继续操作这个面板，或关闭后回到当前体验。", target: null, hint: "" };
   }
@@ -109,8 +109,8 @@ window.createXHSWalkthrough = env => {
     if (id === "interests") {
       if (route.startsWith("note/") || route.startsWith("video/")) return { ...base, title: "看看这篇新发现", copy: "读完后点左上角返回，共同兴趣还在原来的位置。", target: backTarget };
       return {
-        ...base, title: ["从一个兴趣词展开", "看看更多共同兴趣", "发现 TA 还赞过的内容"][index],
-        copy: ["点一个彩色兴趣词，下面的共同笔记会跟着筛选。", "点「更多共同兴趣」，看看其他共同点。", "向下浏览「TA 还赞过」，打开一篇笔记。"][index],
+        ...base, title: ["从一个兴趣词展开", "看看更多共同兴趣", "发现 TA 还晒赞过的内容"][index],
+        copy: ["点一个彩色兴趣词，下面共同晒赞过的笔记会跟着筛选。", "点「更多共同兴趣」，看看其他共同点。", "向下浏览「TA 还晒赞过」，打开一篇笔记。"][index],
         target: index === 0 ? '#app [data-action="social-topic"][data-value]:not([data-value=""])' : index === 1 ? appTarget("social-insights-toggle") : '#app .peer-discovery .feed-cover[data-action="social-open-note"]',
         hint: "每个共同点都能回到具体笔记验证。"
       };
@@ -118,8 +118,8 @@ window.createXHSWalkthrough = env => {
     if (id === "profile") {
       if (!route.startsWith(`profile/${peer}`)) return { ...base, title: "回到 TA 的主页", copy: "点左上角返回，继续试试主页里的其他功能。", target: backTarget };
       return {
-        ...base, title: index === 0 ? "从主页查看共同赞过" : "找到共同关注的博主",
-        copy: index === 0 ? "向下浏览主页，点「共同赞过」，查看具体笔记。" : "点同一行的「共同关注」，看看你们都关注了谁。",
+        ...base, title: index === 0 ? "从主页查看共同晒赞过" : "找到共同关注的博主",
+        copy: index === 0 ? "向下浏览主页，点「共同晒赞过」，查看具体笔记。" : "点同一行的「共同关注」，看看你们都关注了谁。",
         target: `#app .profile-common-link${selector(index === 0 ? "social-together" : "social-common-following", peer)}`,
         hint: "从他人主页也能进入共同关系。"
       };
@@ -156,14 +156,14 @@ window.createXHSWalkthrough = env => {
       if (r === "kindred") {
         const firstPeer = pick('#app .kindred-list [data-action="social-together"]')?.dataset.id || peer;
         return {
-          ...base, title: "看看共同喜欢", copy: "点高亮的「共同赞过」。",
-          target: appTarget("social-together", firstPeer), hint: "共同赞过和共同关注，是这里的推荐理由。"
+          ...base, title: "看看共同晒赞过的笔记", copy: "点高亮的「共同晒赞过」。",
+          target: appTarget("social-together", firstPeer), hint: "共同晒赞过的笔记和共同关注的博主，是这里的推荐理由。"
         };
       }
       return { ...base, title: "找同好", copy: "点「找同好」。", target: appTarget("social-find"), hint: "" };
     }
     if (step === 4) return {
-      ...base, title: "聊一聊", copy: "选一篇共同笔记，点「聊一聊」。",
+      ...base, title: "聊一聊", copy: "选一篇共同晒赞过的笔记，点「聊一聊」。",
       target: appTarget("social-talk"), hint: "有了共同话题，打招呼更自然。"
     };
     return {

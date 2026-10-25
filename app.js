@@ -234,7 +234,7 @@
   }
   function noteMessage(n, message = {}) {
     const commonOrigin = message.socialContext === "common";
-    return `<button class="chat-note-card" data-action="note" data-id="${n.id}" aria-label="打开分享的笔记：${esc(n.title)}">${commonOrigin ? '<div class="chat-note-origin"><b>来自找同好</b><small>你们共同赞过这篇笔记</small></div>' : ""}${n.images[0] ? photo(n.images[0], "chat-note-image", n.title) : `<span class="text-note-cover">${esc(n.title)}</span>`}<div class="chat-note-copy"><h2>${esc(n.title)}</h2><div>${avatar(n.avatar)}<span>${esc(n.author)}</span><b>小红书</b></div></div></button>`;
+    return `<button class="chat-note-card" data-action="note" data-id="${n.id}" aria-label="打开分享的笔记：${esc(n.title)}">${commonOrigin ? '<div class="chat-note-origin"><b>来自找同好</b><small>你们共同晒赞过这篇笔记</small></div>' : ""}${n.images[0] ? photo(n.images[0], "chat-note-image", n.title) : `<span class="text-note-cover">${esc(n.title)}</span>`}<div class="chat-note-copy"><h2>${esc(n.title)}</h2><div>${avatar(n.avatar)}<span>${esc(n.author)}</span><b>小红书</b></div></div></button>`;
   }
   function chat(peerId) {
     const peer = account(peerId), thread = conversation(peer.id);
@@ -810,7 +810,7 @@
       const recipients = dialog.dataset.recipients.split(","), id = modal.id, text = values.get("message").trim();
       const fromCommon = dialog.dataset.shareContext === "common", openChat = dialog.dataset.openChat === "true";
       if (fromCommon && recipients.some(peer => !social.common(peer).some(n => n.id === id))) {
-        closeModal(); toast("这篇已不在你们共同晒赞的笔记中"); return;
+        closeModal(); toast("这篇已不在你们共同晒赞过的笔记中"); return;
       }
       form.dataset.sent = "true"; $("button[type=submit]", form).disabled = true;
       for (const peer of recipients) {
