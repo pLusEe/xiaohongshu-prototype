@@ -1,0 +1,138 @@
+[
+  {
+    "state": "profile-notes",
+    "source_frame": "frame-048.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 12.74,
+      "content": 24.82
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-comments",
+    "source_frame": "frame-047.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 9.85,
+      "content": 10.07
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-saved",
+    "source_frame": "frame-046.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 11.95,
+      "content": 5.98
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-albums",
+    "source_frame": "frame-045.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 11.76,
+      "content": 2.97
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-music",
+    "source_frame": "frame-044.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 11.69,
+      "content": 6.78
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-liked",
+    "source_frame": "frame-040.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.24,
+      "tabs": 10.54,
+      "content": 35.67
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-liked-comments",
+    "source_frame": "frame-042.png",
+    "mean_absolute_RGB_difference": {
+      "top": 12.35,
+      "tabs": 10.39,
+      "content": 8.51
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "kai-comments",
+    "source_frame": "frame-054.png",
+    "mean_absolute_RGB_difference": {
+      "app": 9.3
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "crab-comments",
+    "source_frame": "frame-057.png",
+    "mean_absolute_RGB_difference": {
+      "app": 8.09
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "author-profile",
+    "source_frame": "frame-009.png",
+    "mean_absolute_RGB_difference": {
+      "app": 23.74
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "profile-liked-scroll",
+    "source_frame": "frame-051.png",
+    "mean_absolute_RGB_difference": {
+      "top": 11.38,
+      "tabs": 14.77,
+      "content": 49.8
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "crab-comments-scroll",
+    "source_frame": "frame-056.png",
+    "mean_absolute_RGB_difference": {
+      "app": 16.69
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "local-feed",
+    "source_frame": "exact-78.png",
+    "mean_absolute_RGB_difference": {
+      "app": 8.91
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "video-options",
+    "source_frame": "exact-50.png",
+    "mean_absolute_RGB_difference": {
+      "app": 20.33
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  },
+  {
+    "state": "video-participants",
+    "source_frame": "exact-58.png",
+    "mean_absolute_RGB_difference": {
+      "app": 15.16
+    },
+    "acceptance": "measured, not pixel-perfect certification"
+  }
+]

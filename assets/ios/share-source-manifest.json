@@ -1,0 +1,290 @@
+{
+  "capture_size": [
+    1206,
+    2622
+  ],
+  "coordinate_scale": 3,
+  "sources": {
+    "supplement2": {
+      "path": "/Users/bytedance/Desktop/小红书录屏补充2.mov",
+      "sha256": "f651f67a2df83e58d7f9e9e083455538585f15d3adb1147d9fa86d2879908bf1"
+    },
+    "original": {
+      "path": "/Users/bytedance/Desktop/小红书录屏261024.mov",
+      "sha256": "611d69a6e96c21ff37f9009d5e0c6a510d6c9fe51945006f4aab0dd3cb074bba"
+    }
+  },
+  "assets": [
+    {
+      "file": "share-private.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        45,
+        1968,
+        201,
+        2124
+      ],
+      "box_pt": [
+        15.0,
+        656.0,
+        67.0,
+        708.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-wechat.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        255,
+        1968,
+        411,
+        2124
+      ],
+      "box_pt": [
+        85.0,
+        656.0,
+        137.0,
+        708.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-moments.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        465,
+        1968,
+        621,
+        2124
+      ],
+      "box_pt": [
+        155.0,
+        656.0,
+        207.0,
+        708.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-ask.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        45,
+        2274,
+        201,
+        2430
+      ],
+      "box_pt": [
+        15.0,
+        758.0,
+        67.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-link.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        255,
+        2274,
+        411,
+        2430
+      ],
+      "box_pt": [
+        85.0,
+        758.0,
+        137.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-image.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        465,
+        2274,
+        621,
+        2430
+      ],
+      "box_pt": [
+        155.0,
+        758.0,
+        207.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-quote.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        675,
+        2274,
+        831,
+        2430
+      ],
+      "box_pt": [
+        225.0,
+        758.0,
+        277.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-circle.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        885,
+        2274,
+        1041,
+        2430
+      ],
+      "box_pt": [
+        295.0,
+        758.0,
+        347.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-group.png",
+      "source": "supplement2",
+      "time_seconds": 42,
+      "box_px": [
+        396,
+        2274,
+        552,
+        2430
+      ],
+      "box_pt": [
+        132.0,
+        758.0,
+        184.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-download.png",
+      "source": "supplement2",
+      "time_seconds": 42,
+      "box_px": [
+        606,
+        2274,
+        762,
+        2430
+      ],
+      "box_pt": [
+        202.0,
+        758.0,
+        254.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-dislike.png",
+      "source": "supplement2",
+      "time_seconds": 42,
+      "box_px": [
+        816,
+        2274,
+        972,
+        2430
+      ],
+      "box_pt": [
+        272.0,
+        758.0,
+        324.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-report.png",
+      "source": "supplement2",
+      "time_seconds": 42,
+      "box_px": [
+        1026,
+        2274,
+        1182,
+        2430
+      ],
+      "box_pt": [
+        342.0,
+        758.0,
+        394.0,
+        810.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "share-close.png",
+      "source": "supplement2",
+      "time_seconds": 48,
+      "box_px": [
+        1113,
+        1500,
+        1155,
+        1542
+      ],
+      "box_pt": [
+        371.0,
+        500.0,
+        385.0,
+        514.0
+      ],
+      "treatment": "native capture crop; no redrawing"
+    },
+    {
+      "file": "like-red.png",
+      "source": "original",
+      "time_seconds": 22.4,
+      "box_px": [
+        558,
+        2397,
+        636,
+        2475
+      ],
+      "box_pt": [
+        186.0,
+        799.0,
+        212.0,
+        825.0
+      ],
+      "treatment": "captured filled contour; remove paper background by color alpha; add 1 source-pixel transparent guard on each edge; render at 26pt"
+    },
+    {
+      "file": "collect-yellow.png",
+      "source": "original",
+      "time_seconds": 27,
+      "box_px": [
+        795,
+        2397,
+        873,
+        2475
+      ],
+      "box_pt": [
+        265.0,
+        799.0,
+        291.0,
+        825.0
+      ],
+      "treatment": "captured filled contour; remove paper background by color alpha; add 1 source-pixel transparent guard on each edge; render at 26pt"
+    }
+  ],
+  "note": "Only UI controls exported. Contact names, personal avatars and photos are not copied."
+}

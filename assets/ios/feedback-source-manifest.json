@@ -1,0 +1,13 @@
+{
+  "source": "/Users/bytedance/Desktop/小红书录屏261024.mov",
+  "time_s": 24.5,
+  "original_size": [1206, 2622],
+  "logical_size": [402, 874],
+  "feedback_bounds": [16, 715, 386, 769],
+  "background_rgb": [51, 50, 57],
+  "assets": [
+    {"file": "feedback-success.png", "crop_logical": [32, 731, 54, 754]},
+    {"file": "feedback-next.png", "crop_logical": [358, 733, 374, 752]}
+  ],
+  "implementation": "Use one live DOM feedback bar for 收藏成功 / 加入专辑 and 点赞成功 / 公开. Reuse only cropped icon assets, not a screenshot of the bar."
+}

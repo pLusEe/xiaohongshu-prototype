@@ -1,0 +1,316 @@
+{
+  "xhs_theme_icon_like_grey_20.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_like_grey_20.webp",
+    "size": [
+      120,
+      120
+    ],
+    "alpha_bounds": [
+      35,
+      37,
+      86,
+      84
+    ],
+    "web_canvas": [
+      51,
+      51
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_liked_red_15.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_liked_red_15.webp",
+    "size": [
+      90,
+      90
+    ],
+    "alpha_bounds": [
+      24,
+      26,
+      66,
+      65
+    ],
+    "web_canvas": [
+      42,
+      42
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_collect_grey_20.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_collect_grey_20.webp",
+    "size": [
+      120,
+      120
+    ],
+    "alpha_bounds": [
+      34,
+      35,
+      86,
+      85
+    ],
+    "web_canvas": [
+      52,
+      52
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_collected_yellow_20.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_collected_yellow_20.webp",
+    "size": [
+      120,
+      120
+    ],
+    "alpha_bounds": [
+      34,
+      35,
+      86,
+      85
+    ],
+    "web_canvas": [
+      52,
+      52
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_comment_grey_20.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_comment_grey_20.png",
+    "size": [
+      60,
+      60
+    ],
+    "alpha_bounds": [
+      5,
+      5,
+      55,
+      55
+    ],
+    "web_canvas": [
+      50,
+      50
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_share_grey_25.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_share_grey_25.webp",
+    "size": [
+      75,
+      75
+    ],
+    "alpha_bounds": [
+      10,
+      10,
+      65,
+      66
+    ],
+    "web_canvas": [
+      56,
+      56
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_backarrow_grey_25.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_backarrow_grey_25.webp",
+    "size": [
+      75,
+      75
+    ],
+    "alpha_bounds": [
+      6,
+      12,
+      36,
+      64
+    ],
+    "web_canvas": [
+      52,
+      52
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_search_grey_25.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_search_grey_25.png",
+    "size": [
+      75,
+      75
+    ],
+    "alpha_bounds": [
+      7,
+      6,
+      68,
+      68
+    ],
+    "web_canvas": [
+      62,
+      62
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_more_grey_25.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_grey_25.webp",
+    "size": [
+      75,
+      75
+    ],
+    "alpha_bounds": [
+      10,
+      31,
+      65,
+      44
+    ],
+    "web_canvas": [
+      55,
+      55
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_add_grey_25.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_add_grey_25.webp",
+    "size": [
+      75,
+      75
+    ]
+  },
+  "xhs_theme_icon_cancel_black_25.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_cancel_black_25.webp",
+    "size": [
+      75,
+      75
+    ],
+    "alpha_bounds": [
+      21,
+      21,
+      54,
+      54
+    ],
+    "web_canvas": [
+      33,
+      33
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_message_like_42.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_message_like_42.webp",
+    "size": [
+      126,
+      126
+    ]
+  },
+  "xhs_theme_icon_message_comment_42.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_message_comment_42.webp",
+    "size": [
+      126,
+      126
+    ]
+  },
+  "xhs_theme_icon_message_friend_42.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_message_friend_42.png",
+    "size": [
+      126,
+      126
+    ]
+  },
+  "xhs_theme_icon_wechat_green_48.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_wechat_green_48.png",
+    "size": [
+      144,
+      144
+    ]
+  },
+  "xhs_theme_icon_more_moment_55.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_moment_55.png",
+    "size": [
+      165,
+      165
+    ]
+  },
+  "xhs_theme_icon_qq_blue_48.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_qq_blue_48.png",
+    "size": [
+      144,
+      144
+    ]
+  },
+  "xhs_theme_icon_more_weibo_55.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_weibo_55.png",
+    "size": [
+      165,
+      165
+    ]
+  },
+  "xhs_theme_icon_more_pic_55.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_pic_55.png",
+    "size": [
+      165,
+      165
+    ]
+  },
+  "xhs_theme_icon_selected_red_17.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_selected_red_17.webp",
+    "size": [
+      45,
+      51
+    ],
+    "alpha_bounds": [
+      3,
+      10,
+      44,
+      42
+    ],
+    "web_canvas": [
+      41,
+      41
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_forwardarrow_grey_15.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_forwardarrow_grey_15.webp",
+    "size": [
+      18,
+      45
+    ],
+    "alpha_bounds": [
+      1,
+      9,
+      17,
+      36
+    ],
+    "web_canvas": [
+      27,
+      27
+    ],
+    "transformation": "移除透明边距并居中，不重绘轮廓"
+  },
+  "xhs_theme_icon_profile_grey_20.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_profile_grey_20.webp",
+    "size": [
+      60,
+      60
+    ]
+  },
+  "xhs_theme_icon_channel_grey_20.webp": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_channel_grey_20.webp",
+    "size": [
+      60,
+      60
+    ]
+  },
+  "xhs_theme_icon_addfriend_grey_20.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_addfriend_grey_20.png",
+    "size": [
+      60,
+      60
+    ]
+  },
+  "xhs_theme_icon_more_link_55.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_link_55.png",
+    "size": [
+      165,
+      168
+    ]
+  },
+  "xhs_theme_icon_more_report_55.png": {
+    "source": "/tmp/rea-xhs-decoded/res/drawable-xxhdpi/xhs_theme_icon_more_report_55.png",
+    "size": [
+      165,
+      165
+    ]
+  }
+}

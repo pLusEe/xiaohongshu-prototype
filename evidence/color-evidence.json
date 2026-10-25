@@ -1,0 +1,10 @@
+{
+  "source": "xiaohongshu 9.50.0 APK / decoded res/values/colors.xml",
+  "colors": {
+    "APKTOOL_RENAMED_0x7f0600ec": "#ff999999",
+    "r_a5f": "#fff5f5f5",
+    "r_rl": "#ff333333",
+    "r_a09": "#ffff2442"
+  },
+  "usage_note": "包内存在这些颜色；当前线上各控件实际绑定待原屏核对"
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "check": "每篇图文笔记均提供日期和IP",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "发现详情的标签/日期/IP位于评论前",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "关注详情沿用相同日期IP结构",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "标签为同一正文中的inline内容，保留原文换行",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "短正文后的标签在同一行，无额外换行",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "liked开启：填充图标/计数/状态同步",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "liked刷新后保留",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "liked取消后恢复空心",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "saved开启：填充图标/计数/状态同步",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "saved刷新后保留",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "saved取消后恢复空心",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "like-red.png左右边缘保留透明边距",
+    "passed": true,
+    "details": 0
+  },
+  {
+    "check": "collect-yellow.png左右边缘保留透明边距",
+    "passed": true,
+    "details": 0
+  },
+  {
+    "check": "初始未进入评论区",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "首次点击只滚到评论区，不打开浮层",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "评论区再次点击拉起输入，焦点保留",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "发表评论后关闭浮层并显示新评论",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "评论区深处点击仍打开输入",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "说点什么直接拉起输入",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "评论区部分可见时直接输入",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "分享标题与关闭入口",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "分享渠道顺序",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "底部九项操作完整且顺序一致",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "分享面板402宽/389高/y485",
+    "passed": true,
+    "details": {
+      "top": 485,
+      "height": 389,
+      "width": 402,
+      "boxes": {
+        "recorded-share-header": {
+          "y": 485,
+          "height": 42
+        },
+        "share-friends": {
+          "y": 527,
+          "height": 118
+        },
+        "share-channels": {
+          "y": 645,
+          "height": 102
+        },
+        "share-tools": {
+          "y": 747,
+          "height": 127
+        }
+      }
+    }
+  },
+  {
+    "check": "分享关闭图标为14px，不被通用52px规则覆盖",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": ".share-friends鼠标可横拖且未触发点击",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": ".share-tools鼠标可横拖且未触发点击",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "底部最后的举报可见",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "站内分享实际写入消息并退出浮层",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "接收方聊天看到分享笔记和留言",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "接收方可重新打开原帖",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "file://生成分享图实际下载PNG，保持原型路由",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "原有相册翻页保持",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "返回原帖仍在第二张",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "原有首页DOM复用和滚动位置保持",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "390宽手机分享面板不横向溢出",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "402宽手机分享面板不横向溢出",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "430宽手机分享面板不横向溢出",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "无未加载的可见图片",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "无JavaScript运行异常",
+    "passed": true,
+    "details": []
+  }
+]

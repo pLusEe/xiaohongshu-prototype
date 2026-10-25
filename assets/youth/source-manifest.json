@@ -1,0 +1,52 @@
+{
+  "purpose": "年轻化的虚构示例内容；不使用用户个人照片或私人聊天素材",
+  "generation": {
+    "tool": "GenerateImage",
+    "backend": "text-to-image",
+    "date": "2026-10-24",
+    "size": "1920x1920",
+    "source_sheets": [
+      {
+        "file": "urban-contact-sheet.jpg",
+        "description": "四格真实摄影：城市滑板、独立音乐现场、街头皮衣穿搭、黑胶唱片店",
+        "crops": {
+          "skate.jpg": [0, 0, 960, 960],
+          "gig.jpg": [960, 0, 1920, 960],
+          "street.jpg": [0, 960, 960, 1920],
+          "records.jpg": [960, 960, 1920, 1920]
+        }
+      },
+      {
+        "file": "youth-contact-sheet.jpg",
+        "description": "四格真实摄影：双色独立刊物、霓虹街机、深夜拉面、戴耳机的年轻人肖像",
+        "crops": {
+          "zine.jpg": [0, 0, 960, 960],
+          "arcade.jpg": [960, 0, 1920, 960],
+          "ramen.jpg": [0, 960, 960, 1920],
+          "avatar.jpg": [960, 960, 1920, 1920]
+        }
+      },
+      {
+        "file": "album-contact-sheet.jpg",
+        "description": "多图笔记新增独立照片：滑板细节、练板合照、皮衣耳机细节、夜间过街；均为虚构示例",
+        "crops": {
+          "skate-board.jpg": [0, 10, 958, 968],
+          "skate-friends.jpg": [962, 10, 1920, 968],
+          "street-detail.jpg": [0, 972, 948, 1920],
+          "street-night.jpg": [962, 972, 1910, 1920]
+        },
+        "output": "960×960，每格单独导出，移除拼版接缝"
+      }
+    ]
+  },
+  "video": {
+    "files": ["skate-loop.mp4", "arcade-loop.mp4"],
+    "method": "对应示例图片的 6 秒缓慢缩放循环，720x720，25fps；非真人录制视频"
+  },
+  "reuse": {
+    "profile_wallpaper": "records.jpg",
+    "current_user_avatar": "avatar.jpg",
+    "own_notes": 26,
+    "privacy": "未使用用户原始照片、视频、姓名或私人聊天文本"
+  }
+}

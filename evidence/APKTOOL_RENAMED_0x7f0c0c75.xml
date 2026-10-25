@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xingin.im.v2.message.send.itembinder.quickshare.MsgPrivateSendTopShareView n0:orientation="vertical" n0:background="@color/r_a5f" n0:layout_width="match_parent" n0:layout_height="162.0dp"
+  xmlns:android="" xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textSize="@dimen/APKTOOL_RENAMED_0x7f070312" n0:textColor="@color/r_w" n0:gravity="center" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f07029c" n0:text="@string/APKTOOL_RENAMED_0x7f111643" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f07029c" />
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/APKTOOL_RENAMED_0x7f09115e" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f0702e6" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f0702e6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f07029c" />
+</com.xingin.im.v2.message.send.itembinder.quickshare.MsgPrivateSendTopShareView>

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "purpose": "详情页独立素材；原始录屏裁图保留不覆盖",
+  "assets": [
+    {
+      "files": ["detail-cat.png", "detail-call.png"],
+      "sources": ["cover-cat.png", "cover-call.png"],
+      "crop_px": [12, 12, 570, 765],
+      "size": [558, 753],
+      "treatment": "裁去原 Feed 卡片烘焙在图片中的圆角和边缘，不补画内容",
+      "limit": "这两篇只有 Feed 来源图，未取得详情完整原图；不能将该处理称为原始详情图还原"
+    },
+    {
+      "files": ["food-detail-1.png", "food-detail-2.png", "food-detail-3.png"],
+      "sources": ["food-1.png", "food-2.png", "food-3.png"],
+      "size": [1206, 1608],
+      "treatment": "FFmpeg delogo 插值清除旧 1/18、2/18、3/18 图内页码，区域 x1066 y25 w114 h80；由可交互页码呈现真实的 3 张照片",
+      "limit": "页码底图局部为插值纹理；右下角原图静音标记保留；未生成未采集的其他 15 张照片"
+    }
+  ],
+  "ui_sources": {
+    "single_image": "reference/ios/05-audio-note.png，图片结束后 19pt 到标题行盒",
+    "multi_image": "reference/ios/02-note-first.png，25pt 分页条 + 3pt 标题上间距",
+    "icons": "沿用 assets/ios/ 原录屏图标，本轮没有重绘图标"
+  }
+}

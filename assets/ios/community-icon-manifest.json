@@ -1,0 +1,123 @@
+[
+  {
+    "name": "menu",
+    "frame": "frame-048.png",
+    "box_pt": [
+      19,
+      76,
+      38,
+      93
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "scan",
+    "frame": "frame-048.png",
+    "box_pt": [
+      330,
+      75,
+      351,
+      94
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "lock",
+    "frame": "frame-042.png",
+    "box_pt": [
+      86,
+      410,
+      98,
+      425
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "mic",
+    "frame": "frame-054.png",
+    "box_pt": [
+      326,
+      351,
+      341,
+      369
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "image",
+    "frame": "frame-054.png",
+    "box_pt": [
+      356,
+      353,
+      372,
+      369
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "minus",
+    "frame": "frame-054.png",
+    "box_pt": [
+      368,
+      470,
+      386,
+      488
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "good",
+    "frame": "exact-50.png",
+    "box_pt": [
+      142,
+      462,
+      163,
+      486
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "download",
+    "frame": "exact-50.png",
+    "box_pt": [
+      49,
+      463,
+      69,
+      485
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "report",
+    "frame": "exact-50.png",
+    "box_pt": [
+      332,
+      462,
+      354,
+      485
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "clock",
+    "frame": "frame-048.png",
+    "box_pt": [
+      154,
+      342,
+      172,
+      356
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  },
+  {
+    "name": "people",
+    "frame": "frame-054.png",
+    "box_pt": [
+      24,
+      218,
+      38,
+      232
+    ],
+    "treatment": "original raster contour; background removed, tint normalized"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "check": "分享面板上方照片无额外遮罩，保持原亮度",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "分享header/渠道/工具局部RGB平均差值",
+    "details": [
+      3.046630317049439,
+      2.9993299186723212,
+      3.0531383672045678
+    ]
+  },
+  {
+    "check": "非整数缩小预览850：评论smooth滚动仅发生在内容容器",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "非整数缩小预览850：再次点击弹出输入且焦点正确",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "非整数缩小预览850：分享工具鼠标拖动",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "非整数缩小预览940：评论smooth滚动仅发生在内容容器",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "非整数缩小预览940：再次点击弹出输入且焦点正确",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "非整数缩小预览940：分享工具鼠标拖动",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "分享工具原生手指横滑，不误触操作",
+    "passed": true,
+    "details": null
+  }
+]

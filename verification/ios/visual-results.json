@@ -1,0 +1,283 @@
+{
+  "method": "Both original stable frame and Web screenshot resized with Lanczos to 402×874; mean absolute RGB difference, channel scale 0..255.",
+  "limitations": [
+    "Video is encoded, not a lossless screenshot.",
+    "Photo assets are reused from the reference; low photo delta is not independent validation.",
+    "System font is a candidate; text, emoji and glyph anti-aliasing differ.",
+    "Seeded demo unread badge changes bottom navigation compared to recording.",
+    "Only captured states assessed. No iOS share or messages reference exists."
+  ],
+  "anchors_pt": {
+    "device": [
+      402,
+      874
+    ],
+    "status_height": 62,
+    "detail_header_height": 56,
+    "food_photo": [
+      0,
+      118,
+      402,
+      654
+    ],
+    "first_home_photo": [
+      5,
+      152,
+      199,
+      411
+    ],
+    "detail_footer": [
+      0,
+      790,
+      402,
+      840
+    ]
+  },
+  "screens": {
+    "home": {
+      "whole_frame_rgb_delta": 5.452,
+      "regions": {
+        "system": {
+          "box_pt": [
+            0,
+            0,
+            402,
+            62
+          ],
+          "mean_absolute_rgb_delta": 0.0
+        },
+        "navigation": {
+          "box_pt": [
+            0,
+            62,
+            402,
+            146
+          ],
+          "mean_absolute_rgb_delta": 6.473
+        },
+        "first_row_photos": {
+          "box_pt": [
+            5,
+            152,
+            398,
+            411
+          ],
+          "mean_absolute_rgb_delta": 0.225
+        },
+        "first_row_copy": {
+          "box_pt": [
+            0,
+            411,
+            402,
+            477
+          ],
+          "mean_absolute_rgb_delta": 9.997
+        },
+        "second_row_photos": {
+          "box_pt": [
+            5,
+            481,
+            398,
+            740
+          ],
+          "mean_absolute_rgb_delta": 8.661
+        },
+        "bottom_navigation": {
+          "box_pt": [
+            0,
+            796,
+            402,
+            874
+          ],
+          "mean_absolute_rgb_delta": 2.458
+        }
+      }
+    },
+    "food": {
+      "whole_frame_rgb_delta": 3.469,
+      "regions": {
+        "system": {
+          "box_pt": [
+            0,
+            0,
+            402,
+            62
+          ],
+          "mean_absolute_rgb_delta": 0.0
+        },
+        "navigation": {
+          "box_pt": [
+            0,
+            62,
+            402,
+            118
+          ],
+          "mean_absolute_rgb_delta": 6.245
+        },
+        "photo": {
+          "box_pt": [
+            0,
+            118,
+            402,
+            654
+          ],
+          "mean_absolute_rgb_delta": 0.001
+        },
+        "pagination": {
+          "box_pt": [
+            0,
+            654,
+            402,
+            679
+          ],
+          "mean_absolute_rgb_delta": 0.972
+        },
+        "title_body": {
+          "box_pt": [
+            0,
+            679,
+            402,
+            790
+          ],
+          "mean_absolute_rgb_delta": 22.463
+        },
+        "interaction": {
+          "box_pt": [
+            0,
+            790,
+            402,
+            840
+          ],
+          "mean_absolute_rgb_delta": 3.271
+        },
+        "bottom_safe": {
+          "box_pt": [
+            0,
+            840,
+            402,
+            874
+          ],
+          "mean_absolute_rgb_delta": 0.0
+        }
+      }
+    },
+    "food-third": {
+      "whole_frame_rgb_delta": 3.474,
+      "regions": {
+        "system": {
+          "box_pt": [
+            0,
+            0,
+            402,
+            62
+          ],
+          "mean_absolute_rgb_delta": 0.001
+        },
+        "navigation": {
+          "box_pt": [
+            0,
+            62,
+            402,
+            118
+          ],
+          "mean_absolute_rgb_delta": 6.246
+        },
+        "photo": {
+          "box_pt": [
+            0,
+            118,
+            402,
+            654
+          ],
+          "mean_absolute_rgb_delta": 0.001
+        },
+        "pagination": {
+          "box_pt": [
+            0,
+            654,
+            402,
+            679
+          ],
+          "mean_absolute_rgb_delta": 0.948
+        },
+        "title_body": {
+          "box_pt": [
+            0,
+            679,
+            402,
+            790
+          ],
+          "mean_absolute_rgb_delta": 22.462
+        },
+        "interaction": {
+          "box_pt": [
+            0,
+            790,
+            402,
+            840
+          ],
+          "mean_absolute_rgb_delta": 3.378
+        },
+        "bottom_safe": {
+          "box_pt": [
+            0,
+            840,
+            402,
+            874
+          ],
+          "mean_absolute_rgb_delta": 0.0
+        }
+      }
+    },
+    "night": {
+      "whole_frame_rgb_delta": 6.74,
+      "regions": {
+        "navigation": {
+          "box_pt": [
+            0,
+            62,
+            402,
+            128
+          ],
+          "mean_absolute_rgb_delta": 9.607
+        },
+        "photo": {
+          "box_pt": [
+            0,
+            128,
+            402,
+            310
+          ],
+          "mean_absolute_rgb_delta": 0.0
+        },
+        "title_body": {
+          "box_pt": [
+            0,
+            310,
+            402,
+            683
+          ],
+          "mean_absolute_rgb_delta": 10.865
+        },
+        "venue": {
+          "box_pt": [
+            0,
+            728,
+            402,
+            784
+          ],
+          "mean_absolute_rgb_delta": 7.673
+        },
+        "interaction": {
+          "box_pt": [
+            0,
+            790,
+            402,
+            840
+          ],
+          "mean_absolute_rgb_delta": 8.198
+        }
+      }
+    }
+  }
+}

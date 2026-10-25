@@ -1,0 +1,246 @@
+{
+  "errors": [],
+  "screens": [
+    "profile-open-940",
+    "profile-collapsed-940",
+    "profile-open-850",
+    "profile-collapsed-850",
+    "profile-open-1000",
+    "profile-collapsed-1000",
+    "my-truck",
+    "my-portrait",
+    "live-cat",
+    "live-call",
+    "herb-food",
+    "night",
+    "my-truck-third",
+    "mobile-touch-second",
+    "mobile-detail-390",
+    "mobile-detail-402",
+    "mobile-detail-430"
+  ],
+  "checks": [
+    "940: status/header and app/gesture edges continuous",
+    "850: status/header and app/gesture edges continuous",
+    "1000: status/header and app/gesture edges continuous",
+    "my-truck: no developer caveat",
+    "my-truck: images loaded",
+    "my-truck: image to title spacing",
+    "my-truck: square image retained",
+    "my-portrait: no developer caveat",
+    "my-portrait: images loaded",
+    "my-portrait: image to title spacing",
+    "my-portrait: square image retained",
+    "live-cat: no developer caveat",
+    "live-cat: images loaded",
+    "live-cat: image to title spacing",
+    "live-call: no developer caveat",
+    "live-call: images loaded",
+    "live-call: image to title spacing",
+    "herb-food: no developer caveat",
+    "herb-food: images loaded",
+    "herb-food: image to title spacing",
+    "night: no developer caveat",
+    "night: images loaded",
+    "night: image to title spacing",
+    "940: real mouse drag to photo 2",
+    "940: drag both ways and edge clamp",
+    "940: keyboard paging",
+    "940: short drag settles",
+    "850: real mouse drag to photo 2",
+    "850: drag both ways and edge clamp",
+    "850: keyboard paging",
+    "850: short drag settles",
+    "comment like rerender retains gallery photo 3",
+    "reply expansion retains gallery photo 3",
+    "reply submitted with gallery state intact",
+    "share to recipient, chat, reopen note",
+    "no page JS errors",
+    "390: native touch swipe changes photo",
+    "390: vertical touch over image scrolls note",
+    "390: no horizontal page overflow",
+    "402: no horizontal page overflow",
+    "430: no horizontal page overflow"
+  ],
+  "seams": {
+    "940": {
+      "status": {
+        "top": 80,
+        "bottom": 138.75
+      },
+      "header": {
+        "top": 138.75,
+        "bottom": 185.1875
+      },
+      "app": {
+        "top": 138.75,
+        "bottom": 876.09375
+      },
+      "gesture": {
+        "top": 876.09375,
+        "bottom": 908.3125
+      },
+      "transform": "none"
+    },
+    "850": {
+      "status": {
+        "top": 80,
+        "bottom": 132.4375
+      },
+      "header": {
+        "top": 132.4375,
+        "bottom": 173.875
+      },
+      "app": {
+        "top": 132.4375,
+        "bottom": 790.4375
+      },
+      "gesture": {
+        "top": 790.4375,
+        "bottom": 819.1875
+      },
+      "transform": "none"
+    },
+    "1000": {
+      "status": {
+        "top": 80,
+        "bottom": 142
+      },
+      "header": {
+        "top": 142,
+        "bottom": 191
+      },
+      "app": {
+        "top": 142,
+        "bottom": 920
+      },
+      "gesture": {
+        "top": 920,
+        "bottom": 954
+      },
+      "transform": "none"
+    }
+  },
+  "detail_geometry": {
+    "my-truck": {
+      "gallery": {
+        "x": 0,
+        "y": 117.97539370078741,
+        "w": 402,
+        "h": 402
+      },
+      "copy": {
+        "x": 0,
+        "y": 544.9685039370079,
+        "w": 402,
+        "h": 139.80314960629923
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 547.9525098425197,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    },
+    "my-portrait": {
+      "gallery": {
+        "x": 0,
+        "y": 117.97539370078741,
+        "w": 402,
+        "h": 402
+      },
+      "copy": {
+        "x": 0,
+        "y": 544.9685039370079,
+        "w": 402,
+        "h": 139.80314960629923
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 547.9525098425197,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    },
+    "live-cat": {
+      "gallery": {
+        "x": 0,
+        "y": 117.97539370078741,
+        "w": 402,
+        "h": 542.4790846456693
+      },
+      "copy": {
+        "x": 0,
+        "y": 660.4544783464568,
+        "w": 402,
+        "h": 103.81373031496064
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 679.4466043307087,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    },
+    "live-call": {
+      "gallery": {
+        "x": 0,
+        "y": 117.97539370078741,
+        "w": 402,
+        "h": 542.4790846456693
+      },
+      "copy": {
+        "x": 0,
+        "y": 660.4544783464568,
+        "w": 402,
+        "h": 103.81373031496064
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 679.4466043307087,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    },
+    "herb-food": {
+      "gallery": {
+        "x": 0,
+        "y": 117.97539370078741,
+        "w": 402,
+        "h": 536
+      },
+      "copy": {
+        "x": 0,
+        "y": 678.9685039370079,
+        "w": 402,
+        "h": 165.80191929133858
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 681.9525098425197,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    },
+    "night": {
+      "gallery": {
+        "x": 0,
+        "y": 127.98252952755907,
+        "w": 402,
+        "h": 181.99138779527559
+      },
+      "copy": {
+        "x": 0,
+        "y": 309.97391732283467,
+        "w": 402,
+        "h": 525.8774606299213
+      },
+      "title": {
+        "x": 15.991633858267717,
+        "y": 328.96604330708664,
+        "w": 370.0167322834646,
+        "h": 24.993110236220474
+      }
+    }
+  }
+}

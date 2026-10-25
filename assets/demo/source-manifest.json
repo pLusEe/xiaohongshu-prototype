@@ -1,0 +1,20 @@
+{
+  "icons": {
+    "source": "/Users/bytedance/Desktop/小红书录屏补充 261024.mov",
+    "frame": "/tmp/xhs-supplement-review/frames/038.png",
+    "time_approx_seconds": 112.5,
+    "purpose": "iOS notification shortcut glyphs, no chat photos"
+  },
+  "videos": {
+    "sources": [
+      "assets/images/cafe.jpg",
+      "assets/images/cat.jpg",
+      "assets/images/sea.jpg",
+      "assets/images/food.jpg",
+      "assets/images/latte.jpg",
+      "assets/images/mountain.jpg",
+      "assets/images/flowers.jpg"
+    ],
+    "method": "6-second gentle image pan, demo motion media; not original videos"
+  }
+}

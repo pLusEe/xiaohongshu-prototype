@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Profile pull-to-refresh returns to its aligned position",
+    "All three demo videos load and open populated comment panels",
+    "All six current comparison states have reference, rendered and difference images"
+  ],
+  "control_crop_mean_absolute_RGB_error_0_255": {
+    "voice": 7.82,
+    "smile": 6.89,
+    "plus": 7.28,
+    "chat-settings": 3.31
+  }
+}

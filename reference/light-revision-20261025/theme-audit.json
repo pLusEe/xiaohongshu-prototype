@@ -1,0 +1,127 @@
+[
+  {
+    "route": "feed",
+    "regions": {
+      ".feed-header": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".bottom-nav": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "messages",
+    "regions": {
+      ".messages-header": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".messages-scroll": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "chat/man",
+    "regions": {
+      ".chat-header": {
+        "background": "rgb(207, 242, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".chat-scroll": {
+        "background": "rgb(207, 242, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "ai-chat",
+    "regions": {
+      ".ai-page": {
+        "background": "rgb(249, 245, 250)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "note/labo",
+    "regions": {
+      ".detail-header": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".note-copy": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".note-comments": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      },
+      ".note-footer": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "profile/lin",
+    "regions": {
+      ".my-profile-hero": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)"
+      },
+      ".recorded-profile-content": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "author/night",
+    "regions": {
+      ".author-hero": {
+        "background": "rgb(25, 21, 25)",
+        "image": "url(\"file:///Users/bytedance/Documents/trae_projects/xiaohongshu-prototype/assets/ios/author-wallpaper-reconstructed.png\")",
+        "color": "rgb(238, 238, 238)"
+      },
+      ".author-tabs": {
+        "background": "rgb(255, 253, 255)",
+        "image": "none",
+        "color": "rgb(54, 50, 54)"
+      }
+    }
+  },
+  {
+    "route": "video/daily-9",
+    "regions": {
+      ".recorded-video": {
+        "background": "rgb(41, 38, 41)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)"
+      },
+      ".video-footer": {
+        "background": "rgba(22, 22, 22, 0.667)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)"
+      }
+    }
+  }
+]

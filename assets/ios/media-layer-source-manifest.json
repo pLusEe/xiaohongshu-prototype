@@ -1,0 +1,264 @@
+{
+  "revision": "20261025-photo-ui-separation",
+  "coordinate_space": "source PNG pixels",
+  "note": "Local-art location and author pins rendered separately. Mute glyphs excluded from still photo content; no unavailable audio control is fabricated. Poster lettering occluded by the original pin cannot be recovered exactly.",
+  "assets": [
+    {
+      "file": "author-talk-media.png",
+      "source": "author-talk.png",
+      "source_sha256": "c9f981c30bff7461c43318f0713d465135dda60fce570900209a2b75dcb97fff",
+      "sha256": "73849df6525dbce569d78863eaaee6855fb3643f0ab291320a474a65ad42f48d",
+      "dimensions": [
+        582,
+        731
+      ],
+      "crop_px": [
+        0,
+        0,
+        582,
+        731
+      ],
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": [
+        26,
+        26,
+        130,
+        95
+      ],
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Rounded mask with harmonic boundary interpolation; occluded ladder pixels are approximated. Crop excludes partial snackbar."
+    },
+    {
+      "file": "author-drama-media.png",
+      "source": "author-drama.png",
+      "source_sha256": "d4dd324554dd90ceb0e9c537b11ed10a4bfe9df44307794622ff3ec9858a52b5",
+      "sha256": "0bbf887d1cbbba251e61f9d21cad71fd6e542e7f9cbb574f4a08add4f8ca516c",
+      "dimensions": [
+        582,
+        777
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": [
+        250,
+        246,
+        250
+      ],
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Original capture retained. Pin-shaped background fill removes the badge; lettering hidden by the source badge remains unavailable."
+    },
+    {
+      "file": "local-art-media.png",
+      "source": "local-art.png",
+      "source_sha256": "dd10baad0c55be0429484bc6e65c57a45679c21b13e4f913d662d7d5a20f465e",
+      "sha256": "7557a3fbdad79ea5d667e0664fb91edcb5440aa809a99bdf809be2f1f9c12706",
+      "dimensions": [
+        582,
+        691
+      ],
+      "crop_px": [
+        0,
+        0,
+        582,
+        691
+      ],
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Original capture retained. Crop excludes the burned-in location capsule below the photographed work."
+    },
+    {
+      "file": "acid-cover-media.png",
+      "source": "acid-cover.png",
+      "source_sha256": "3076fa219d739432e2ecbea6c72de366b65e29d24dbae18ada2f64ef57c0c695",
+      "sha256": "d4d629d4feebe9b0e3ec59909a55023ee940c87f230db8fb11bf32bef2739197",
+      "dimensions": [
+        582,
+        600
+      ],
+      "crop_px": [
+        0,
+        0,
+        582,
+        600
+      ],
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Crop excludes a partial app title outside the posted graphic; original capture retained."
+    },
+    {
+      "file": "wood-cover-media.png",
+      "source": "wood-cover.png",
+      "source_sha256": "4f25d9c4d49e4df0384d4cff409a6c321ef91a93f951cc30416732951cca3090",
+      "sha256": "ff53544eadce8990e18ad6891f45329710d2422ef6a3ee5a6e74e003fc5d53f5",
+      "dimensions": [
+        582,
+        777
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": [
+        425,
+        25,
+        490,
+        99,
+        492,
+        25
+      ],
+      "treatment": "Nearby captured background texture cloned under the control; exact hidden pixels unavailable."
+    },
+    {
+      "file": "my-truck-media.png",
+      "source": "my-truck.png",
+      "source_sha256": "cde6d44e49c99ed40d518eabb48124d7cd6aa35cbfc6a56f97a441a66c1e4efb",
+      "sha256": "65f1cc3319dd164462ef69f34fd12c1beb775822a322a8cb9b6cc58bc03eec15",
+      "dimensions": [
+        582,
+        693
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": [
+        422,
+        25,
+        487,
+        99,
+        492,
+        25
+      ],
+      "treatment": "Nearby captured background texture cloned under the control; exact hidden pixels unavailable."
+    },
+    {
+      "file": "night-1-media.png",
+      "source": "night-1.png",
+      "source_sha256": "e1f8a575bd569e141f97ef9dd7dcf07c905ad536571cca6b48cac5a27915eba5",
+      "sha256": "77324fc1ca92799c99038138e2dbfb2f7792b3428a4cd0c27641c85b5693406b",
+      "dimensions": [
+        1206,
+        541
+      ],
+      "crop_px": [
+        0,
+        0,
+        1206,
+        541
+      ],
+      "repair_rects_xywh": [],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": [
+        1007,
+        456,
+        1088,
+        541,
+        1093,
+        456
+      ],
+      "treatment": "Nearby captured background texture cloned under the control; exact hidden pixels unavailable."
+    },
+    {
+      "file": "food-detail-1-media.png",
+      "source": "food-detail-1.png",
+      "source_sha256": "a02451cdd8ad8a95360f483c5ab028db379eafbf850401562a907bb58f464206",
+      "sha256": "6f88e1fc69c810675ac1d8433a3d7eb225e7b06a7ebdfc9491caa8e3b58fc4e2",
+      "dimensions": [
+        1206,
+        1608
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [
+        [
+          1084,
+          1494,
+          89,
+          92
+        ]
+      ],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Original capture retained. Local boundary interpolation removes burned-in app UI; occluded pixels are approximated, not recovered original content."
+    },
+    {
+      "file": "food-detail-2-media.png",
+      "source": "food-detail-2.png",
+      "source_sha256": "8a7f0ebc1d6522403b3f75fe9cfb1c2117ec6cd828617bfa199f08ddc6dd3c7c",
+      "sha256": "535c663fa353c476fc7804f1b44f35e3bf0a4ffcaca194047cac0c87c75c602a",
+      "dimensions": [
+        1206,
+        1608
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [
+        [
+          1084,
+          1494,
+          89,
+          92
+        ]
+      ],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Original capture retained. Local boundary interpolation removes burned-in app UI; occluded pixels are approximated, not recovered original content."
+    },
+    {
+      "file": "food-detail-3-media.png",
+      "source": "food-detail-3.png",
+      "source_sha256": "f76b961397cb3a98f1fe7bf3f3a80e95578fa57e650780a00d0c0f761b5a95ef",
+      "sha256": "077b38cb0ebb4f46b6bc1ee108db5a9e0763e9fd049daa9e31438f4c3f2bce0c",
+      "dimensions": [
+        1206,
+        1608
+      ],
+      "crop_px": null,
+      "repair_rects_xywh": [
+        [
+          1084,
+          1494,
+          89,
+          92
+        ]
+      ],
+      "pin_occlusion_background_fill": null,
+      "harmonic_pin_mask_box_px": null,
+      "nearby_texture_clone_box_and_destination_px": null,
+      "treatment": "Original capture retained. Local boundary interpolation removes burned-in app UI; occluded pixels are approximated, not recovered original content."
+    },
+    {
+      "file": "media-location-pin.png",
+      "source": "local-art.png",
+      "source_sha256": "dd10baad0c55be0429484bc6e65c57a45679c21b13e4f913d662d7d5a20f465e",
+      "crop_px": [
+        51,
+        704,
+        81,
+        738
+      ],
+      "sha256": "f58db93a0b560cb46c4470cd3004b790d403126c06813a3feb95e0cdef6ef1ca",
+      "treatment": "Captured white glyph with background converted to alpha; reused in a separate DOM overlay."
+    },
+    {
+      "file": "media-play.png",
+      "source": "wood-cover.png",
+      "source_sha256": "4f25d9c4d49e4df0384d4cff409a6c321ef91a93f951cc30416732951cca3090",
+      "crop_px": [
+        509,
+        45,
+        539,
+        76
+      ],
+      "sha256": "42a5916123ef2fc6f9fa0a5610599372a784411157c8fd357222a8be73d8049d",
+      "treatment": "Captured white glyph with background converted to alpha; reused in a separate DOM overlay."
+    }
+  ]
+}

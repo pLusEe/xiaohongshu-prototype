@@ -1,0 +1,607 @@
+{
+  "source": "/Users/bytedance/Desktop/小红书录屏261024.mov",
+  "source_sha256": "611d69a6e96c21ff37f9009d5e0c6a510d6c9fe51945006f4aab0dd3cb074bba",
+  "capture_size": [
+    1206,
+    2622
+  ],
+  "coordinate_scale": 3,
+  "assets": [
+    {
+      "file": "status-dark.png",
+      "source_time": "0",
+      "box_pt": [
+        0,
+        0,
+        402,
+        62
+      ],
+      "box_px": [
+        0,
+        0,
+        1206,
+        186
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "status-detail.png",
+      "source_time": "41",
+      "box_pt": [
+        0,
+        0,
+        402,
+        62
+      ],
+      "box_px": [
+        0,
+        0,
+        1206,
+        186
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-cat.png",
+      "source_time": "0",
+      "box_pt": [
+        5,
+        152,
+        199,
+        411
+      ],
+      "box_px": [
+        15,
+        456,
+        597,
+        1233
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-call.png",
+      "source_time": "0",
+      "box_pt": [
+        204,
+        152,
+        398,
+        411
+      ],
+      "box_px": [
+        612,
+        456,
+        1194,
+        1233
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-portfolio.png",
+      "source_time": "0",
+      "box_pt": [
+        5,
+        481,
+        199,
+        740
+      ],
+      "box_px": [
+        15,
+        1443,
+        597,
+        2220
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-intern.png",
+      "source_time": "0",
+      "box_pt": [
+        204,
+        481,
+        398,
+        740
+      ],
+      "box_px": [
+        612,
+        1443,
+        1194,
+        2220
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-cat.png",
+      "source_time": "0",
+      "box_pt": [
+        15,
+        449,
+        33,
+        467
+      ],
+      "box_px": [
+        45,
+        1347,
+        99,
+        1401
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-call.png",
+      "source_time": "0",
+      "box_pt": [
+        214,
+        449,
+        232,
+        467
+      ],
+      "box_px": [
+        642,
+        1347,
+        696,
+        1401
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-portfolio.png",
+      "source_time": "0",
+      "box_pt": [
+        15,
+        778,
+        33,
+        796
+      ],
+      "box_px": [
+        45,
+        2334,
+        99,
+        2388
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-intern.png",
+      "source_time": "0",
+      "box_pt": [
+        214,
+        778,
+        232,
+        796
+      ],
+      "box_px": [
+        642,
+        2334,
+        696,
+        2388
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-night.png",
+      "source_time": "38-5",
+      "box_pt": [
+        5,
+        132,
+        199,
+        278
+      ],
+      "box_px": [
+        15,
+        396,
+        597,
+        834
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-labo.png",
+      "source_time": "38-5",
+      "box_pt": [
+        204,
+        132,
+        398,
+        390
+      ],
+      "box_px": [
+        612,
+        396,
+        1194,
+        1170
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-ants.png",
+      "source_time": "38-5",
+      "box_pt": [
+        5,
+        350,
+        199,
+        608
+      ],
+      "box_px": [
+        15,
+        1050,
+        597,
+        1824
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-food.png",
+      "source_time": "38-5",
+      "box_pt": [
+        204,
+        461,
+        398,
+        720
+      ],
+      "box_px": [
+        612,
+        1383,
+        1194,
+        2160
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "cover-politics.png",
+      "source_time": "38-5",
+      "box_pt": [
+        5,
+        699,
+        199,
+        796
+      ],
+      "box_px": [
+        15,
+        2097,
+        597,
+        2388
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-night.png",
+      "source_time": "10",
+      "box_pt": [
+        46,
+        73,
+        82,
+        109
+      ],
+      "box_px": [
+        138,
+        219,
+        246,
+        327
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-food.png",
+      "source_time": "41",
+      "box_pt": [
+        46,
+        73,
+        82,
+        109
+      ],
+      "box_px": [
+        138,
+        219,
+        246,
+        327
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-labo.png",
+      "source_time": "38-5",
+      "box_pt": [
+        214,
+        429,
+        232,
+        447
+      ],
+      "box_px": [
+        642,
+        1287,
+        696,
+        1341
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "avatar-ants.png",
+      "source_time": "38-5",
+      "box_pt": [
+        15,
+        665,
+        33,
+        683
+      ],
+      "box_px": [
+        45,
+        1995,
+        99,
+        2049
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "food-1.png",
+      "source_time": "41",
+      "box_pt": [
+        0,
+        118,
+        402,
+        654
+      ],
+      "box_px": [
+        0,
+        354,
+        1206,
+        1962
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "food-2.png",
+      "source_time": "41-7",
+      "box_pt": [
+        0,
+        118,
+        402,
+        654
+      ],
+      "box_px": [
+        0,
+        354,
+        1206,
+        1962
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "food-3.png",
+      "source_time": "44",
+      "box_pt": [
+        0,
+        118,
+        402,
+        654
+      ],
+      "box_px": [
+        0,
+        354,
+        1206,
+        1962
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "night-1.png",
+      "source_time": "10",
+      "box_pt": [
+        0,
+        128,
+        402,
+        310
+      ],
+      "box_px": [
+        0,
+        384,
+        1206,
+        930
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "venue-night.png",
+      "source_time": "10",
+      "box_pt": [
+        16,
+        729,
+        66,
+        779
+      ],
+      "box_px": [
+        48,
+        2187,
+        198,
+        2337
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "like-red.png",
+      "source_time": "22",
+      "box_pt": [
+        187,
+        799,
+        211,
+        825
+      ],
+      "box_px": [
+        561,
+        2397,
+        633,
+        2475
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "collect-yellow.png",
+      "source_time": "26",
+      "box_pt": [
+        265,
+        799,
+        289,
+        825
+      ],
+      "box_px": [
+        795,
+        2397,
+        867,
+        2475
+      ],
+      "treatment": "original crop"
+    },
+    {
+      "file": "back.png",
+      "source_time": "41",
+      "box_pt": [
+        12,
+        78,
+        36,
+        102
+      ],
+      "box_px": [
+        36,
+        234,
+        108,
+        306
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "share.png",
+      "source_time": "41",
+      "box_pt": [
+        361,
+        78,
+        385,
+        102
+      ],
+      "box_px": [
+        1083,
+        234,
+        1155,
+        306
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "search.png",
+      "source_time": "0",
+      "box_pt": [
+        362,
+        73,
+        386,
+        97
+      ],
+      "box_px": [
+        1086,
+        219,
+        1158,
+        291
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "feed-menu.png",
+      "source_time": "0",
+      "box_pt": [
+        15,
+        73,
+        39,
+        97
+      ],
+      "box_px": [
+        45,
+        219,
+        117,
+        291
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "like.png",
+      "source_time": "41",
+      "box_pt": [
+        186,
+        799,
+        212,
+        825
+      ],
+      "box_px": [
+        558,
+        2397,
+        636,
+        2475
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "collect.png",
+      "source_time": "41",
+      "box_pt": [
+        260,
+        799,
+        286,
+        825
+      ],
+      "box_px": [
+        780,
+        2397,
+        858,
+        2475
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "comment.png",
+      "source_time": "41",
+      "box_pt": [
+        333,
+        799,
+        359,
+        825
+      ],
+      "box_px": [
+        999,
+        2397,
+        1077,
+        2475
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "pencil.png",
+      "source_time": "41",
+      "box_pt": [
+        25,
+        803,
+        42,
+        820
+      ],
+      "box_px": [
+        75,
+        2409,
+        126,
+        2460
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    },
+    {
+      "file": "like-small.png",
+      "source_time": "0",
+      "box_pt": [
+        147,
+        451,
+        160,
+        464
+      ],
+      "box_px": [
+        441,
+        1353,
+        480,
+        1392
+      ],
+      "treatment": "captured dark glyph → alpha; original contour retained"
+    }
+  ],
+  "note": "All images and glyphs cropped from user's recording. Photos may contain native photo overlays. The video's version and font declaration were not recorded."
+}

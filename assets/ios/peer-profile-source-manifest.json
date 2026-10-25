@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "file": "peer-recommend.png",
+      "source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pybwzsipsw4d21_4f45/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/7da9526bc6d2cb5bedaac40b27ed4fa9.jpg",
+      "source_sha256": "d7a93fd5e6077b91cda5a06554d73c7015f66b56a8fbd0b74d041341087f4c93",
+      "crop_px": [
+        1092,
+        1183,
+        1153,
+        1259
+      ],
+      "treatment": "User supplied real profile screenshot white glyph, cropped and extracted as alpha, no hand drawn substitute.",
+      "sha256": "e1fb0e583a58e8700cf0e63a84c877bdff88f0d33e164113c4fe89ea4595598c"
+    },
+    {
+      "file": "peer-chevron.png",
+      "source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pybwzsipsw4d21_4f45/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/7da9526bc6d2cb5bedaac40b27ed4fa9.jpg",
+      "source_sha256": "d7a93fd5e6077b91cda5a06554d73c7015f66b56a8fbd0b74d041341087f4c93",
+      "crop_px": [
+        346,
+        1202,
+        396,
+        1233
+      ],
+      "treatment": "User supplied real profile screenshot white glyph, cropped and extracted as alpha, no hand drawn substitute.",
+      "sha256": "009b468efb2147142f1276b143c4f63942bdbe807615d685a4fd5429ae9bf3c4"
+    },
+    {
+      "file": "peer-copy.png",
+      "source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pybwzsipsw4d21_4f45/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/7da9526bc6d2cb5bedaac40b27ed4fa9.jpg",
+      "source_sha256": "d7a93fd5e6077b91cda5a06554d73c7015f66b56a8fbd0b74d041341087f4c93",
+      "crop_px": [
+        726,
+        484,
+        762,
+        520
+      ],
+      "treatment": "User supplied real profile screenshot white glyph, cropped and extracted as alpha, no hand drawn substitute.",
+      "sha256": "70e8c1a89c5c3ab251be48bd1346eb12c1788abf35ee627cc47e8863790c5eda"
+    },
+    {
+      "file": "avatar-work-profile.png",
+      "source": "assets/ios/avatar-work.png",
+      "source_sha256": "3417b0361846fed728911c782597c831ddf7dbfe99245542de9e1254fc0b83da",
+      "crop_px": [
+        1,
+        0,
+        52,
+        49
+      ],
+      "treatment": "Tighter crop excludes white screenshot padding around the original small author avatar; low resolution is retained.",
+      "sha256": "57b6a4c78332591e4945cff7d831e6a610083ff10c72cbf13bac1861d15b6631"
+    }
+  ]
+}

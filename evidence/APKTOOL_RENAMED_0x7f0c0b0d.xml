@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xingin.im.v2.note.share.ChatNoteShareView n0:background="@color/r_po" n0:fitsSystemWindows="true" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:android="" xmlns:app="" xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <RelativeLayout n0:background="@color/r_po" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f070327">
+            <ImageView n0:id="@id/APKTOOL_RENAMED_0x7f091a7c" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f07029c" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f080d14" n0:scaleType="centerInside" n0:layout_alignParentLeft="true" n0:layout_centerVertical="true" n1:APKTOOL_RENAMED_0x7f04083d="@color/r_o5"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <TextView n0:textSize="@dimen/APKTOOL_RENAMED_0x7f070271" n0:textColor="@color/r_rl" n0:gravity="center" n0:id="@id/APKTOOL_RENAMED_0x7f0916a3" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1115d3" n0:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.google.android.material.tabs.TabLayout n0:layout_gravity="center" n0:id="@id/APKTOOL_RENAMED_0x7f0926d8" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f07027d" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f07027d" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0702d6" n2:APKTOOL_RENAMED_0x7f0406e0="APKTOOL_RENAMED_0x7f0908c5" n2:APKTOOL_RENAMED_0x7f0406e3="@drawable/APKTOOL_RENAMED_0x7f081336" n2:APKTOOL_RENAMED_0x7f0406e5="@color/r_a0e" n2:APKTOOL_RENAMED_0x7f0406e6="false" n2:APKTOOL_RENAMED_0x7f0406e8="2.0dp" n2:APKTOOL_RENAMED_0x7f0406ec="APKTOOL_RENAMED_0x7f092e6f" n2:APKTOOL_RENAMED_0x7f0406ef="@dimen/APKTOOL_RENAMED_0x7f07029c" n2:APKTOOL_RENAMED_0x7f0406f0="@dimen/APKTOOL_RENAMED_0x7f07029c" n2:APKTOOL_RENAMED_0x7f0406f2="@null" n2:APKTOOL_RENAMED_0x7f0406f3="@color/r_o5" n2:APKTOOL_RENAMED_0x7f0406f5="@style/APKTOOL_RENAMED_0x7f1204f3" n2:APKTOOL_RENAMED_0x7f0406f6="@color/r_c2"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n0:background="@color/r_a4b" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f07027b" />
+        <com.xingin.im.v2.note.share.pager.NoteSharePagerView n0:id="@id/APKTOOL_RENAMED_0x7f0926dc" n0:background="@color/r_up" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView n0:textSize="@dimen/APKTOOL_RENAMED_0x7f070314" n0:textColor="@color/APKTOOL_RENAMED_0x7f06073e" n0:gravity="center" n0:layout_gravity="center|bottom" n0:id="@id/APKTOOL_RENAMED_0x7f0926d7" n0:background="@drawable/APKTOOL_RENAMED_0x7f081109" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0702dc" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0702cb" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0702cb" />
+    <FrameLayout n0:layout_gravity="bottom" n0:id="@id/APKTOOL_RENAMED_0x7f096409" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+</com.xingin.im.v2.note.share.ChatNoteShareView>

@@ -1,0 +1,967 @@
+{
+  "revision": "20261025-six-items",
+  "note": "All 96 current note posters. Loaded individually only when exporting under file://.",
+  "assets": [
+    {
+      "file": "live-cat.js",
+      "source": "assets/ios/detail-cat.png",
+      "note_id": "live-cat",
+      "title": "感受到了live 的生命力",
+      "author": "七个鱼丸",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "61e9e3649e1ac488bcefe182953c7c0fd3e916dbae93ed8d3e05e49cc1533990",
+      "png_sha256": "a43c525c74e44f96af834c5bb6a4ba98e17a623d649ff90bac35c660140cb7c2"
+    },
+    {
+      "file": "live-call.js",
+      "source": "assets/ios/detail-call.png",
+      "note_id": "live-call",
+      "title": "给姚顺雨打call",
+      "author": "Liu yang🍒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "bcce939bcae75dba026d4b160b0e50bceb5b7768995130ba816a1cb391f9d5c7",
+      "png_sha256": "7b8663ef4f8bca2b2b071242a746e8680a57e790697d740116f5ae68e74e2341"
+    },
+    {
+      "file": "live-portfolio.js",
+      "source": "assets/ios/cover-portfolio.png",
+      "note_id": "live-portfolio",
+      "title": "我想开源我的作品集🤔",
+      "author": "日常的萝卜的日常",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "7f67dfccf8b39a2b0333ed5496acde9eb25468889264c569bc450772985ade1a",
+      "png_sha256": "5d0a2a2327a668210e705a4b02206d16a38b2a746e7c7878579cb86598a7a871"
+    },
+    {
+      "file": "live-intern.js",
+      "source": "assets/ios/cover-intern.png",
+      "note_id": "live-intern",
+      "title": "7月末就开始投秋招了",
+      "author": "零音音.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "7562a2fd8a5f2f88199d25b4019dcba30673327bd3ddbd2eb8682ca6461666a5",
+      "png_sha256": "5cf75ec3a0ab805b7e089d3a21f49b601899dafec01a1b4f0e5f583c5d6c45fb"
+    },
+    {
+      "file": "night.js",
+      "source": "assets/ios/night-1-media.png",
+      "note_id": "night",
+      "title": "地下声场加载中⚡️⚡️⚡️",
+      "author": "天目里展演小助手",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "08fb6690aa6bfee6783d9ed8ec01c549e5c2806839f9c18e62c9027f11bb0957",
+      "png_sha256": "9ebda82192e9a063e6b438e743c21f979301adcc7e52e89310647a07aac44b9b"
+    },
+    {
+      "file": "labo.js",
+      "source": "assets/ios/cover-labo.png",
+      "note_id": "labo",
+      "title": "LE LABO in 厦门！！",
+      "author": "immeilin",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "7c68c98845bab6e27fb2a1b9d72317e2d420ff9caa97c25d1d9aa6caa4d19f38",
+      "png_sha256": "73193aab624418b9e688b6c3200a3fbbc59e30a6a2f23a2e825219ed9a8868b1"
+    },
+    {
+      "file": "ants.js",
+      "source": "assets/community/legacy-ants.jpg",
+      "note_id": "ants",
+      "title": "路过游戏厅，结果待到了关门",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "feef406bdaefbc76bd4d41f2854cd803cebdc051a9a0318714030cbea10dda63",
+      "png_sha256": "d46b68250e4fe2a3d706368576e45184242108a6b5b71bd313dbec55e2675667"
+    },
+    {
+      "file": "herb-food.js",
+      "source": "assets/ios/food-detail-1-media.png",
+      "note_id": "herb-food",
+      "title": "上海养生局天花板✨草本鸡煲直接封神！！",
+      "author": "野生小丸",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "ce9d336016de0e00526181da8e66f8f9acb3e911a10ac146be37d0406797b14c",
+      "png_sha256": "7ce18105ef1bb22d12ded17eed386ae3fed66ea63a01c29ce8b6866415a05368"
+    },
+    {
+      "file": "cafe.js",
+      "source": "assets/community/legacy-cafe.jpg",
+      "note_id": "cafe",
+      "title": "在唱片店消失了三个小时",
+      "author": "B面放完了",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "d1b5bd4ffc3c8806eb8ba6e60f01bed21a7d3390b3f7e76695aa01e5e6d8e431",
+      "png_sha256": "416271f075f1bcd5c1b1b428fb96e519865412930f5ca03aa27fd2fa6ee1df13"
+    },
+    {
+      "file": "cat.js",
+      "source": "assets/images/cat.jpg",
+      "note_id": "cat",
+      "title": "我家小猫：周末谁都不许早起",
+      "author": "橘子今天睡醒了吗",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "280748eb85ba981671a5e5b100e7d48f5803eca9c1a38e625c54248e0a8162d8",
+      "png_sha256": "b79c2fcce0f2710f9df7492b96faf44bdd5447a93ce020dba84429a7e9ec5ec0"
+    },
+    {
+      "file": "mountain.js",
+      "source": "assets/community/legacy-mountain.jpg",
+      "note_id": "mountain",
+      "title": "天黑之前，再滑最后一轮",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "6f11e527004591dc4933ee2e67dfe3abde720f72e7011ee5b86ad9079ae4fed9",
+      "png_sha256": "c433a702a2dd832bdac32b717f55bf91436c397dd7ae93da7ebf5bbac70334e6"
+    },
+    {
+      "file": "room.js",
+      "source": "assets/community/legacy-room.jpg",
+      "note_id": "room",
+      "title": "把最近的灵感印成了一本小刊",
+      "author": "套印有点歪",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "dda3119ed18350fa824b794c9224d3d76036db260e920bf8836ed289aa178612",
+      "png_sha256": "ffba791e0a7c36920a63cf83c3abd6a293b27ab2e4eca50e4ed7d561aeb63850"
+    },
+    {
+      "file": "food.js",
+      "source": "assets/community/legacy-food.jpg",
+      "note_id": "food",
+      "title": "散场之后的碳水，值得",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "deeb423f483970de2fd840b36d703f1616cc1edfddf2d9bad00f0bebd8916fbb",
+      "png_sha256": "fa0560ca0efed58af5be31cf69af3968b4d49f6b6682328d094d147e423c54e4"
+    },
+    {
+      "file": "outfit.js",
+      "source": "assets/community/legacy-outfit.jpg",
+      "note_id": "outfit",
+      "title": "最近出门就这一套",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "57b7f6076a0fc65beca48b8bba80865c4a9345d8b2e9715b0ab100fc4e6bef84",
+      "png_sha256": "01a96cccf7faa3ce85b06889e964f35f67150adb61ba38e89192cdb4dfe2d0ee"
+    },
+    {
+      "file": "flowers.js",
+      "source": "assets/community/legacy-flowers.jpg",
+      "note_id": "flowers",
+      "title": "夜里拍照，闪光灯就别关了",
+      "author": "Rui_29",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "f30cfb01c44b98ad9f63362011e4b4f5b6beccbe5ff7bbb9a61d164fb9d15dad",
+      "png_sha256": "04b638e3dc6714b982dd8bc4050ad206202eada22752f5fc1dd0907ca4f9937e"
+    },
+    {
+      "file": "sea.js",
+      "source": "assets/community/legacy-sea.jpg",
+      "note_id": "sea",
+      "title": "耳鸣还没好，已经想下一场了",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "ff1f91d6644f194f9770e5d7a2c66c67619fbf1db8411b885dc2b4b4571c6d61",
+      "png_sha256": "c26f3aa0b6ad2c4bb5f3b52dbc8ceba024f0adebef0f09205914027faab8b9c5"
+    },
+    {
+      "file": "kai.js",
+      "source": "text-only note body",
+      "note_id": "kai",
+      "title": "27届各大厂秋招时间线＋开奖时间",
+      "author": "Kai科技说",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "85b7a5f3af910c18283149fcacb784d50ec963798eac203824140ae38e8823d2",
+      "png_sha256": "cf03ab438982b2bf1b7d1892f9c7fbbfd3fd78be77c169d0a14e6760fff74ba0"
+    },
+    {
+      "file": "crab.js",
+      "source": "assets/ios/crab-photo.png",
+      "note_id": "crab",
+      "title": "这个螃蟹怎么了",
+      "author": "小红薯628FE570",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "29ad236a48a29a50267ecb1d42d2808ac97210741674784d2f23092e7281c36b",
+      "png_sha256": "84195f490cf5342aff1c5a5a842b3cba6518af185ef77fde2843a5ab91b23445"
+    },
+    {
+      "file": "super.js",
+      "source": "assets/ios/super-cover.png",
+      "note_id": "super",
+      "title": "像素级复刻任意手机APP/现已开源",
+      "author": "Yilin Jing",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "dc93061ddbb401b3034996a53fd2d5ef953fe909edde3f7618d67d336108c8d7",
+      "png_sha256": "c1cc5b208ac1cfafba10443443a1fd6cf1cb584779943790789f434e7e822e4d"
+    },
+    {
+      "file": "wood.js",
+      "source": "assets/ios/wood-cover-media.png",
+      "note_id": "wood",
+      "title": "🎬 黑泽明拍《乱》时，视力正在衰退。",
+      "author": "秋月白",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "42a5ff56fe1b314398a43d2f4c23a4abf26ab331d01874d39824e84d28a1d3ed",
+      "png_sha256": "9addaba5bb51be6cd5bb9b0591868283cc126f3ae9f1f568013e3321153af4f0"
+    },
+    {
+      "file": "acid.js",
+      "source": "assets/ios/acid-cover-media.png",
+      "note_id": "acid",
+      "title": "酸性/Acid是什么？来自RolandTB303的声音",
+      "author": "电子音乐杂志",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "47c8e0b97f8043d01eb8996229631d36674bfb17dd0fb8b4fe4f54475ec7b593",
+      "png_sha256": "2e1ece2fd69f977718894cd5ebe8181aecd0b6cb7caca6d12b823c1e11499b0d"
+    },
+    {
+      "file": "notion.js",
+      "source": "assets/ios/notion-cover.png",
+      "note_id": "notion",
+      "title": "乌鲁木齐出生的他，做出了上亿人用的notion",
+      "author": "sff",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "b8af24bc4922c3e8fc00a4cd2a8576aa3e27fbbe447e42cea5684bef8f19a59e",
+      "png_sha256": "47a8e8b40b6f8ad8483f49e0045ddbd1b71c90588ce7fc06f142153e867fd5f5"
+    },
+    {
+      "file": "resonance.js",
+      "source": "assets/community/legacy-resonance.jpg",
+      "note_id": "resonance",
+      "title": "这一场没有白来",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "6fbc60eddb1ccd3e345cd3580100139e1b161bd12e90c997327747dc1bd473f2",
+      "png_sha256": "2bc9ad71ea82f831b042d25e3d5ea702e433e6932c550db47c048ca41a7022af"
+    },
+    {
+      "file": "work.js",
+      "source": "assets/ios/work-cover.png",
+      "note_id": "work",
+      "title": "如何展示你的理论工作",
+      "author": "邱志杰Qiu Zhijie",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "b99f0fcc1b3e79b701260f4f4c061ec24344e19d5c3677c4a81dd5f9a768efae",
+      "png_sha256": "abaa8ba2e1de2a75c4bcc36e412197f2bb7ec38f1d7f46a4ddef1d71161d8d1e"
+    },
+    {
+      "file": "momo.js",
+      "source": "assets/ios/momo-cover.png",
+      "note_id": "momo",
+      "title": "漕河泾公寓看房日记📒",
+      "author": "momo🐣",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "5da0d1c37f1b46d3977aed6194517dae24ce72a45914d23941f5a9f9213d0019",
+      "png_sha256": "6cc254285ff451ed1895afd5a6873de8f395165e417ec702155fff23dbbef99d"
+    },
+    {
+      "file": "my-truck.js",
+      "source": "assets/community/my-truck.jpg",
+      "note_id": "my-truck",
+      "title": "板上的伤比我的多",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "62a6713d5faf0e963272ee322bbec9e1c5924636cac3f5fee63261de661cd984",
+      "png_sha256": "4993cc593c2d869fa56e120792245464efd6450278f8201dc0ca3dca02fb203e"
+    },
+    {
+      "file": "my-portrait.js",
+      "source": "assets/community/my-portrait.jpg",
+      "note_id": "my-portrait",
+      "title": "出门前的五分钟",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "e58839462c62f755d4f53d9cb7db8996aaae90e9df1a236d0f55e74f4bfcd093",
+      "png_sha256": "11a99b0d260bf13d26d094a60e3ed94c262f25c76ea55fab0bec96ff066a432a"
+    },
+    {
+      "file": "local-art.js",
+      "source": "assets/ios/local-art-media.png",
+      "note_id": "local-art",
+      "title": "大二国美图形课结课!",
+      "author": "豆汁儿丸子",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "01053d48f4cbeb34258b2f213b9816791f0d4fb135d0e70d7b6ab1299e4f3930",
+      "png_sha256": "7532ea5a801ca7eb9fdebb89ffbf467aeb60dc27bcc66ec481a5b073b3e7f216"
+    },
+    {
+      "file": "local-steel.js",
+      "source": "assets/ios/local-steel.png",
+      "note_id": "local-steel",
+      "title": "杭州曾经的那些大厂，现在的地标打卡地!",
+      "author": "杭行者",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "bf073a35dedb6babf1d4abbe9c2a1caac7ec1ef3da57bfc72a2d0482992e66e0",
+      "png_sha256": "8616df7ece7327d6164423237a55ee745fafc6497ac63f241db3778f58d89946"
+    },
+    {
+      "file": "local-potion.js",
+      "source": "assets/ios/local-potion.png",
+      "note_id": "local-potion",
+      "title": "感觉是杭州目前断层好喝的女巫毒药。。。",
+      "author": "",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "f6ce55dec7c29c8520f8aa63d022a81d8403783d33ce0f653a1d6e6ba703eea2",
+      "png_sha256": "77de48a1e829f94d71bbbaf959bfd40f554d13a943b24f1aef4574c57b11860c"
+    },
+    {
+      "file": "local-event.js",
+      "source": "assets/ios/local-event.png",
+      "note_id": "local-event",
+      "title": "自由人生 · 搞钱大会 3.0",
+      "author": "50人已报名",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "ea67dff7076801465038f8beb24134392c0b7962d1b9788ba0194de4a3cf58a9",
+      "png_sha256": "4fd61b55fd18b4d986fb528395a4fb6ceab6f43bb5b9500a41dcbc3ba8e65be2"
+    },
+    {
+      "file": "author-drama.js",
+      "source": "assets/ios/author-drama-media.png",
+      "note_id": "author-drama",
+      "title": "请坐！天目里首届社区戏剧节来了🎭",
+      "author": "天目里展演小助手",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "a6a10195feda45b2c8d42331be857ace2d7c1e6c2aac65c8fbbd5e7dc397f410",
+      "png_sha256": "a95c248230673819dc12089b6af8dddf90641eefeab921b6425f45e63d8a54c2"
+    },
+    {
+      "file": "author-talk.js",
+      "source": "assets/ios/author-talk-media.png",
+      "note_id": "author-talk",
+      "title": "我就说在天目里能触发奇遇吧",
+      "author": "天目里展演小助手",
+      "treatment": "Clean photo with app pin/location/mute UI excluded, no stretching, current title and author. Source photo crop/repair recorded in assets/ios/media-layer-source-manifest.json.",
+      "script_sha256": "6be5b6356f28ce5afc190570ab46541e9c6f4374411acc0630707da94587817e",
+      "png_sha256": "7ed05f401d896fbe14b12811bb37e446c62995b5eef2d1fc03409c26456a8092"
+    },
+    {
+      "file": "daily-1.js",
+      "source": "assets/community/daily-1.jpg",
+      "note_id": "daily-1",
+      "title": "终于在天黑前滑完了",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "b7aa3f094a93ed731eea813aadedbaf1aed5a85bb996faec42970eb6dc72723b",
+      "png_sha256": "422204847487afc894c109d65c9fc6b4c01aefc82854c6e1c218a428a403faac"
+    },
+    {
+      "file": "daily-2.js",
+      "source": "assets/community/daily-2.jpg",
+      "note_id": "daily-2",
+      "title": "站最后一排，照样听爽",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "c60f8429964c19d194d514ba8efbae848cf3ea7248fdb90de7dbbbf21c46a874",
+      "png_sha256": "1476c91e39648353d2246e73cc1137e32d22ccb66239d7012e56ccf8b313ad12"
+    },
+    {
+      "file": "daily-3.js",
+      "source": "assets/community/daily-3.jpg",
+      "note_id": "daily-3",
+      "title": "降温后把这双鞋翻出来了",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "d71f418e186ac28db94cf2d23775af623d27ad2febbcaf204f56f004872ce94e",
+      "png_sha256": "0bfb3b41146b3295229d8b8909d40da7fa019809b79d5586a2bb370b6feee5e3"
+    },
+    {
+      "file": "daily-4.js",
+      "source": "assets/community/daily-4.jpg",
+      "note_id": "daily-4",
+      "title": "十块钱区也能翻出好东西",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "60813e85d035376df67e1b23a84c8d83cd8449ecc9984e08d90493e13aee3b89",
+      "png_sha256": "24141684959a3b1c1b89d4f200a8ecc2eafebfe2725d1369faa940a748c068a6"
+    },
+    {
+      "file": "daily-5.js",
+      "source": "assets/community/daily-5.jpg",
+      "note_id": "daily-5",
+      "title": "试印废纸先别扔",
+      "author": "pomi",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "1c3c86db8d7b6a63cacf253edbbe0d465db5ac040e3c9c32fabf3f3719208399",
+      "png_sha256": "9b3d7964db0313aacde959c3d845cf99e632e0dbe49bb86ab61e3ad469cb058f"
+    },
+    {
+      "file": "daily-6.js",
+      "source": "assets/community/daily-6.jpg",
+      "note_id": "daily-6",
+      "title": "投了三个币，快乐一晚上",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "56dafb88dc6d3982a140b4b0102bb69f5a847b8bfe03996fb07048aee3db19aa",
+      "png_sha256": "5fdd534e5d0155dffe54794e62c8eaf7c0fd84f237765ac80079238e9fc5c463"
+    },
+    {
+      "file": "daily-7.js",
+      "source": "assets/community/daily-7.jpg",
+      "note_id": "daily-7",
+      "title": "散场还开着的面馆就是好面馆",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "8bf512996bae2bc09259ec2518b808689164a8c431c49fa04190d2cda12b619f",
+      "png_sha256": "e2c62200f027221d200ed7c1e7a0beef14405703a31672537780ae13000df1a2"
+    },
+    {
+      "file": "daily-8.js",
+      "source": "assets/community/daily-8.jpg",
+      "note_id": "daily-8",
+      "title": "这张糊得刚刚好",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "c11fa3cda276176355510abadd883b6da58be450f97c65e222247a137997da80",
+      "png_sha256": "6ea821fede0f72fbbc0003acf67731ade05332958e2ab4092975e167295850be"
+    },
+    {
+      "file": "daily-9.js",
+      "source": "assets/community/daily-9.jpg",
+      "note_id": "daily-9",
+      "title": "轮子比人先到",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "89abd356b55884f2537f0d5eb94ead0928425574c544b3036df1cc337c297c00",
+      "png_sha256": "17bc99134cb5c03c225de2eb02c71259b33563962d4f43f057c56ad62f344460"
+    },
+    {
+      "file": "daily-10.js",
+      "source": "assets/community/daily-10.jpg",
+      "note_id": "daily-10",
+      "title": "鼓手今晚也太忙了",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "45df232b0f2f5872018356a3ef82e41d0e53febafd2ded1c26479c3368fb70c3",
+      "png_sha256": "69cedb397211d08481495e8dbfbcfbe6838892a57b57a1d1416b1990ce4c1168"
+    },
+    {
+      "file": "daily-11.js",
+      "source": "assets/community/daily-11.jpg",
+      "note_id": "daily-11",
+      "title": "今天不想背大包",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "4fb2a7cacf72db31cfc889c8b8ce5dce5475f73ec6b9d09aa9a7fc3039cce659",
+      "png_sha256": "093f2e3ac6ffc46a8897b034b550fb748126a619173f008dd0f247159238d4a2"
+    },
+    {
+      "file": "daily-12.js",
+      "source": "assets/community/daily-12.jpg",
+      "note_id": "daily-12",
+      "title": "给朋友挑唱片比自己买还纠结",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "d71af8f3e6a9163f6ffa2fbc5152256a0d3c430878b08fbdc0137ed38a9f3398",
+      "png_sha256": "b0a244ba6a896a1ae56e8159741a120090120336a7bbb0d8f914a7a3f0365606"
+    },
+    {
+      "file": "daily-13.js",
+      "source": "assets/community/daily-13.jpg",
+      "note_id": "daily-13",
+      "title": "八页，折完刚好",
+      "author": "pomi",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "8180433bce7f4e2eb72cebc53016dcd3dfcbd38d55c362d94b41c921b3c90d8f",
+      "png_sha256": "859d60768899877aa034396a01b79ffc4f48593ec6a5aa658ac10954160cccdf"
+    },
+    {
+      "file": "daily-14.js",
+      "source": "assets/community/daily-14.jpg",
+      "note_id": "daily-14",
+      "title": "留一张通关纪念",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "1a7ca43a65733fdaa7c5355c287262a1bd68a96e5bbc9bcafd84228db0508617",
+      "png_sha256": "884a8b2c5a47a4fcd165afde58f671ebeba05d91c7ece1bf8926b63284db2287"
+    },
+    {
+      "file": "daily-15.js",
+      "source": "assets/community/daily-15.jpg",
+      "note_id": "daily-15",
+      "title": "两个人点了一桌碳水",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "096e176e9e4eb68a696c8f0e931abaf9d7f4e7380a2d53954a12c794b0629926",
+      "png_sha256": "07ba2b50b42eee53fe0568879a9b6ba09152cdedf3ec72de0ce3d6aef482f0a4"
+    },
+    {
+      "file": "daily-16.js",
+      "source": "assets/community/daily-16.jpg",
+      "note_id": "daily-16",
+      "title": "便利店的灯把夜晚接住了",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "e1510f2ff100dc2da0dd77168720de7e112d9cf81dc6b876357416c16b9d41c2",
+      "png_sha256": "a90959324751bf2026a18985df6f4a0ad6e0f0135c0a1f6444742f2b5735c469"
+    },
+    {
+      "file": "daily-17.js",
+      "source": "assets/community/daily-17.jpg",
+      "note_id": "daily-17",
+      "title": "人不在，板占个座",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "2e6c6e0d376317e5fe0930a53398f2913eba84b17c128744d7494797fa4a498d",
+      "png_sha256": "6fe529854a3b4ac480da7a21d1a11cc0df454b1b3ee4ec520776a3c62733e888"
+    },
+    {
+      "file": "daily-18.js",
+      "source": "assets/community/daily-18.jpg",
+      "note_id": "daily-18",
+      "title": "返场的时候把手机收起来了",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "b63498252eb92cec9a38511c867ba7719c032b627b8e7fefcb695f7966594bc9",
+      "png_sha256": "f4228a3fd752048385257e0496ae55aeba4029fdc488102a7bb2a8e585af3cb9"
+    },
+    {
+      "file": "daily-19.js",
+      "source": "assets/community/daily-19.jpg",
+      "note_id": "daily-19",
+      "title": "衣服不多，洗衣服很勤",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "0751cd337a72f5c1d0a6594ffe8b508d4e65ea37e8f2fe56431cb82417c0948c",
+      "png_sha256": "59890c55f99ff36461fded2621792c2788b6f59114a7cc9d69dd712a551fb54d"
+    },
+    {
+      "file": "daily-20.js",
+      "source": "assets/community/daily-20.jpg",
+      "note_id": "daily-20",
+      "title": "雨天适合把B面也听完",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "fd5bbad7a26ff89d96c70b0802b235c3b164673780d2d41f0b2e112bec67e22f",
+      "png_sha256": "d10207a6593cd387899e7995787cff4662d200b855815145aaad10f33b8d0d5b"
+    },
+    {
+      "file": "daily-21.js",
+      "source": "assets/community/daily-21.jpg",
+      "note_id": "daily-21",
+      "title": "装订线留长一点也行",
+      "author": "pomi",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "942ddd2967d4873359cd76ca6a02ad52b6fca7a997792e3509e68b33055113b5",
+      "png_sha256": "17a3b0ce6deb489473c580fa1077f833af15b48286e342d4d782c7813bedcde3"
+    },
+    {
+      "file": "daily-22.js",
+      "source": "assets/community/daily-22.jpg",
+      "note_id": "daily-22",
+      "title": "抓不到，就拍一张带走",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "89b9a03b649f82586601712f3e40dbc697637c0a3506767aaecf969edc81c43e",
+      "png_sha256": "d0618c6dc159d488d7de2466ad3833e1c5f7231ebc25c942bd4ce4422bdd1e6c"
+    },
+    {
+      "file": "daily-23.js",
+      "source": "assets/community/daily-23.jpg",
+      "note_id": "daily-23",
+      "title": "夜里十点的葱油拌面",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "74204e1c72812650e7ffc4849105ce1981f0688b03f9b3c828f041a3056ecb62",
+      "png_sha256": "ba62b9cb1e4e6c9b8c4293f8ae2fa8b6aae4d5da61d34502b5dbd4bb4b8700d7"
+    },
+    {
+      "file": "daily-24.js",
+      "source": "assets/community/daily-24.jpg",
+      "note_id": "daily-24",
+      "title": "桥下这一段风很大",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "8c3ff4a47302d81a3595c7d99cde4cfb22109f1913c14b16e69aba73e2a71bda",
+      "png_sha256": "2a90306b2116d6bba2a29661ee6cc6c8a372a5da93cb835b9819b643c9c718ac"
+    },
+    {
+      "file": "siri.js",
+      "source": "assets/community/legacy-siri.jpg",
+      "note_id": "siri",
+      "title": "把蓝色和荧光绿印在一起",
+      "author": "套印有点歪",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "d5e0312268aa02890b173a6a4d9c0dd53ed14b522b22fc371858c68dbc3427c4",
+      "png_sha256": "b92aeff3f6233cb79ae5c6f3b10d3c51bfb975dd48be7c7be4e5d5f9fcccba5d"
+    },
+    {
+      "file": "burial.js",
+      "source": "assets/community/legacy-burial.jpg",
+      "note_id": "burial",
+      "title": "去街角听一晚音乐",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "183edacf2f16c2c822d4406be9dcaf7a04f9f7c854b8c4b2fd2b00fb3a83c4d9",
+      "png_sha256": "4c236bf5ed601091c9a6df3489240116c25a0e67525df31ebf02f992c07fc834"
+    },
+    {
+      "file": "schedule.js",
+      "source": "assets/community/legacy-schedule.jpg",
+      "note_id": "schedule",
+      "title": "十月周末：滑板、唱片和现场",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "663f5478f39de6b021cea73d1a53070c657ce54cd168db196228ccb220c95ea1",
+      "png_sha256": "aaf3bd6ac623bec3a7dee46da788ea779236ddbd0f5238d88b3d58b49dacbaab"
+    },
+    {
+      "file": "weeknd.js",
+      "source": "assets/community/legacy-weeknd.jpg",
+      "note_id": "weeknd",
+      "title": "耳机里的 the weeknd",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "a9baf559a5585e6cb7f2afa118ed73c94679fa3bc8456a2d2afe0437c8849ebe",
+      "png_sha256": "94827d8939bd262ff99421b1aa60f63fac4301f53a06f341a987213e92b1e1bb"
+    },
+    {
+      "file": "extra-01.js",
+      "source": "assets/community/extra-01.jpg",
+      "note_id": "extra-01",
+      "title": "猫先替我试了新椅子",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "6f0d6c7c189646db3c004e27a1573de129cb0197937eeb43d93dd8d204242d34",
+      "png_sha256": "cc89e7732f5f99ca61113ce6a910dac159f6dd276ea6c00f3153fc060513eac2"
+    },
+    {
+      "file": "extra-02.js",
+      "source": "assets/community/extra-02.jpg",
+      "note_id": "extra-02",
+      "title": "这家窗边只放得下一张桌子",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "dff3ef885caa81387912a7dc697dd655e9d6a2c468d9b6bb4ebe612264280820",
+      "png_sha256": "cb755023737908df16e5848b7f54934b94aada2dffd388f6b28ebf579457d98e"
+    },
+    {
+      "file": "extra-03.js",
+      "source": "assets/community/extra-03.jpg",
+      "note_id": "extra-03",
+      "title": "一本没有急着买的书",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "9d6d52f696f2db4f99e1263f76cfe10ea0c7b413fad432b253bb5d8901e6c8bf",
+      "png_sha256": "a840676524add2677ae15f4f6c5b13e4edbf6b412beeb26969e8d6868c33f2ce"
+    },
+    {
+      "file": "extra-04.js",
+      "source": "assets/community/extra-04.jpg",
+      "note_id": "extra-04",
+      "title": "接下来一小时不用选歌了",
+      "author": "B面放完了",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "dc239c88fc829d5d592531ef4af07bc6486160fdcb244f5924546ff462b79fc8",
+      "png_sha256": "3619ba97c6db4648bfa4c0ea31c35430cc3fc7a086a2b50127c7600e049fa719"
+    },
+    {
+      "file": "extra-05.js",
+      "source": "assets/community/extra-05.jpg",
+      "note_id": "extra-05",
+      "title": "蓝色多叠一层会怎样",
+      "author": "套印有点歪",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "5a73b9f60b6a0fa87b2b8b2791f62990ece0f615ef0ccd32be1d3d8c70954336",
+      "png_sha256": "4cfef27b6409da760bbc743751400cf9b487eed968ad616aaaf8ea86117eb277"
+    },
+    {
+      "file": "extra-06.js",
+      "source": "assets/community/extra-06.jpg",
+      "note_id": "extra-06",
+      "title": "这个路口我绕了回来",
+      "author": "楼下还没关门",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "62d802da28120dec73d0fcc92da139505e824377588dac4d16f4615625387fad",
+      "png_sha256": "a8964d81b0d7e0a6c642bccb1f0c4a3211e7ea4c789e39f913be7a04db52003d"
+    },
+    {
+      "file": "extra-07.js",
+      "source": "assets/community/extra-07.jpg",
+      "note_id": "extra-07",
+      "title": "相机没电之前的最后一张",
+      "author": "Rui_29",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "1d80c581d61a46dbcba467eac9b7bb20e79da92468ea0932280a985f0429bc2f",
+      "png_sha256": "35c16e8de7e90c35d875f245ae4c19bd942c67dda313fe4feffb88dfb8d9ca31"
+    },
+    {
+      "file": "extra-08.js",
+      "source": "assets/community/extra-08.jpg",
+      "note_id": "extra-08",
+      "title": "旧唱片的内袋也很好看",
+      "author": "B面放完了",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "61495646861d5ce8c5e085646bc90e6953e017822e9ead9ab0c62f02b0189d63",
+      "png_sha256": "d7f151156209cdfd9bdb2f4f280977ac50a4299d83d47f8622788fcb6da5d976"
+    },
+    {
+      "file": "extra-09.js",
+      "source": "assets/community/extra-09.jpg",
+      "note_id": "extra-09",
+      "title": "折一下就不是平面了",
+      "author": "套印有点歪",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "71cd73cc5c7ca96b82bb3a7f8b7b3322201f80bca3a0b5802d6ea74d2ca1d97e",
+      "png_sha256": "4f19a6d10dbc4ec7ba4902cf8bf5b4478d5a096942af331bd5bae3ee3481f0f6"
+    },
+    {
+      "file": "extra-10.js",
+      "source": "assets/community/extra-10.jpg",
+      "note_id": "extra-10",
+      "title": "还没营业的菜市场",
+      "author": "楼下还没关门",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "df3364cbe825af361f692188e78e2a7125bdf4f80970fb9735bf11021a21a873",
+      "png_sha256": "cd57fb2c63419d5f1960c0fb0ae1ed91c098833b6a22188adb717e57e3822ef9"
+    },
+    {
+      "file": "extra-11.js",
+      "source": "assets/community/extra-11.jpg",
+      "note_id": "extra-11",
+      "title": "雨停之后，颜色自己出来了",
+      "author": "Rui_29",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "0446ed589b164ca32dde525a5859a9c1cd4a06f3cf859aec874267b1e9cbfdae",
+      "png_sha256": "2b54ffdcf278d8e8d1370182eb35f72a4eae537b7f3b041ae9ae417ca833182f"
+    },
+    {
+      "file": "extra-12.js",
+      "source": "assets/community/extra-12.jpg",
+      "note_id": "extra-12",
+      "title": "收到了一个很怪的杯子",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "27fdd59f5d2d9c3507098251da8d99b2b8a28761c1f84bdf69ac8f479887b04a",
+      "png_sha256": "b041a814dd67cf74df3b1ef026fa2a220519ae3ef53d84dac8839f384033fef7"
+    },
+    {
+      "file": "extra-13.js",
+      "source": "assets/community/extra-13.jpg",
+      "note_id": "extra-13",
+      "title": "猫：这个纸箱我全款拿下",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "6d3a73661b1708c87249535674eedb5242147845811bbe7f637c839d8f461ba1",
+      "png_sha256": "41b1c478eee27543735e3cba53cdddfb19db0d010d352105f7a18e43e9959a84"
+    },
+    {
+      "file": "extra-14.js",
+      "source": "assets/community/extra-14.jpg",
+      "note_id": "extra-14",
+      "title": "耳塞这次真的放包里了",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "3fe2f2a60940e1e9ca08a5d6a85c7ce0c0f1f0cdba02d1e2606f0e6b7a8f67e9",
+      "png_sha256": "d98b359369761f81707ede0aec8db8ac9418c2d936fe9defeb785a3a9b52e880"
+    },
+    {
+      "file": "extra-15.js",
+      "source": "assets/community/extra-15.jpg",
+      "note_id": "extra-15",
+      "title": "试音时就知道今晚稳了",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "382644c68030f007437868323cf79bde5ecc2ebc2e40328221d9d4b7bbf8c111",
+      "png_sha256": "744c1f1930a75822e42390232bdede77a5a55b69d6fd31d172381de5e8a14176"
+    },
+    {
+      "file": "extra-16.js",
+      "source": "assets/community/extra-16.jpg",
+      "note_id": "extra-16",
+      "title": "一张票根舍不得扔",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "b8dc45989d752976680bd85ea464b1a6fa5d557e59b97cb9e13980896be540bc",
+      "png_sha256": "ac6b0efa021edb57fe7aa11919f6852f05e16c7c71f11bfdd1a5c7326b7c2139"
+    },
+    {
+      "file": "extra-17.js",
+      "source": "assets/community/extra-17.jpg",
+      "note_id": "extra-17",
+      "title": "把周末的一小时留给河边",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "1d09fb0aa2be7a344129bffcc185b665e8d973c1123109b0d4759d3fe72dc07b",
+      "png_sha256": "1f3720214edaddafe06ca010569787e84b241c8a126c2b4dc4889d12b6047018"
+    },
+    {
+      "file": "extra-18.js",
+      "source": "assets/community/extra-18.jpg",
+      "note_id": "extra-18",
+      "title": "开着台灯印到最后一张",
+      "author": "pomi",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "d2399acd22ba840be0c52111ea1984d052c279edda35be54a0f5ebb827eb2df1",
+      "png_sha256": "29f6a13dee4e82a8da9cbc8d6c7197a2769e7bce12fc7e9c739080881ac54049"
+    },
+    {
+      "file": "extra-19.js",
+      "source": "assets/community/extra-19.jpg",
+      "note_id": "extra-19",
+      "title": "没带相机也可以拍",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "84bd039689982e3de0b942824e4c2500a5eaa79a1109b6ed99b59efe90bd57c9",
+      "png_sha256": "a66c4376c6862e7a8707ec9729d9d513d57cb4b94c6be93f8cd615358468b856"
+    },
+    {
+      "file": "extra-20.js",
+      "source": "assets/community/extra-20.jpg",
+      "note_id": "extra-20",
+      "title": "新鞋第一次出门就踩水了",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "70a44dfddbbef6dec3a8ec2bf17721634423609d254b75e9479d39b84ceeaf3a",
+      "png_sha256": "ee88b9abe49e20232f23d67e4cfc14e740461492a0968ae33d9161e8737a3cff"
+    },
+    {
+      "file": "extra-21.js",
+      "source": "assets/community/extra-21.jpg",
+      "note_id": "extra-21",
+      "title": "周日早饭可以吃到中午",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "09c4d9624a58c87fbf1c772be634efb1d0dea52d1f99c0d817d51c722b8f1316",
+      "png_sha256": "633218d084c4e93533650bb62c079b43e470caf24e7e3a032676d6fdf770d605"
+    },
+    {
+      "file": "extra-22.js",
+      "source": "assets/community/extra-22.jpg",
+      "note_id": "extra-22",
+      "title": "唱片机旁边不放水杯了",
+      "author": "B面放完了",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "fdf0c765db105fc7ecc018e1775876239747faf3915b92b18d00aaf610ba2695",
+      "png_sha256": "2b7ae2384e48b0a17e127fe5ac5d47d6ed7f7b411e46b59c4730e4ef8193bd00"
+    },
+    {
+      "file": "extra-23.js",
+      "source": "assets/community/extra-23.jpg",
+      "note_id": "extra-23",
+      "title": "换一张纸，像换了个文件",
+      "author": "套印有点歪",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "f185fdae6f1ea8a8ad3e96cad0ab12d11d82f500b71d14a7bce5413983f8e9ec",
+      "png_sha256": "7b3c28a3e020a3af6d28e722a00703ff04310652b08074151b350685d45ecf8a"
+    },
+    {
+      "file": "extra-24.js",
+      "source": "assets/community/extra-24.jpg",
+      "note_id": "extra-24",
+      "title": "没走主路，碰到了这棵树",
+      "author": "楼下还没关门",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "169441a65937a9b19f543550200b6033aaab0f7109ceb291e4db54eb8727dad2",
+      "png_sha256": "90498ae3a31ca177bbf8eeea48adabc77e17031dfb92a3774ddda9df9c870835"
+    },
+    {
+      "file": "extra-25.js",
+      "source": "assets/community/extra-25.jpg",
+      "note_id": "extra-25",
+      "title": "海边最喜欢的是阴天",
+      "author": "Rui_29",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "4eedec67d84d6e805451d72f92daf33522e37adcacd2f43c069c497c409b432e",
+      "png_sha256": "c67c3ddc05dbc7cef70026751c714890a1b4e62016e52dbac88137771de3e130"
+    },
+    {
+      "file": "extra-26.js",
+      "source": "assets/community/extra-26.jpg",
+      "note_id": "extra-26",
+      "title": "左边刚好能看到调音台",
+      "author": "momo（耳鸣版）",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "60814c6cb64ee9d7b04419e7c4c3cda2c5e66f7e57633c9c60c85690daaa9057",
+      "png_sha256": "368a04a8fee1ced17c41818792b39b0b28efaf46bfa53cab3f7e3d6afe40d05e"
+    },
+    {
+      "file": "extra-27.js",
+      "source": "assets/community/extra-27.jpg",
+      "note_id": "extra-27",
+      "title": "周末从一碗热汤开始",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "77ebe724ba6fe4a8ada8451e092582860fb8d05e800ef1a50ffa8aadcd4b54b2",
+      "png_sha256": "7f595f6fb3454d24c1f3887316d67e660bab774a59b0cb997581775ccb4eedb5"
+    },
+    {
+      "file": "extra-28.js",
+      "source": "assets/community/extra-28.jpg",
+      "note_id": "extra-28",
+      "title": "这张猫照没有对上焦",
+      "author": "一颗饭粒",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "39917877ca33f5973769ac25053a85c1e5f92f07f3186a6b47a848ca8452ebce",
+      "png_sha256": "48130f073059fa92e5101e9f730659a2c07afcf6bfd38e3ed99cba72d1a13429"
+    },
+    {
+      "file": "extra-29.js",
+      "source": "assets/community/extra-29.jpg",
+      "note_id": "extra-29",
+      "title": "两块布也能拿来夹书",
+      "author": "夹心海苔",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "73dad0d0278495c41a8c146a4abb58a24b64b6527ed684b547aa183866a1a45b",
+      "png_sha256": "1a33454dfcff0a7468de5d3ab70e0728ed48c2b11555db958c3347714692079f"
+    },
+    {
+      "file": "extra-30.js",
+      "source": "assets/community/extra-30.jpg",
+      "note_id": "extra-30",
+      "title": "低音出来的时候杯子都在动",
+      "author": "404号台灯",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "e3216fe21edf343437d4eaa127f0259792e2012493dd495f0a7db10f91df8a49",
+      "png_sha256": "dc1b3b772160986db238bf3d336be1b4565c163c480303cd3c491a7b5f63472c"
+    },
+    {
+      "file": "extra-31.js",
+      "source": "assets/community/extra-31.jpg",
+      "note_id": "extra-31",
+      "title": "这一页不改了",
+      "author": "pomi",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "35242ce7028668177d88e3a3c7291065c0ec1a1251e9caad84e36de93aeed03f",
+      "png_sha256": "1f26ca78297b94572a56b5bcbe3910f9cb7b83caec269869ace34bf12fe3db79"
+    },
+    {
+      "file": "extra-32.js",
+      "source": "assets/community/extra-32.jpg",
+      "note_id": "extra-32",
+      "title": "走到这里耳机刚好没电",
+      "author": "ee",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "adeb35299a1081fb6a65af3f48e8415ea072f22c0eac7ac2dd2effae5c3d8143",
+      "png_sha256": "06b29ef719af2940b74ede18c4b21d0d0489eef5ff7e37351889fd82701b5a62"
+    },
+    {
+      "file": "extra-33.js",
+      "source": "assets/community/extra-33.jpg",
+      "note_id": "extra-33",
+      "title": "这两张适合连着放",
+      "author": "Kyo.",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "c3b7712d1e657166c516d8ad1ae03ea7145c8243b1ffd074e8a7ab1c81f744f0",
+      "png_sha256": "82d07e610318b783b38a0646e5e34713d691b1063203d3fd28b03e84c8705952"
+    },
+    {
+      "file": "extra-34.js",
+      "source": "assets/community/extra-34.jpg",
+      "note_id": "extra-34",
+      "title": "窗帘一拉，家里像换了季节",
+      "author": "pp不吃香菜",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "c817ddb10dd698e7eb93e787a5dbe834756ad6f0304a38b4ee7c94f7c37a2d13",
+      "png_sha256": "640c4bb93c18f7a1b67db0073f822ea0475331d7dbdebe806473300a1246f80c"
+    },
+    {
+      "file": "extra-35.js",
+      "source": "assets/community/extra-35.jpg",
+      "note_id": "extra-35",
+      "title": "这卷拍完等了两个星期",
+      "author": "Rui_29",
+      "treatment": "full photo without stretching, current title and author; on-demand PNG data URL for file:// export",
+      "script_sha256": "2c857ad639eef99f38030fa45495f7a966061e55c5f8414fcebb784637c577c6",
+      "png_sha256": "b3d8b4ff9bea6cf866a00bb707c4926a1570d345ae4a2d7de0c4bec672bc7b97"
+    }
+  ],
+  "media_layer_revision": "20261025-photo-ui-separation"
+}

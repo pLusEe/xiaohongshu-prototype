@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "name": "Search landing, exact headings and six reference suggestions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Back replaces cancel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Five initial history entries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Focused search input",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No unloaded search assets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Search capsule matches screenshot",
+      "pass": true,
+      "detail": {
+        "class": "recorded-search-capsule",
+        "x": 44,
+        "y": 66,
+        "width": 342,
+        "height": 43
+      }
+    },
+    {
+      "name": "Enter searches local notes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Result page hides landing keyboard",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Search result opens detail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Back to search retains result and query",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Clearing input returns to landing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Expand history reveals sixth persisted term",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Collapse history",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "History click searches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Suggestion click runs search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "History clears to empty state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "History deletion survives reload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Screenshot keyboard letters input",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard delete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Screenshot keyboard search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard numeric mode",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard shift",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard respects selected text and restores caret",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Camera opens image picker",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Voice explains actual platform boundary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Search back goes home",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Share gray sheet, white circles, original geometry",
+      "pass": true,
+      "detail": {
+        "background": "rgb(245, 245, 245)",
+        "circle": "rgb(255, 255, 255)",
+        "height": 389,
+        "top": 485
+      }
+    },
+    {
+      "name": "Share tools can scroll",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Share still reaches recipient",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Scaled search capsule remains within device",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 390: no duplicated screenshot keyboard",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 390: no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 390: search returns results",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 430: no duplicated screenshot keyboard",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 430: no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch 430: search returns results",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "passed": 37,
+  "limitations": [
+    "Touch tests are Chromium emulation, not iPhone Safari.",
+    "Native microphone recognition and client image search are not implemented; entries provide an honest platform notice.",
+    "Desktop keyboard is a user screenshot crop with functional input hit areas."
+  ]
+}

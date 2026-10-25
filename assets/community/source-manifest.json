@@ -1,0 +1,1869 @@
+[
+  {
+    "id": "daily-1",
+    "prompt": "Natural candid everyday photography, a scuffed skateboard lying on an empty concrete skatepark at dusk, navy sky, one street lamp. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-1.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+a+scuffed+skateboard+lying+on+an+empty+concrete+skatepark+at+dusk%2C+navy+sky%2C+one+street+lamp.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      14,
+      830,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "afee2fd5c2c2e8540c0db1f88beb6b291a4ef3d992264a3b8986131e25bd6d07",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-2",
+    "prompt": "Natural candid everyday photography, back row view of an intimate live music venue, silhouettes of audience, red stage lights and a small drummer, candid grainy concert photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-2.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+back+row+view+of+an+intimate+live+music+venue%2C+silhouettes+of+audience%2C+red+stage+lights+and+a+small+drummer%2C+candid+grainy+concert+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      14,
+      1790,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "d691e2269081129eb2d3cda0f76ec3072b46cec7efde096db46082fd177901a1",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-3",
+    "prompt": "Natural candid everyday photography, worn silver running sneakers and dark indigo baggy jeans seen from above on a wet pavement, casual outfit detail. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-3.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+worn+silver+running+sneakers+and+dark+indigo+baggy+jeans+seen+from+above+on+a+wet+pavement%2C+casual+outfit+detail.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      14,
+      2750,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "2afb3b57ec08a69c82f5ada3d31696f1008735b31a60d15e226f1c6aaf8fbcc1",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-4",
+    "prompt": "Natural candid everyday photography, hands flipping used vinyl records in a narrow secondhand record shop, cream paper sleeves with abstract photographs, no readable lettering. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-4.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+hands+flipping+used+vinyl+records+in+a+narrow+secondhand+record+shop%2C+cream+paper+sleeves+with+abstract+photographs%2C+no+readable+lettering.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      14,
+      3710,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "1c2d45190c296258ce1e14218abc56fe737b1417587740237257044dc1d5f0f0",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-5",
+    "prompt": "Natural candid everyday photography, blue and fluorescent orange risograph offcuts on a messy studio worktable, abstract geometric ink shapes and scissors. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-5.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+blue+and+fluorescent+orange+risograph+offcuts+on+a+messy+studio+worktable%2C+abstract+geometric+ink+shapes+and+scissors.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      974,
+      830,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "081fc9a329c4be598c8f6a6ab7ddf3f62c534cb502d25a402a4ed2cb4963622f",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-6",
+    "prompt": "Natural candid everyday photography, closeup of illuminated arcade cabinet controls with red and blue buttons in an old small game arcade, no people. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-6.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+illuminated+arcade+cabinet+controls+with+red+and+blue+buttons+in+an+old+small+game+arcade%2C+no+people.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      974,
+      1790,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8fa589a151947899ebecc65f9741bcebf6e724b7f45444da4c2c3e0268d75303",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-7",
+    "prompt": "Natural candid everyday photography, a steaming bowl of ramen noodles with scallions on a narrow stainless steel counter late at night, candid diner photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-7.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+a+steaming+bowl+of+ramen+noodles+with+scallions+on+a+narrow+stainless+steel+counter+late+at+night%2C+candid+diner+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      974,
+      2750,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "c89742739dbc02d5c95979a23d1e0b30cc011b9ca982a2494e6fd7853d6e44cb",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-8",
+    "prompt": "Natural candid everyday photography, rainy city intersection at night seen through bus window, blue reflections and warm street lamps, intentionally slightly out of focus. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-8.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+rainy+city+intersection+at+night+seen+through+bus+window%2C+blue+reflections+and+warm+street+lamps%2C+intentionally+slightly+out+of+focus.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      974,
+      3710,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8802756bd5dd935dc8095d7f2aed3692057a360c29e7ac309d02fcc9eb408ecb",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-9",
+    "prompt": "Natural candid everyday photography, closeup of scratched skateboard trucks and cream wheels on rough grey concrete, small leaves nearby. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-9.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+scratched+skateboard+trucks+and+cream+wheels+on+rough+grey+concrete%2C+small+leaves+nearby.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      1934,
+      830,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "0dfea8c0b77cd128620b5c449f680f789089912a9690d0de5a3b83e5dffc3e95",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-10",
+    "prompt": "Natural candid everyday photography, side view of drum kit and cymbals in a tiny dark club with dim amber light, musician blurred in background. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-10.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+side+view+of+drum+kit+and+cymbals+in+a+tiny+dark+club+with+dim+amber+light%2C+musician+blurred+in+background.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      1934,
+      1790,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "89e9f2f8e3c87cc57a48e08aa123743266efaebe24775c053e3fddc3c8a7b332",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-11",
+    "prompt": "Natural candid everyday photography, black small nylon shoulder bag with a silver keychain laid on faded grey sweater, casual room photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-11.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+black+small+nylon+shoulder+bag+with+a+silver+keychain+laid+on+faded+grey+sweater%2C+casual+room+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      1934,
+      2750,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "09f69371b4bc42fbed7019238c980d4d9ab5a6d57cd471491eada6a1ac762b93",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-12",
+    "prompt": "Natural candid everyday photography, two vinyl album sleeves with abstract monochrome artwork on a wooden record store listening desk next to headphones, no readable text. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-12.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+two+vinyl+album+sleeves+with+abstract+monochrome+artwork+on+a+wooden+record+store+listening+desk+next+to+headphones%2C+no+readable+text.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      1934,
+      3710,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "458cf3dfaa22a31963249f1e27ecad55a51775c3c0ddd3de9356c52abc402d48",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-13",
+    "prompt": "Natural candid everyday photography, tiny handmade zine with black abstract line drawings partly unfolded on a wooden desk next to a metal ruler. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-13.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+tiny+handmade+zine+with+black+abstract+line+drawings+partly+unfolded+on+a+wooden+desk+next+to+a+metal+ruler.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      2894,
+      830,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "521f7cc06075df9e37e4b91584f860890eaff1328a115364f81598a395a273a0",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-14",
+    "prompt": "Natural candid everyday photography, closeup of a hand resting beside colorful rhythm game buttons in a dim arcade, pink blue monitor glow, cropped screen with no readable text. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-14.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+a+hand+resting+beside+colorful+rhythm+game+buttons+in+a+dim+arcade%2C+pink+blue+monitor+glow%2C+cropped+screen+with+no+readable+text.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      2894,
+      1790,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "14a96fb9e91ad3bb99e02c4e528f93656025e2f1c117e927bc9b9e14f88751aa",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-15",
+    "prompt": "Natural candid everyday photography, pan fried dumplings on a white plate and two small noodle bowls on a red laminate table, overhead casual food photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-15.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+pan+fried+dumplings+on+a+white+plate+and+two+small+noodle+bowls+on+a+red+laminate+table%2C+overhead+casual+food+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      2894,
+      2750,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "cdaf4e74a983a72b45b75a6e9bba96d39d8d9fe06d9631221989a51f1b0d3a90",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-16",
+    "prompt": "Natural candid everyday photography, small illuminated neighborhood convenience store window at midnight, parked bicycle and empty pavement, realistic compact camera grain, no legible logos. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-01.jpg",
+    "file": "assets/community/daily-16.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+small+illuminated+neighborhood+convenience+store+window+at+midnight%2C+parked+bicycle+and+empty+pavement%2C+realistic+compact+camera+grain%2C+no+legible+logos.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3144,
+      2894,
+      3576,
+      3470
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "02ed5aa845d89c7f35d6b4373a0c8d58536b7e11c82e9753205e53ab1d781582",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-17",
+    "prompt": "Natural candid everyday photography, two scratched skateboards leaning against a low tiled wall with a half finished canned drink, evening outdoor snapshot. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-17.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+two+scratched+skateboards+leaning+against+a+low+tiled+wall+with+a+half+finished+canned+drink%2C+evening+outdoor+snapshot.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      14,
+      830,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8af63f6c871f0ade55c4a0d83a684ee4d991b3e374a5267d434a8f3dfd66e0c7",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-18",
+    "prompt": "Natural candid everyday photography, small empty microphone stand and electric guitar under deep blue stage light, intimate concert venue after show. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-18.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+small+empty+microphone+stand+and+electric+guitar+under+deep+blue+stage+light%2C+intimate+concert+venue+after+show.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      14,
+      1790,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "9501cfc663aa8630e9e9f4392549658cda0f1817ca50042b969ce12467f129db",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-19",
+    "prompt": "Natural candid everyday photography, white cotton t shirt and dark denim trousers drying by an open apartment window, afternoon sunlight and green curtain. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-19.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+white+cotton+t+shirt+and+dark+denim+trousers+drying+by+an+open+apartment+window%2C+afternoon+sunlight+and+green+curtain.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      14,
+      2750,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "a670486220f742c9a32440b7aee31dc8952cf1f51a8d0dfdd3eaf4cf391fe365",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-20",
+    "prompt": "Natural candid everyday photography, black turntable spinning a vinyl record beside a rain streaked window, warm lamp and modest living room. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-20.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+black+turntable+spinning+a+vinyl+record+beside+a+rain+streaked+window%2C+warm+lamp+and+modest+living+room.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      14,
+      3710,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "52b183d50568e3268c5eaa863caee04713559ca07ddb9a588eb2c443d7d1982f",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-21",
+    "prompt": "Natural candid everyday photography, hand stitched handmade booklet spine with long red thread on grey cutting mat, closeup analog photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-21.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+hand+stitched+handmade+booklet+spine+with+long+red+thread+on+grey+cutting+mat%2C+closeup+analog+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      974,
+      830,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "65e3012530db8d1f80c9dc1c369a3d44052a0293f27356bc3849c3d96c9ae7ad",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-22",
+    "prompt": "Natural candid everyday photography, a slightly wonky cream plush toy behind glass in a claw machine, reflections of fluorescent arcade lights. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-22.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+a+slightly+wonky+cream+plush+toy+behind+glass+in+a+claw+machine%2C+reflections+of+fluorescent+arcade+lights.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      974,
+      1790,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "d07077c5399d6ac034eb8c97c30b383829a5b7cc44b448027771ef059b99fd40",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-23",
+    "prompt": "Natural candid everyday photography, simple bowl of scallion oil noodles with fried egg on a small home kitchen table at night, direct flash food snapshot. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-23.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+simple+bowl+of+scallion+oil+noodles+with+fried+egg+on+a+small+home+kitchen+table+at+night%2C+direct+flash+food+snapshot.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      974,
+      2750,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "728482becf70ea9ad9514ed37ad512ed5d10c89a9189c2aac4f507bb00bdec2e",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "daily-24",
+    "prompt": "Natural candid everyday photography, concrete riverside walkway beneath a city bridge, one bicycle and late afternoon water reflections, candid urban photography. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/daily-24.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+concrete+riverside+walkway+beneath+a+city+bridge%2C+one+bicycle+and+late+afternoon+water+reflections%2C+candid+urban+photography.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      974,
+      3710,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "6c41fbd8796eb1cb3ceb75000b67eb37d4720515618a9c8c049136fba3d1c277",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-01",
+    "prompt": "Natural candid everyday photography, grey tabby cat curled asleep on a faded navy fabric chair beside a bright window. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-01.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+grey+tabby+cat+curled+asleep+on+a+faded+navy+fabric+chair+beside+a+bright+window.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      1934,
+      830,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "bd7d3da10f43edc1ae02aa23c5dd4a78c14508a0857b26e8bf1598cc6ae7cf1a",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-02",
+    "prompt": "Natural candid everyday photography, tiny cafe window seat with a half finished espresso and silver spoon, green trees reflected in glass. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-02.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+tiny+cafe+window+seat+with+a+half+finished+espresso+and+silver+spoon%2C+green+trees+reflected+in+glass.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      1934,
+      1790,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "7aba0bdd050078380d0d83b2e51706279fcbb9e67f0408dac8378f517e164193",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-03",
+    "prompt": "Natural candid everyday photography, open art photography book on a used bookstore shelf, paper edges and stacked colorful books, warm low light. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-03.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+open+art+photography+book+on+a+used+bookstore+shelf%2C+paper+edges+and+stacked+colorful+books%2C+warm+low+light.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      1934,
+      2750,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "c35efea88301063d935d785518d1dfc412c9a243c5aad42f30560225458bc24d",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-04",
+    "prompt": "Natural candid everyday photography, a vintage silver cassette deck with a clear cassette inserted, warm wooden shelf and black headphones. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-04.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+a+vintage+silver+cassette+deck+with+a+clear+cassette+inserted%2C+warm+wooden+shelf+and+black+headphones.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      1934,
+      3710,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "cf234115c7b91950d5f7426cd0c41512a851e32e77cd93c0bbdfba01440223de",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-05",
+    "prompt": "Natural candid everyday photography, cyan blue abstract ink prints in three ink densities drying clipped on a studio wire, natural window light. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-05.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+cyan+blue+abstract+ink+prints+in+three+ink+densities+drying+clipped+on+a+studio+wire%2C+natural+window+light.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      2894,
+      830,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "bea00490ac3bd8422c133bdc61c99af69d1c8f5698b34208839d48f75b05afb1",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-06",
+    "prompt": "Natural candid everyday photography, old Hangzhou neighborhood lane with tiled walls, a parked blue bicycle and leafy tree shadows. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-06.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+old+Hangzhou+neighborhood+lane+with+tiled+walls%2C+a+parked+blue+bicycle+and+leafy+tree+shadows.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      2894,
+      1790,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "3c04836b527341eea08c95a388101534eea45c85a76209f40fe0a0ae94f6ca77",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-07",
+    "prompt": "Natural candid everyday photography, empty seaside basketball court with faded green floor and rusted hoop, overcast coastal sky. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-07.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+empty+seaside+basketball+court+with+faded+green+floor+and+rusted+hoop%2C+overcast+coastal+sky.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      2894,
+      2750,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "41c6a2ceb7363568e351dcb77e724b7b1b63dd149946b14c6ac8d2147eba1e51",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-08",
+    "prompt": "Natural candid everyday photography, closeup of yellowed paper vinyl record inner sleeves with abstract blue circular designs on a dark table, no readable text. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-daily-02.jpg",
+    "file": "assets/community/extra-08.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+yellowed+paper+vinyl+record+inner+sleeves+with+abstract+blue+circular+designs+on+a+dark+table%2C+no+readable+text.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3144,
+      2894,
+      3576,
+      3470
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ce0c141590754a182e281531b054310a2bac936c28de3c9d7578e643af53c08b",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-09",
+    "prompt": "Natural candid everyday photography, folded sculptural yellow paper with dramatic shadows on a plain grey studio table, experimental student paper model. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-09.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+folded+sculptural+yellow+paper+with+dramatic+shadows+on+a+plain+grey+studio+table%2C+experimental+student+paper+model.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      14,
+      830,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "3af6c18d5614c7db5119f27fac1863684b6340fd6ecce525f2325727f45022c6",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-11",
+    "prompt": "Natural candid everyday photography, red brick wall and a single orange traffic cone reflected in a shallow puddle after rain, candid compact camera photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-11.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+red+brick+wall+and+a+single+orange+traffic+cone+reflected+in+a+shallow+puddle+after+rain%2C+candid+compact+camera+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      14,
+      1790,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "9336347a7d59c6f6244a82a6f7aa1f747217e6932a2c9cdce1e54f4b881284fd",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-12",
+    "prompt": "Natural candid everyday photography, small irregular handmade ceramic mug with cobalt blue glaze on a white kitchen shelf, natural light. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-12.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+small+irregular+handmade+ceramic+mug+with+cobalt+blue+glaze+on+a+white+kitchen+shelf%2C+natural+light.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      14,
+      2750,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ca5c6180ab184b3e405784ce21916d512b635899afb6f7a97c24a128436b2808",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-13",
+    "prompt": "Natural candid everyday photography, orange cat peeking over edge of a plain brown cardboard box in a cluttered real apartment, direct flash. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-13.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+orange+cat+peeking+over+edge+of+a+plain+brown+cardboard+box+in+a+cluttered+real+apartment%2C+direct+flash.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      14,
+      3710,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ad311cbfefa9d8e1ce03041ecdfd4d0e36cf0afeabf1837305c875fcd72fae0f",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-14",
+    "prompt": "Natural candid everyday photography, pair of translucent concert earplugs in an open small case on a black fabric bag, concert wristband nearby. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/extra-14.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+pair+of+translucent+concert+earplugs+in+an+open+small+case+on+a+black+fabric+bag%2C+concert+wristband+nearby.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      1934,
+      1790,
+      2866
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "f25593f6e6040beefddb3d53b8a274ad042a4d0f794d73ac831683b752317cf8",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-15",
+    "prompt": "Natural candid everyday photography, closeup of small venue mixing desk with glowing amber knobs and cables, dim realistic backstage photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-15.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+small+venue+mixing+desk+with+glowing+amber+knobs+and+cables%2C+dim+realistic+backstage+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      974,
+      1790,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "02c570b38b5362035dcee4ad6bfb7c01b7809bc8057d420df5b3a9456aebf096",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-16",
+    "prompt": "Natural candid everyday photography, creased concert ticket stub with abstract unreadable print tucked inside a paperback book on a bed. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-16.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+creased+concert+ticket+stub+with+abstract+unreadable+print+tucked+inside+a+paperback+book+on+a+bed.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      974,
+      2750,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8e55568ab5bc97a48a14547ff5669d4421dd3d8a0a64c62dc3ed53697a4704f7",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-17",
+    "prompt": "Natural candid everyday photography, riverside stone steps with fallen yellow leaves and a takeaway coffee cup, quiet autumn afternoon. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-17.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+riverside+stone+steps+with+fallen+yellow+leaves+and+a+takeaway+coffee+cup%2C+quiet+autumn+afternoon.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      974,
+      3710,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "1badaa5c41247d06cce8304522bf9228cf4d953fef1c97ff921202cc19508035",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-18",
+    "prompt": "Natural candid everyday photography, messy home printing desk under a green task lamp with abstract red ink stamps and offcut paper, evening photo. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-18.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+messy+home+printing+desk+under+a+green+task+lamp+with+abstract+red+ink+stamps+and+offcut+paper%2C+evening+photo.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      1934,
+      830,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "f0976185e39e7383a529ba108428de1542682b8c3b842bdf4088b6cf39f88512",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-19",
+    "prompt": "Natural candid everyday photography, closeup of rippling sunlight reflected onto a white apartment wall from a glass of water on a windowsill. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-19.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+closeup+of+rippling+sunlight+reflected+onto+a+white+apartment+wall+from+a+glass+of+water+on+a+windowsill.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      1934,
+      1790,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "d24a0be8c2dac1e712af987680dfe89f74264dae56d26a2ee86911e4616fecce",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-20",
+    "prompt": "Natural candid everyday photography, brown suede sneakers with small rain spots on wet square pavement tiles, overhead casual phone photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-20.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+brown+suede+sneakers+with+small+rain+spots+on+wet+square+pavement+tiles%2C+overhead+casual+phone+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      1934,
+      2750,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ac03a4aa2d9e151c1da34d297fc84a1a023343fe1948e027a2c4b08b7f861abf",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-21",
+    "prompt": "Natural candid everyday photography, two pieces of toasted bread with soft scrambled eggs on a white plate, coffee and rumpled tablecloth, late breakfast. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-21.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+two+pieces+of+toasted+bread+with+soft+scrambled+eggs+on+a+white+plate%2C+coffee+and+rumpled+tablecloth%2C+late+breakfast.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3011,
+      1934,
+      3710,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "19804ad76e70b98f5c28b7cec9e4d59ec556cf59d27d7f143ce251849534ef8f",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-22",
+    "prompt": "Natural candid everyday photography, overhead view of vinyl cleaning brush and record on a grey felt mat, home audio equipment corner. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-22.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+overhead+view+of+vinyl+cleaning+brush+and+record+on+a+grey+felt+mat%2C+home+audio+equipment+corner.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      2894,
+      830,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "57e14dfcdd14e7f7043f0796b526076c305694e06af11b6434e6b57b977d8806",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-23",
+    "prompt": "Natural candid everyday photography, same abstract black shape printed on three different paper textures ivory kraft and grey, flat lay in daylight. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-23.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+same+abstract+black+shape+printed+on+three+different+paper+textures+ivory+kraft+and+grey%2C+flat+lay+in+daylight.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1091,
+      2894,
+      1790,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "2af057f9424a7c057fae05b3f0ec7b758b688388c61f4315c9eb896a585d2969",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-24",
+    "prompt": "Natural candid everyday photography, large camphor tree growing beside an old grey apartment building, small alley and scattered fallen leaves. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-24.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+large+camphor+tree+growing+beside+an+old+grey+apartment+building%2C+small+alley+and+scattered+fallen+leaves.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2051,
+      2894,
+      2750,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "a3d4c622b941c7f476d332d151f77b8cfd174d58f764ef29ab0c7672ac21eb87",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-25",
+    "prompt": "Natural candid everyday photography, quiet empty grey blue sea and a pale concrete breakwater on a cloudy day, subtle 35mm film grain. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-01.jpg",
+    "file": "assets/community/extra-25.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+quiet+empty+grey+blue+sea+and+a+pale+concrete+breakwater+on+a+cloudy+day%2C+subtle+35mm+film+grain.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3092,
+      2894,
+      3629,
+      3610
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8e1804ecbb92892d486d1f918184905dfea4e4826906c68539087d572aa9d500",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-26",
+    "prompt": "Natural candid everyday photography, small live venue stage photographed from left side, guitar pedal board in foreground and purple light, musician silhouette. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-26.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+small+live+venue+stage+photographed+from+left+side%2C+guitar+pedal+board+in+foreground+and+purple+light%2C+musician+silhouette.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      210,
+      226,
+      750,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "140acd15e1cfc14481430bbb5586dcadeb9ca16e3332b20983716fca3d43ce4a",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-27",
+    "prompt": "Natural candid everyday photography, small bowl of wonton soup with seaweed and scallions at an old neighborhood breakfast shop, wooden stool. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-27.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+small+bowl+of+wonton+soup+with+seaweed+and+scallions+at+an+old+neighborhood+breakfast+shop%2C+wooden+stool.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1170,
+      226,
+      1710,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "e5d6c665632a583616c597828f40da7f03ca64802374db726e311d7ff3cf6dfb",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-28",
+    "prompt": "Natural candid everyday photography, slightly motion blurred black and white cat reaching toward camera on a home sofa, playful candid snapshot. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-28.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+slightly+motion+blurred+black+and+white+cat+reaching+toward+camera+on+a+home+sofa%2C+playful+candid+snapshot.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2130,
+      226,
+      2670,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "8538151757a7e7be1dab29a6cdac2d46f00b7db0e7b2f304a67cd0206e964947",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-29",
+    "prompt": "Natural candid everyday photography, homemade bookmarks from blue and red paper scraps tucked into a paperback, close up natural light. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-29.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+homemade+bookmarks+from+blue+and+red+paper+scraps+tucked+into+a+paperback%2C+close+up+natural+light.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3090,
+      226,
+      3630,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "3242c889552cf0e73c30dc29ec8563591641385ff5d9cad0e23c036151003a98",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-30",
+    "prompt": "Natural candid everyday photography, half full clear plastic water cup on a small club speaker case, dark red stage glow in background. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-30.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+half+full+clear+plastic+water+cup+on+a+small+club+speaker+case%2C+dark+red+stage+glow+in+background.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      210,
+      1186,
+      750,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "70cab7a27c30c0c25cfaaf7fd27e0d4f0818a5e655ccd25c6171991838b4407a",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-31",
+    "prompt": "Natural candid everyday photography, open sketchbook showing blue pencil abstract shapes and taped paper samples on a home desk. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-31.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+open+sketchbook+showing+blue+pencil+abstract+shapes+and+taped+paper+samples+on+a+home+desk.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1170,
+      1186,
+      1710,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "74178ada1ab9380b50c2a124294f46d6c56bd9618eafe725a6b79ebdb38f2cad",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-32",
+    "prompt": "Natural candid everyday photography, empty pedestrian overpass with green metal handrails at blue hour, sparse car lights below. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-32.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+empty+pedestrian+overpass+with+green+metal+handrails+at+blue+hour%2C+sparse+car+lights+below.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2130,
+      1186,
+      2670,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "7aaee979612f9bca745c4be1c7c569fc41c35a041d9e0c155858da520daf5461",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-33",
+    "prompt": "Natural candid everyday photography, two vinyl records with muted burgundy and cream abstract labels beside a black turntable, evening room. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-33.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+two+vinyl+records+with+muted+burgundy+and+cream+abstract+labels+beside+a+black+turntable%2C+evening+room.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3090,
+      1186,
+      3630,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "68e2113b91418bf57cb68c3ffc95fd175e3f1f448ad091092c52173a4138a644",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-34",
+    "prompt": "Natural candid everyday photography, sunlit small apartment with sheer green curtain and a wooden stool, lived in modest room, no people. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-34.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+sunlit+small+apartment+with+sheer+green+curtain+and+a+wooden+stool%2C+lived+in+modest+room%2C+no+people.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      210,
+      2146,
+      750,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "4c305830dfb1930d43579d162f30fbfab4038e22efcd97ad3f2cc25223f3e534",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "extra-35",
+    "prompt": "Natural candid everyday photography, contact sheet of small analogue coastal photographs beside a compact silver film camera on a desk, no legible text. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/extra-35.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+contact+sheet+of+small+analogue+coastal+photographs+beside+a+compact+silver+film+camera+on+a+desk%2C+no+legible+text.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      1170,
+      2146,
+      1710,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "eefbef5516567ac2bdd8324765fb22ce557475c59a073998a564b1eda6da68f1",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "my-truck",
+    "prompt": "Natural candid everyday photography, well worn skateboard deck with scratched colorful abstract graphics propped by a grey apartment doorway, direct flash. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/my-truck.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+well+worn+skateboard+deck+with+scratched+colorful+abstract+graphics+propped+by+a+grey+apartment+doorway%2C+direct+flash.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      2130,
+      2146,
+      2670,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "9d3f0bb07f36dc87273931ab4af786d7f206adf7f8ace5471cd0d9d0bdc4f9ba",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "my-portrait",
+    "prompt": "Natural candid everyday photography, silver wired headphones, dark green cap and house keys on a faded denim jacket on a chair, candid phone photograph. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/my-portrait.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+silver+wired+headphones%2C+dark+green+cap+and+house+keys+on+a+faded+denim+jacket+on+a+chair%2C+candid+phone+photograph.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      3090,
+      2146,
+      3630,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ef244187bdb360f8e4783ad35f289176f219961476827dddbf1e05b65ec8b061",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "avatar-lin",
+    "prompt": "Realistic candid square photograph for a personal avatar: small off-white fluffy dog looking sideways, direct flash candid snapshot, dark green sofa background. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/avatar-lin.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+small+off-white+fluffy+dog+looking+sideways%2C+direct+flash+candid+snapshot%2C+dark+green+sofa+background.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      3106,
+      946,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "b27da4bf5cf206511853f2ead030b5a39a108c2b1824919e41012a0780a0b5ca",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-man",
+    "prompt": "Realistic candid square photograph for a personal avatar: cropped black and white photograph of a black cat face on a windowsill. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-man.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+cropped+black+and+white+photograph+of+a+black+cat+face+on+a+windowsill.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      1934,
+      2866,
+      2866
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "5d3d84ddac9bad936e3a5dfedb142cfc1e549057c08d8eca29cdff615f77c6b5",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-sen",
+    "prompt": "Realistic candid square photograph for a personal avatar: small orange mushroom shaped table lamp glowing in a dim blue room. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-extra-02.jpg",
+    "file": "assets/community/avatar-sen.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+small+orange+mushroom+shaped+table+lamp+glowing+in+a+dim+blue+room.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      3106,
+      2866,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "4849bd655d3ab9301703fa5b41a288b962dcfa45410b600803f7df4571d8fc0c",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-qing",
+    "prompt": "Realistic candid square photograph for a personal avatar: close up of a hand painted blue ceramic cup with crooked eyes, white shelf. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-qing.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+close+up+of+a+hand+painted+blue+ceramic+cup+with+crooked+eyes%2C+white+shelf.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      1934,
+      3826,
+      2650
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "b5bbf997f455ed0b0d0d490f67db5e39b11ed228d4cd2ae7271f444535a87e50",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "extra-10",
+    "prompt": "Natural candid everyday photography, quiet covered neighborhood vegetable market before opening, green plastic crates and rolled shutters, soft dawn light. Realistic lived-in textures, restrained colors, imperfect personal snapshot, subtle grain. No watermark, no UI, no collage, no oversized text.",
+    "image_size": "portrait_4_3",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/extra-10.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Natural+candid+everyday+photography%2C+quiet+covered+neighborhood+vegetable+market+before+opening%2C+green+plastic+crates+and+rolled+shutters%2C+soft+dawn+light.+Realistic+lived-in+textures%2C+restrained+colors%2C+imperfect+personal+snapshot%2C+subtle+grain.+No+watermark%2C+no+UI%2C+no+collage%2C+no+oversized+text.&image_size=portrait_4_3",
+    "crop": [
+      131,
+      14,
+      830,
+      946
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "9b3208c21398e812955e41736be8a519d0bc7a21ce1097747f9e1e9d0588e17e",
+    "verified_not_placeholder": true,
+    "treatment": "Centered 3:4 crop, preserve source geometry, resize without stretching; embedded contact-sheet captions/watermark excluded"
+  },
+  {
+    "id": "avatar-yu",
+    "prompt": "Realistic candid square photograph for a personal avatar: sleepy grey cat wearing no clothing, close up face, grainy direct flash snapshot. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-yu.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+sleepy+grey+cat+wearing+no+clothing%2C+close+up+face%2C+grainy+direct+flash+snapshot.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      974,
+      14,
+      1906,
+      946
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "ad06495b93eef556eb19c598bcd0415f687e586677591ebc31e635c22ce642d4",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-xia",
+    "prompt": "Realistic candid square photograph for a personal avatar: two tiny cream colored ceramic ducks on a messy desk, flash snapshot. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-xia.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+two+tiny+cream+colored+ceramic+ducks+on+a+messy+desk%2C+flash+snapshot.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      14,
+      2866,
+      946
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "083627531010fc9521338e5560a0b329d500f798042f1212b0f1b6c5c280c35e",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-zhi",
+    "prompt": "Realistic candid square photograph for a personal avatar: portrait of a fluffy white dog with its nose near the lens, candid outdoors photo. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-zhi.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+portrait+of+a+fluffy+white+dog+with+its+nose+near+the+lens%2C+candid+outdoors+photo.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      14,
+      3826,
+      946
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "726ddc1a3456aa2b85a578641773271209a83aaf0f15ef64dd222c51f11343f2",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-bai",
+    "prompt": "Realistic candid square photograph for a personal avatar: plump orange cat seen from below against a plain pale wall, funny candid portrait. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-bai.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+plump+orange+cat+seen+from+below+against+a+plain+pale+wall%2C+funny+candid+portrait.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      974,
+      946,
+      1906
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "7c4fccb94fec1e676408b60ceb327ec05c3dc2d66f36f447964bc5cb8d341c07",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-record",
+    "prompt": "Realistic candid square photograph for a personal avatar: closeup of a yellow vinyl record label with abstract black circle, record store photograph, no lettering. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-record.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+closeup+of+a+yellow+vinyl+record+label+with+abstract+black+circle%2C+record+store+photograph%2C+no+lettering.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      974,
+      974,
+      1906,
+      1906
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "7238d6eab95d1e329120f87331638c946ae1f12d78f49f5cedff5b2d7b760df8",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-print",
+    "prompt": "Realistic candid square photograph for a personal avatar: crumpled blue and red printed paper ball on a cream desk, graphic design studio photograph. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-print.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+crumpled+blue+and+red+printed+paper+ball+on+a+cream+desk%2C+graphic+design+studio+photograph.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      974,
+      2866,
+      1906
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "99918b0cae0f05b617162a2ab62f260b7ba1d1cccbe6b1ac1dc16afec60731d8",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-walk",
+    "prompt": "Realistic candid square photograph for a personal avatar: single orange traffic cone with a tiny green weed growing beside it, neighborhood photograph. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-walk.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+single+orange+traffic+cone+with+a+tiny+green+weed+growing+beside+it%2C+neighborhood+photograph.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      974,
+      3826,
+      1906
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "d5b6b444055f073814a734292c61b57d72fcbeae9c3840dc65bad28e25a8c9b1",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "avatar-photo",
+    "prompt": "Realistic candid square photograph for a personal avatar: vintage compact silver film camera on green fabric, direct flash snapshot. Natural imperfect texture, no watermark, no text, no UI.",
+    "image_size": "square",
+    "source": "GenerateImage backend; local source assets/community/sheet-portraits.jpg",
+    "file": "assets/community/avatar-photo.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic+candid+square+photograph+for+a+personal+avatar%3A+vintage+compact+silver+film+camera+on+green+fabric%2C+direct+flash+snapshot.+Natural+imperfect+texture%2C+no+watermark%2C+no+text%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      1934,
+      946,
+      2866
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "sha256": "51d62a9c868e0eae22bd00b6d642a454d03a05573e611c84ac1a4aaa46b19396",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-cafe",
+    "prompt": "Fictional community note photo: a narrow used record shop aisle with a person flipping records. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-cafe.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+a+narrow+used+record+shop+aisle+with+a+person+flipping+records.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      14,
+      946,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "f4d045d132b0266b8116d5ddfb3fe516f39f83e127ff723c51162cd4e4f22e64",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-mountain",
+    "prompt": "Fictional community note photo: a scratched skateboard on an empty concrete plaza at dusk. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-mountain.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+a+scratched+skateboard+on+an+empty+concrete+plaza+at+dusk.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      974,
+      14,
+      1906,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "e1e493a388e387de52b42e4bbcfaf84f96cc48a38b0c63f76cf96897049fd796",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-room",
+    "prompt": "Fictional community note photo: a handmade cyan and lime zine on a wooden studio desk. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-room.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+a+handmade+cyan+and+lime+zine+on+a+wooden+studio+desk.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      14,
+      2866,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "effe309a7c3afcf39f95dee62862f4892ff7d39420273fec62ba5926b2383318",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-food",
+    "prompt": "Fictional community note photo: steaming noodles at a small late night diner. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-food.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+steaming+noodles+at+a+small+late+night+diner.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      14,
+      3826,
+      946
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "f6dcfb551a4555c845fcbd9452699fd31203548e37c30b2506c14a80220d9d20",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-outfit",
+    "prompt": "Fictional community note photo: silver sneakers and grey trousers on wet tiles. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-outfit.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+silver+sneakers+and+grey+trousers+on+wet+tiles.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      974,
+      946,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "dc724e4c19269243c6b4842a2d029b1733d9954322b4d45b7b83d49947122168",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-flowers",
+    "prompt": "Fictional community note photo: rainy street at night through a bus window. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-flowers.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+rainy+street+at+night+through+a+bus+window.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      974,
+      974,
+      1906,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "983144fa63c1f455aa54a885960e3efdaa5a5b719caed76075494b4ab1e030a2",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-sea",
+    "prompt": "Fictional community note photo: small live band from back of venue with violet lights. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-sea.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+small+live+band+from+back+of+venue+with+violet+lights.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      974,
+      2866,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "902eded23fb4e0af86f50b6a1f24ce8a60b93cda19fcbe762a190f8d562e050a",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-resonance",
+    "prompt": "Fictional community note photo: small venue side of stage with amplifier and amber light. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-resonance.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+small+venue+side+of+stage+with+amplifier+and+amber+light.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      974,
+      3826,
+      1906
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "13296bb162b9849cb93c83f100acb8e7963d831ef6a3c650d467b1ff903fc62c",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-ants",
+    "prompt": "Fictional community note photo: colorful arcade control panel. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-ants.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+colorful+arcade+control+panel.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      1934,
+      946,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "e972cc83186f0fe9a63ae51a857a11e53cd6eb73bfe00822aa3c0d0ca3004e73",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-siri",
+    "prompt": "Fictional community note photo: blue and green risograph prints on wall. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-siri.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+blue+and+green+risograph+prints+on+wall.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      974,
+      1934,
+      1906,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "c1f7d4b15c7e905ef5e18f522db1c11e23e614e961a7fd165cda66af58c907d0",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-burial",
+    "prompt": "Fictional community note photo: microphone silhouetted in teal concert light. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-burial.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+microphone+silhouetted+in+teal+concert+light.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      1934,
+      1934,
+      2866,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "ce1e184a565401b135ec3325788055099b1dc72ae9cbc335475ea19caea81ccb",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-schedule",
+    "prompt": "Fictional community note photo: skateboard and bag leaned against record shop window. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-schedule.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+skateboard+and+bag+leaned+against+record+shop+window.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      2894,
+      1934,
+      3826,
+      2866
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "e5667ddcf06c86a6a7ad940730435d3f8ad1771970f0d0e7c89092cdc7763135",
+    "verified_not_placeholder": true
+  },
+  {
+    "id": "legacy-weeknd",
+    "prompt": "Fictional community note photo: vinyl playing on turntable beside headphones under lamp. Natural candid photography, restrained colors, realistic textures, no watermark, no UI.",
+    "image_size": "square",
+    "file": "assets/community/legacy-weeknd.jpg",
+    "source": "GenerateImage backend; local source assets/community/sheet-legacy.jpg",
+    "kind": "generated-fictional-demo",
+    "request_url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Fictional+community+note+photo%3A+vinyl+playing+on+turntable+beside+headphones+under+lamp.+Natural+candid+photography%2C+restrained+colors%2C+realistic+textures%2C+no+watermark%2C+no+UI.&image_size=square",
+    "crop": [
+      14,
+      2894,
+      946,
+      3826
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "sha256": "58f2aac3339b3459a8b0d943b5dd047c2d489c05257bdde22bda410d87c058ed",
+    "verified_not_placeholder": true
+  }
+]

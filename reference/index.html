@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小红书 iOS · 录屏关键帧与校准记录</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;color:#333;background:#f5f5f5}
+*{box-sizing:border-box}body{margin:0}header{background:#fff;border-bottom:1px solid #e8e8e8;padding:24px max(24px,calc((100vw - 1080px)/2));display:flex;justify-content:space-between;align-items:center;gap:24px}h1{font-size:20px;margin:0 0 7px;font-weight:600}header p{font-size:12px;margin:0;color:#999}a{color:#555;font-size:13px;text-decoration:none}main{max-width:1080px;padding:28px 24px;margin:auto}.lead{font-size:14px;line-height:1.9;max-width:850px;margin:0 0 25px}.controls{display:flex;gap:14px;align-items:center;margin:0 0 20px;font-size:13px;flex-wrap:wrap}select,button{font:inherit;border:1px solid #ddd;border-radius:5px;background:#fff;padding:8px 12px;color:#444}select:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #ff2442;outline-offset:3px}.comparison{display:flex;gap:24px;align-items:flex-start;justify-content:center}.screen{margin:0;min-width:0}.screen figcaption{font-size:12px;color:#888;text-align:center;margin-bottom:10px}.screen img{width:100%;max-width:402px;height:auto;display:block}.blend-wrap{width:min(100%,402px);position:relative}.blend-wrap img{width:100%;display:block}.blend-wrap .web-layer{position:absolute;inset:0;width:100%;opacity:.5}.slider{max-width:500px;margin:20px auto;font-size:13px;display:flex;align-items:center;gap:14px}.slider input{flex:1;accent-color:#ff2442}.caption{font-size:12px;line-height:1.8;color:#888;text-align:center;margin:18px 0 26px}.details{font-size:13px;line-height:1.9;background:#fff;border:1px solid #e9e9e9;padding:18px 22px;margin-top:28px}.details p{margin:0 0 10px}.details p:last-child{margin:0}.frames{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:24px 0}.frames button{padding:0;text-align:left;border:0;background:transparent;cursor:pointer}.frames img{width:100%;height:auto;display:block}.frames b{display:block;font-size:12px;font-weight:500;margin-top:9px}.frames span{display:block;font-size:11px;color:#999;margin-top:4px}[hidden]{display:none!important}.metrics{font-size:12px;line-height:1.8;padding:12px 0;color:#777}footer{font-size:11px;color:#aaa;padding:20px 0}h2{font-size:15px;font-weight:500;margin:30px 0 14px}
+@media(max-width:680px){header{padding:20px;display:block}header a{display:inline-block;margin-top:14px}main{padding:20px 14px}.comparison{gap:10px}.frames{grid-template-columns:repeat(2,1fr);gap:18px}.controls{gap:8px}.screen figcaption{font-size:11px}}
+</style>
+</head>
+<body>
+<header><div><h1>小红书 iOS · 录屏与校准</h1><p>2026.10.24　原录屏 119.36 秒 + 补充录屏 179.08 秒　1206 × 2622　3× → 402 × 874</p></div><a href="../index.html">打开交互原型 ↗</a></header>
+<main>
+<p class="lead">2026.10.25 最新修正：搜索页按新增截图还原历史记录、双列猜你想搜和底部语音入口；分享面板使用浅灰色 #f5f5f5，工具圆底为白色。桌面键盘直接提取截图并支持输入；触屏使用系统键盘。语音AI问答和图片搜索需实际客户端。上一轮发现素材、回复规则保持。</p>
+<div class="frames">
+<a href="search-gray-20261025/search-desktop.png" target="_blank"><img src="search-gray-20261025/search-desktop.png" alt="最新搜索页"><b>搜索 · 截图结构与本地历史</b></a>
+<a href="search-gray-20261025/share-gray.png" target="_blank"><img src="search-gray-20261025/share-gray.png" alt="最新浅灰分享面板"><b>分享 · 浅灰底与白色圆底</b></a>
+<a href="search-gray-20261025/search-side-by-side.png" target="_blank"><img src="search-gray-20261025/search-side-by-side.png" alt="搜索原屏与原型并排"><b>搜索 · 原屏 / 原型对照</b></a>
+<a href="search-gray-20261025/share-controls-side-by-side.png" target="_blank"><img src="search-gray-20261025/share-controls-side-by-side.png" alt="分享控件原屏与原型并排"><b>分享 · 原屏 / 原型对照</b></a>
+</div>
+<p class="caption"><a href="search-gray-20261025/results.json" target="_blank">最新37项检查</a>　<a href="search-gray-20261025/search-layout.json" target="_blank">搜索实测坐标</a>　<a href="../assets/ios/search-gray-source-manifest.json" target="_blank">新增截图与资产来源</a>　<a href="../UI校准记录.md" target="_blank">完整校准记录</a></p>
+<h2>上一轮：发现素材与回复规则</h2>
+<div class="frames">
+<a href="light-revision-20261025/discovery-top.png" target="_blank"><img src="light-revision-20261025/discovery-top.png" alt="本轮发现首屏"><b>发现 · 保留认可的三篇</b></a>
+<a href="light-revision-20261025/discovery-more.png" target="_blank"><img src="light-revision-20261025/discovery-more.png" alt="本轮发现更多内容"><b>发现 · 真实艺术与城市素材</b></a>
+<a href="light-revision-20261025/single-reply.png" target="_blank"><img src="light-revision-20261025/single-reply.png" alt="单条回复没有默认收起"><b>回复 · 少量直接显示</b></a>
+<a href="light-revision-20261025/share-light.png" target="_blank"><img src="light-revision-20261025/share-light.png" alt="本轮浅色分享面板"><b>分享 · 浅色面板与控件</b></a>
+</div>
+<p class="caption"><a href="light-revision-20261025/results.json" target="_blank">32项检查</a>　<a href="light-revision-20261025/theme-audit.json" target="_blank">其他页面主题排查</a>　<a href="../assets/ios/share-light-source-manifest.json" target="_blank">浅色控件来源</a>　<a href="../assets/ios/discovery-curation-manifest.json" target="_blank">发现图片来源</a></p>
+<div class="controls"><label for="state">对照状态</label><select id="state"><option value="home">发现首页 · 00:00</option><option value="food">图文第 1 张 · 00:41</option><option value="food-third">图文第 3 张 · 00:44</option><option value="profile-notes">我 · 笔记</option><option value="profile-comments">我 · 评论</option><option value="profile-saved">收藏 · 笔记</option><option value="profile-albums">收藏 · 专辑</option><option value="profile-music">收藏 · 音乐</option><option value="profile-liked">赞过 · 笔记</option><option value="profile-liked-comments">赞过 · 评论</option><option value="kai-comments">Kai 原帖评论</option><option value="crab-comments">螃蟹原帖评论</option><option value="author-profile">作者主页</option><option value="local-feed">杭州 Feed</option><option value="video-options">视频播放设置</option><option value="video-participants">觉得好参与者</option></select><label for="mode">查看方式</label><select id="mode"><option value="side">并排</option><option value="overlay">半透明叠图</option><option value="diff">像素差异</option></select></div>
+<div id="side" class="comparison"><figure class="screen"><figcaption>录屏稳定帧</figcaption><img id="ref" src="../verification/ios/home-ref.png" alt="录屏关键帧"></figure><figure class="screen"><figcaption>Web 原型 · 402×874</figcaption><img id="web" src="../verification/ios/home-web.png" alt="Web 原型截图"></figure></div>
+<div id="overlay" class="comparison" hidden><div class="blend-wrap"><img id="overlay-ref" src="../verification/ios/home-ref.png" alt="录屏底图"><img id="overlay-web" class="web-layer" src="../verification/ios/home-web.png" alt="原型叠图"></div></div>
+<div id="diff" class="comparison" hidden><figure class="screen"><figcaption>绝对 RGB 差异 · 黑色表示一致</figcaption><img id="diff-img" src="../verification/ios/home-diff.png" alt="差异图"></figure></div>
+<label id="slider" class="slider" hidden>原型透明度<input id="opacity" type="range" min="0" max="100" value="50"><output id="opacity-value">50%</output></label>
+<p class="caption">同尺寸对比；先看导航、图片边缘、文字基线和底部互动栏。视频经过 H.264 编码，解码色彩及字体抗锯齿存在误差，不能等同手机无损截图。</p>
+<div id="metrics" class="metrics">详情：单图顶部间距 19px，多图分页条 25px + 标题间距 3px；方形示例图按 402×402 呈现。页码对应实际照片数量。照片、页码与示例评论不同，整屏差异不作为 UI 还原评分。<a href="followup/results.json" target="_blank">最新交互与坐标验证 ↗</a>　<a href="followup/additional-checks.json" target="_blank">像素接缝验证 ↗</a>　<a href="../UI校准记录.md" target="_blank">校准记录 ↗</a></div>
+<h2>缩小预览的接缝 · 修正前 / 后</h2>
+<a href="followup/seam-bands.png" target="_blank"><img src="followup/seam-bands.png" alt="状态栏与工具栏、底部导航与安全区接缝，修正前后局部放大" style="width:100%;height:auto"></a>
+<p class="caption">DPR 2、窗口高度 940px；局部按最近邻放大。另检查了 850px 与 1000px 窗口，接缝上下 5 行像素均为连续背景色。</p>
+<div class="frames">
+<a href="followup/my-truck.png" target="_blank"><img src="followup/my-truck.png" alt="滑板多图详情"><b>滑板 · 第 1 张</b></a>
+<a href="followup/my-truck-third.png" target="_blank"><img src="followup/my-truck-third.png" alt="滑板合照第3张"><b>滑板 · 第 3 张</b></a>
+<a href="followup/mobile-touch-second.png" target="_blank"><img src="followup/mobile-touch-second.png" alt="手机触摸滑动后第2张"><b>手机触摸滑动 · 第 2 张</b></a>
+<a href="followup/profile-collapsed-940.png" target="_blank"><img src="followup/profile-collapsed-940.png" alt="缩小预览中收起的个人页"><b>个人页 · 收起</b></a>
+</div>
+<h2>录屏关键帧</h2><div id="frames" class="frames"></div>
+<div class="details">
+<p>补充录制链路：关注 Feed → 多图笔记 → 评论、回复、图片评论 → 点点面板与结果 → 个人主页上下滚动及刷新 → 消息列表 → 赞藏 / 关注 / 评论通知 → 点点历史 → 群聊 / 私聊 → 相册、相机、写文字菜单 → 消息搜索。</p>
+<p>原图文使用采集到的三张照片，交互页码为 1/3–3/3。滑板与穿搭示例新增独立照片。猫图和打 call 图仍只有首页裁图来源，本轮裁去卡片边角并校准通用详情布局，未取得两篇完整详情原图。素材处理见 <a href="../assets/ios/detail-source-manifest.json">详情素材清单</a>。</p>
+<p>个人内容和聊天使用示例数据；视频是示例图片生成的轻微平移片段，未使用用户原视频。点点回答在本地预置，不连接真实 AI 服务。浏览器系统字体、键盘和表情与原生 App 仍有差异。</p>
+<p>字体使用 macOS/iOS 系统字体候选，未获取 App 的字体声明。iOS App 版本号未在录屏展示，不能沿用 Android 9.50.0 标签。具体裁切坐标与来源见 <a href="../assets/ios/source-manifest.json">资产清单</a>，校准范围见 <a href="../ios-restoration-contract.md">实施记录</a>。</p>
+</div><footer>原录屏保存在桌面。以上参考资料与原型均可在外部浏览器本地查看。</footer>
+</main>
+<script>
+const frames=[
+["00-home","00:00","发现首页"],["01-feed-note-entry","00:38.5","打开笔记前的 Feed"],
+["02-note-first","00:41","图文第 1 张"],["03-note-second","00:41.7","图文第 2 张"],
+["04-note-third","00:44","图文第 3 张"],["05-audio-note","00:10","原声笔记"],
+["06-author-profile","00:16","作者主页"],["07-comment-composer","00:32","评论输入"],
+["08-video-options","00:50","视频长按菜单"],["09-video-good-list","00:58","5 人觉得好"],
+["10-video-share","01:04","视频播放设置（未执行分享）"],["11-local-feed","01:18","杭州同城首页"],
+["12-my-profile","01:22","我的主页 · 赞过"],["13-profile-collections","01:30","主页 · 收藏"],
+["14-profile-comments","frame-047","主页 · 评论"],["15-my-notes","frame-048","主页 · 笔记"],
+["16-profile-albums","frame-045","收藏 · 专辑"],["17-profile-music","frame-044","收藏 · 音乐"],
+["18-liked-comments","frame-042","赞过 · 评论"],["19-kai-comments","frame-054","Kai 评论区"],
+["20-crab-comments","frame-057","螃蟹评论区"],["21-crab-scroll","frame-056","螃蟹图片回复"],
+["22-liked-notes-scroll","frame-051","赞过笔记 · 滚动状态"]];
+document.querySelector("#frames").innerHTML=frames.map(([name,time,title])=>`<a href="ios/${name}.png" target="_blank" rel="noopener"><img src="ios/${name}.png" alt="${title}" loading="lazy"><b>${title}</b><span>${time} · 点击查看原尺寸</span></a>`).join("");
+for(const [value,label] of [["profile-liked-scroll","赞过笔记 · 滚动状态"],["crab-comments-scroll","螃蟹图片回复 · 滚动状态"]])document.querySelector("#state").add(new Option(label,value));
+const supplemental=[["messages","消息列表 · 补充 112.5s"],["followers","新增关注 · 补充 127.5s"],["comments","收到的评论 · 补充 130.5s"],["profile","我的主页 · 新示例素材"],["liked","赞过 · 字体与细线"]];
+for(const [value,label]of supplemental)document.querySelector("#state").add(new Option(label,"supplement-"+value));
+for(const [value,label]of [["profile","我 · 展开"],["profile-collapsed","我 · 收起"],["chat","私聊输入栏"],["bluechat","蓝色私聊"],["comments","图文评论区"],["messages","消息列表"]])document.querySelector("#state").add(new Option("上一轮 · "+label,"precision-"+value));
+for(const [value,label]of [["herb-food","多图详情"],["night","单图详情"]])document.querySelector("#state").add(new Option("上一轮 · "+label,"followup-"+value));
+document.querySelector("#state").add(new Option("历史 · 深色分享控件（已被浅色主题替代）","revision-share-controls"));
+function update(){let s=document.querySelector("#state").value,m=document.querySelector("#mode").value,isSupplement=s.startsWith("supplement-"),dir=["home","food","food-third"].includes(s)?"ios":"community",base=s==="revision-share-controls"?"revision-20261025/share-controls":s.startsWith("followup-")?`followup/${s.slice(9)}`:s.startsWith("precision-")?`precision/${s.slice(10)}`:isSupplement?`supplement/${s.slice(11)}`:`../verification/${dir}/${s}`;for(let id of ["ref","overlay-ref"])document.getElementById(id).src=`${base}-ref.png`;for(let id of ["web","overlay-web"])document.getElementById(id).src=`${base}-web.png`;document.getElementById("diff-img").src=`${base}-diff.png`;for(let id of ["side","overlay","diff"])document.getElementById(id).hidden=id!==m;document.getElementById("slider").hidden=m!=="overlay"}
+document.querySelectorAll("select").forEach(s=>s.addEventListener("change",update));
+document.querySelector("#opacity").addEventListener("input",e=>{document.querySelector("#overlay-web").style.opacity=e.target.value/100;document.querySelector("#opacity-value").textContent=e.target.value+"%"});
+document.querySelector("#state").value="followup-night";update();
+</script>
+</body></html>

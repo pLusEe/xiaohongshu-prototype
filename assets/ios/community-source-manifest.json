@@ -1,0 +1,722 @@
+{
+  "coordinate_scale": 3,
+  "assets": [
+    {
+      "file": "my-avatar.png",
+      "source_frame": "frame-040.png",
+      "box_pt": [
+        16,
+        123,
+        96,
+        203
+      ],
+      "box_px": [
+        48,
+        369,
+        288,
+        609
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-kai.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        46,
+        72,
+        82,
+        108
+      ],
+      "box_px": [
+        138,
+        216,
+        246,
+        324
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-crab.png",
+      "source_frame": "frame-057.png",
+      "box_pt": [
+        46,
+        72,
+        82,
+        108
+      ],
+      "box_px": [
+        138,
+        216,
+        246,
+        324
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-dada.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        16,
+        400,
+        52,
+        436
+      ],
+      "box_px": [
+        48,
+        1200,
+        156,
+        1308
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-holy.png",
+      "source_frame": "frame-057.png",
+      "box_pt": [
+        16,
+        518,
+        52,
+        554
+      ],
+      "box_px": [
+        48,
+        1554,
+        156,
+        1662
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-mumu.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        16,
+        590,
+        52,
+        626
+      ],
+      "box_px": [
+        48,
+        1770,
+        156,
+        1878
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-offer.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        16,
+        679,
+        52,
+        715
+      ],
+      "box_px": [
+        48,
+        2037,
+        156,
+        2145
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-sally.png",
+      "source_frame": "frame-056.png",
+      "box_pt": [
+        64,
+        346,
+        88,
+        370
+      ],
+      "box_px": [
+        192,
+        1038,
+        264,
+        1110
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-kaine.png",
+      "source_frame": "frame-056.png",
+      "box_pt": [
+        64,
+        708,
+        88,
+        732
+      ],
+      "box_px": [
+        192,
+        2124,
+        264,
+        2196
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "crab-photo.png",
+      "source_frame": "frame-057.png",
+      "box_pt": [
+        0,
+        118,
+        402,
+        256
+      ],
+      "box_px": [
+        0,
+        354,
+        1206,
+        768
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "comment-blob.png",
+      "source_frame": "frame-056.png",
+      "box_pt": [
+        64,
+        163,
+        184,
+        283
+      ],
+      "box_px": [
+        192,
+        489,
+        552,
+        849
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "comment-fish.png",
+      "source_frame": "frame-056.png",
+      "box_pt": [
+        64,
+        516,
+        184,
+        676
+      ],
+      "box_px": [
+        192,
+        1548,
+        552,
+        2028
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "music-cover.png",
+      "source_frame": "frame-044.png",
+      "box_pt": [
+        16,
+        488,
+        80,
+        552
+      ],
+      "box_px": [
+        48,
+        1464,
+        240,
+        1656
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "album-create.png",
+      "source_frame": "frame-045.png",
+      "box_pt": [
+        18,
+        488,
+        52,
+        521
+      ],
+      "box_px": [
+        54,
+        1464,
+        156,
+        1563
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "my-truck.png",
+      "source_frame": "frame-048.png",
+      "box_pt": [
+        5,
+        565,
+        199,
+        796
+      ],
+      "box_px": [
+        15,
+        1695,
+        597,
+        2388
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "my-portrait.png",
+      "source_frame": "frame-048.png",
+      "box_pt": [
+        204,
+        565,
+        398,
+        796
+      ],
+      "box_px": [
+        612,
+        1695,
+        1194,
+        2388
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "my-inspiration.png",
+      "source_frame": "frame-048.png",
+      "box_pt": [
+        16,
+        505,
+        57,
+        546
+      ],
+      "box_px": [
+        48,
+        1515,
+        171,
+        1638
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "super-cover.png",
+      "source_frame": "frame-040.png",
+      "box_pt": [
+        5,
+        484,
+        199,
+        631
+      ],
+      "box_px": [
+        15,
+        1452,
+        597,
+        1893
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "wood-cover.png",
+      "source_frame": "frame-040.png",
+      "box_pt": [
+        204,
+        484,
+        398,
+        743
+      ],
+      "box_px": [
+        612,
+        1452,
+        1194,
+        2229
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "acid-cover.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        5,
+        389,
+        199,
+        605
+      ],
+      "box_px": [
+        15,
+        1167,
+        597,
+        1815
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "notion-cover.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        204,
+        513,
+        398,
+        709
+      ],
+      "box_px": [
+        612,
+        1539,
+        1194,
+        2127
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "work-cover.png",
+      "source_frame": "frame-046.png",
+      "box_pt": [
+        5,
+        479,
+        199,
+        738
+      ],
+      "box_px": [
+        15,
+        1437,
+        597,
+        2214
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "momo-cover.png",
+      "source_frame": "frame-046.png",
+      "box_pt": [
+        204,
+        479,
+        398,
+        738
+      ],
+      "box_px": [
+        612,
+        1437,
+        1194,
+        2214
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-work.png",
+      "source_frame": "frame-046.png",
+      "box_pt": [
+        15,
+        777,
+        33,
+        795
+      ],
+      "box_px": [
+        45,
+        2331,
+        99,
+        2385
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-momo.png",
+      "source_frame": "frame-046.png",
+      "box_pt": [
+        214,
+        777,
+        232,
+        795
+      ],
+      "box_px": [
+        642,
+        2331,
+        696,
+        2385
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "author-wallpaper.png",
+      "source_frame": "exact-16.png",
+      "box_pt": [
+        0,
+        0,
+        402,
+        160
+      ],
+      "box_px": [
+        0,
+        0,
+        1206,
+        480
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "author-photo.png",
+      "source_frame": "exact-16.png",
+      "box_pt": [
+        16,
+        130,
+        105,
+        221
+      ],
+      "box_px": [
+        48,
+        390,
+        315,
+        663
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "video-still.png",
+      "source_frame": "exact-50.png",
+      "box_pt": [
+        0,
+        118,
+        402,
+        429
+      ],
+      "box_px": [
+        0,
+        354,
+        1206,
+        1287
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "profile-wallpaper-reconstructed.png",
+      "source_frame": "frame-040.png",
+      "box_pt": [
+        0,
+        0,
+        402,
+        395
+      ],
+      "treatment": "UI removed via inpainting; occluded wallpaper reconstructed, not exact original photo"
+    },
+    {
+      "file": "participant-fufu.png",
+      "source_frame": "exact-58.png",
+      "box_pt": [
+        16,
+        573,
+        56,
+        613
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "participant-xiao.png",
+      "source_frame": "exact-58.png",
+      "box_pt": [
+        16,
+        637,
+        56,
+        677
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "participant-orange.png",
+      "source_frame": "exact-58.png",
+      "box_pt": [
+        16,
+        701,
+        56,
+        741
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "participant-abai.png",
+      "source_frame": "exact-58.png",
+      "box_pt": [
+        16,
+        765,
+        56,
+        805
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-art.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        5,
+        152,
+        199,
+        411
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-steel.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        204,
+        152,
+        398,
+        410
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-potion.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        5,
+        480,
+        199,
+        739
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-event.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        204,
+        500,
+        398,
+        696
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-avatar-art.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        15,
+        448,
+        33,
+        466
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "local-avatar-steel.png",
+      "source_frame": "exact-78.png",
+      "box_pt": [
+        214,
+        469,
+        232,
+        487
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "author-drama.png",
+      "source_frame": "frame-009.png",
+      "box_pt": [
+        5,
+        540,
+        199,
+        799
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "author-talk.png",
+      "source_frame": "frame-009.png",
+      "box_pt": [
+        204,
+        540,
+        398,
+        799
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "author-wallpaper-reconstructed.png",
+      "source_frame": "frame-009.png",
+      "treatment": "visible background retained, UI-occluded background reconstructed with diffusion"
+    },
+    {
+      "file": "video-background-reconstructed.png",
+      "source_frame": "exact-50.png",
+      "treatment": "visible background retained, UI-occluded background reconstructed with diffusion"
+    },
+    {
+      "file": "emoji-dada.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        133,
+        444,
+        153,
+        467
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "emoji-mumu.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        132,
+        611,
+        152,
+        635
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "emoji-offer.png",
+      "source_frame": "frame-054.png",
+      "box_pt": [
+        64,
+        702,
+        139,
+        723
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-super.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        15,
+        297,
+        33,
+        315
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-wood.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        214,
+        410,
+        232,
+        428
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-acid.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        15,
+        646,
+        33,
+        664
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "avatar-notion.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        214,
+        759,
+        232,
+        777
+      ],
+      "treatment": "source crop"
+    },
+    {
+      "file": "resonance-partial.png",
+      "source_frame": "frame-051.png",
+      "box_pt": [
+        5,
+        678,
+        199,
+        795
+      ],
+      "treatment": "source crop"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pybwzsipsw4d21_4f45/temp/RWTemp/2026-10/eca955fa1b7b31bddfd487605f71db70/f3fb8152af028e891f1ab7f75436006a.jpg",
+  "source_sha256": "653f86e1dcc104b34e1291cd838ca08135776c57c499c1f122323817962c62b2",
+  "share_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pybwzsipsw4d21_4f45/temp/RWTemp/2026-10/eca955fa1b7b31bddfd487605f71db70/edb030576bf42757fba34c55214f15bf.jpg",
+  "share_source_sha256": "7fd67964addcd9874cc4c3d8b1578f6f6018d9d77e0d7f15356909bdea04b5e0",
+  "source_dimensions": [
+    1206,
+    2622
+  ],
+  "assets": [
+    {
+      "file": "assets/ios/search-camera.png",
+      "box_at_402x874": [
+        297,
+        78,
+        322,
+        99
+      ],
+      "sha256": "790c2923e4abfdcbe1a1a95f561d0f673b1bda4dbd2ef8fb64b721dfa25e67de",
+      "processing": "3× crop; white background removed for controls"
+    },
+    {
+      "file": "assets/ios/search-trash.png",
+      "box_at_402x874": [
+        369,
+        130,
+        385,
+        147
+      ],
+      "sha256": "b2c25a706442917a83003d3fad734494bc34d99cf5d06323015b7d2d3a1ae20a",
+      "processing": "3× crop; white background removed for controls"
+    },
+    {
+      "file": "assets/ios/search-expand.png",
+      "box_at_402x874": [
+        338,
+        214,
+        350,
+        225
+      ],
+      "sha256": "696b300cd06f24afe31cf9c08fe5d48f1cf123d91f4ebb1f1223f05290e440ae",
+      "processing": "3× crop; white background removed for controls"
+    },
+    {
+      "file": "assets/ios/search-more.png",
+      "box_at_402x874": [
+        369,
+        264,
+        385,
+        270
+      ],
+      "sha256": "df8f1b86353b8981c09a0906b07e8279ec8cee77795728eb07a345105dc7e6de",
+      "processing": "3× crop; white background removed for controls"
+    },
+    {
+      "file": "assets/ios/search-hot.png",
+      "box_at_402x874": [
+        360,
+        333,
+        377,
+        350
+      ],
+      "sha256": "61ef8ed8ad6ff98ef1c098b8ff6c30f92654b0421f995cdd992b4dc61999d51d",
+      "processing": "3× crop; white background removed for controls"
+    },
+    {
+      "file": "assets/ios/search-voice-region.png",
+      "box_at_402x874": [
+        0,
+        439,
+        402,
+        539
+      ],
+      "sha256": "26c95e722f59eaa2b6f062934029911a61774b7c0fb7134b713d498ff44b9b30",
+      "processing": "3× unmodified screenshot region; no personal status bar"
+    },
+    {
+      "file": "assets/ios/search-keyboard.png",
+      "box_at_402x874": [
+        0,
+        539,
+        402,
+        874
+      ],
+      "sha256": "373bec3258ebaa8087b275ad2c03081877c9bdf2ccc143cb14c97845f63fa7e8",
+      "processing": "3× unmodified screenshot region; no personal status bar"
+    }
+  ],
+  "share_theme": {
+    "sheet": "#f5f5f5",
+    "tool_circle": "#ffffff",
+    "divider": "#e7e7e7"
+  },
+  "scope": "Controls, voice background and desktop keyboard only; no private status activity or contact photographs copied.",
+  "color_profile": "Screenshot crops retain the source Display P3 profile; comparison PNGs convert to sRGB before comparing with browser screenshots."
+}

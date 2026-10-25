@@ -1,0 +1,83 @@
+{
+  "reason": "User clarified last recording was system dark mode; prototype remains light.",
+  "assets": [
+    {
+      "file": "share-light-ask.png",
+      "source": "share-ask.png",
+      "source_sha256": "027765b59e097359cbbc01fa94ce98c9bc44640146d43208e7a3360658398a69",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-link.png",
+      "source": "share-link.png",
+      "source_sha256": "372d04fba73880e264846031bbd295e4af310bfbdc7d7d29330304b546b354c1",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-image.png",
+      "source": "share-image.png",
+      "source_sha256": "77f29fc6177ecf285ad255dc4fd630ebbf2b239c615ab64b3319a4b757a85ee0",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-quote.png",
+      "source": "share-quote.png",
+      "source_sha256": "e72bb0024e61cf39d05fd8ac2090903dad423aa4cb3245e224a324ed1c6d38fd",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-circle.png",
+      "source": "share-circle.png",
+      "source_sha256": "58ca8239409d77758d32b575634dfcbe9f2aba415c2dc0e7f0c39d250bc0df6a",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-group.png",
+      "source": "share-group.png",
+      "source_sha256": "43ad6abd0164af6ae123a47124dd8ba3ea450e033e1c1bd27d845098b3deb742",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-download.png",
+      "source": "share-download.png",
+      "source_sha256": "9098c83395c3d569d9a2cc3f6034851eab709847afa96ce08971c3ebead8428e",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-dislike.png",
+      "source": "share-dislike.png",
+      "source_sha256": "4bb3247846e75d2e6b38779b05651258c1521a7c540d160085669b46ea7a0443",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-report.png",
+      "source": "share-report.png",
+      "source_sha256": "9a9e56be894f24b62e97928f7d77af4ca66b07d957711c7d0cec6ed7e84b0e32",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-close.png",
+      "source": "share-close.png",
+      "source_sha256": "34167f91f6c607f4e38e04161f981e366f1a23f6d3b799c4ddc967ee57260e58",
+      "treatment": "retain native contour and canvas; remove dark background; recolor glyph to light-theme text"
+    },
+    {
+      "file": "share-light-private.png",
+      "source": "share-private.png",
+      "source_sha256": "7e41246f65684473afb355352cc759c7d5fc91a50c58a9a44545151233a24ff0",
+      "treatment": "remove dark baked corners; preserve branded native circle and logo"
+    },
+    {
+      "file": "share-light-wechat.png",
+      "source": "share-wechat.png",
+      "source_sha256": "48c2f7d5f7443faf02a054032d97c91ea572deacda75955737d13aa8cf54bbf5",
+      "treatment": "remove dark baked corners; preserve branded native circle and logo"
+    },
+    {
+      "file": "share-light-moments.png",
+      "source": "share-moments.png",
+      "source_sha256": "4837ae2dafcf040717e871757e587985b611e218c7bb487eb16a839229028431",
+      "treatment": "remove dark baked corners; preserve branded native circle and logo"
+    }
+  ]
+}

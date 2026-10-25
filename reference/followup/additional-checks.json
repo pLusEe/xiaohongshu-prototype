@@ -1,0 +1,103 @@
+{
+  "seam_pixel_bands": {
+    "940": {
+      "top": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          116,
+          117,
+          118,
+          119,
+          120
+        ],
+        "expected_rgb": [
+          48,
+          44,
+          48
+        ]
+      },
+      "bottom": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          1592,
+          1593,
+          1594,
+          1595,
+          1596
+        ],
+        "expected_rgb": [
+          255,
+          253,
+          255
+        ]
+      }
+    },
+    "850": {
+      "top": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "expected_rgb": [
+          48,
+          44,
+          48
+        ]
+      },
+      "bottom": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          1420,
+          1421,
+          1422,
+          1423,
+          1424
+        ],
+        "expected_rgb": [
+          255,
+          253,
+          255
+        ]
+      }
+    },
+    "1000": {
+      "top": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          122,
+          123,
+          124,
+          125,
+          126
+        ],
+        "expected_rgb": [
+          48,
+          44,
+          48
+        ]
+      },
+      "bottom": {
+        "max_channel_delta": 0,
+        "sample_rows": [
+          1678,
+          1679,
+          1680,
+          1681,
+          1682
+        ],
+        "expected_rgb": [
+          255,
+          253,
+          255
+        ]
+      }
+    }
+  },
+  "gallery_back_navigation": "retained 3/3 after author page and back",
+  "download_limit": "file:// 图片下载未取得浏览器下载事件，不计入通过项",
+  "comparison": "402×874; original recording vs current Chromium at DPR3. Photo counter and demo comments intentionally differ."
+}
